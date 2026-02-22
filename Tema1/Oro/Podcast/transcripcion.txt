@@ -1,0 +1,197 @@
+(venv) 󰣇  maulinux  ~/Downloads/prueba  whisper audio_final.mp3 --model medium --language Spanish 
+100%|█████████████████████████████████████| 1.42G/1.42G [02:53<00:00, 8.83MiB/s]
+[00:00.000 --> 00:06.400]  Hola a todos, bienvenidos a este podcast donde vamos a cuestionar un poquito sobre lo que sabemos.
+[00:06.400 --> 00:11.200]  Se habla mucho últimamente de lo que es inteligencia artificial generativa
+[00:11.200 --> 00:19.880]  y se ha demostrado por medio de modelos de lenguaje o LLMs que realmente es muy útil para tareas de la vida cotidiana.
+[00:19.880 --> 00:27.440]  Pero, aunque es un término que solemos usar con mucha frecuencia últimamente, ¿realmente sabemos qué es la inteligencia?
+[00:27.520 --> 00:39.640]  Exacto. A veces somos muy soberbios y creemos que la inteligencia es exclusiva de especies con cerebros complejos como el de nosotros, que es muy complejo.
+[00:39.640 --> 00:52.920]  Pero si definiéramos la inteligencia solo como un cerebro que procesa datos, dejaríamos fuera cosas muy asombrosas que ni siquiera tienen cerebro.
+[00:52.920 --> 00:58.480]  Como por ejemplo el model, ¿cómo se llama? El Phisarum polycefalum.
+[00:58.480 --> 01:07.000]  Este es una sola célula, o sea, ni siquiera tiene neuronas y aún así hicieron varios experimentos con él, ¿no?
+[01:07.000 --> 01:17.400]  Pero el que más destacó fue el que fue capaz de resolver laberintos y optimizar las redes de transporte de la comida, o sea,
+[01:17.480 --> 01:30.680]  Pusieron una réplica de la ciudad de Tokio, lo pusieron a él y descifró rutas muy cortas para él conseguir comida, pues lo que lo hizo de forma muy eficiente.
+[01:30.680 --> 01:40.160]  Lo que muchas personas que se encargan de ello dicen, bueno, pues me siento estafado porque pues estaba muy eficiente, no lo hice yo.
+[01:40.160 --> 01:46.920]  Pero eso es la inteligencia o es solo una idea que nos invitamos para clasificar lo que nos sorprende.
+[01:46.920 --> 01:54.840]  Bueno, realmente, pues es una duda que ha dividido a la ciencia por décadas, o sea, por eso hoy tenemos dos grandes ramas.
+[01:54.840 --> 02:04.600]  Por un lado tenemos a la IA clásica que se enfoca en modelos matemáticos y la lógica pura, pero por otro lado, últimamente la IA moderna se basa en estructuras biológicas.
+[02:04.600 --> 02:06.920]  ¿Cómo? ¿Cómo qué estructuras biológicas?
+[02:06.920 --> 02:07.280]  Por eso...
+[02:07.280 --> 02:09.400]  Como nuestras neuronas.
+[02:09.400 --> 02:10.560]  Ándale, ándale, sí, sí.
+[02:10.560 --> 02:15.720]  Muy bien. Y quienes fueron los locos que dijeron, oye, estoy aburrido, no tengo nada que hacer.
+[02:15.720 --> 02:21.680]  Vamos a intentar, este, hacer que una máquina imite a una neurona.
+[02:21.680 --> 02:22.920]  Uy, la historia es fascinante.
+[02:22.920 --> 02:32.000]  Pues fue en 1943 cuando estos dos tipos que son Warren McCulloch y Walter Pitts, lo pusieron en el concepto de una neurona matemática.
+[02:32.000 --> 02:35.960]  Ellos no solo querían programar, querían entender el cerebro mediante la lógica.
+[02:35.960 --> 02:41.400]  Estos tipos demostraron que una de una red de estas neuronas podía calcular cualquier función lógica.
+[02:41.400 --> 02:46.520]  En pocas palabras, ellos sentaron las bases de lo que hoy, para que hoy tengamos las redes neurorales.
+[02:46.520 --> 02:51.080]  Ok, entonces, luego eran unos escritos en papel.
+[02:51.080 --> 03:00.200]  Entonces, si tenemos neuronas matemáticas desde los años 40, ¿por qué no hemos resuelto así como tal qué es la inteligencia?
+[03:00.200 --> 03:03.160]  ¿Por qué seguimos sin saber qué es la inteligencia como tal?
+[03:03.160 --> 03:12.400]  Bueno, mira, es que es una parte algo complicada, pero lo que te podría decir es que, porque la lógica y la matemática tienen muros infranqueables.
+[03:12.400 --> 03:17.920]  Aquí es donde entran los top globales, como Alan Turing, Alonso Church y Emil Post.
+[03:17.920 --> 03:21.680]  Ellos definieron que es lo que una máquina puede y no hacer.
+[03:21.680 --> 03:26.360]  Turing nos dio la idea de que si puedes mecanizar la lógica, puedes simular cualquier pensamiento.
+[03:26.360 --> 03:31.440]  Tranquilo ahí, velocista, pero ahí saltó Kurt con sus teremas de incompletitud.
+[03:31.480 --> 03:37.960]  Y nos dio un baño de realidad, unas cachetadas de realidad, como las que nos está dando nosotros ahorita la vida.
+[03:37.960 --> 03:46.080]  Pero Kurt demostró que en cualquier sistema lógico complejo, como el código de una inteligencia artificial,
+[03:46.080 --> 03:52.400]  siempre habrá verdades que el sistema no puede demostrar por sí solo, que esta es la famosa autorreferencia.
+[03:52.400 --> 03:59.040]  O sea, de que una regla no puede medir lo que mide una regla, si solo existiera una regla para medir la regla.
+[03:59.800 --> 04:03.480]  Eso me acabo de confundir, me bugué el cerebro.
+[04:03.480 --> 04:08.200]  Mira, para que se entienda, es como la paradoja del Barbero.
+[04:08.200 --> 04:16.280]  Un Barbero que afeita a todos los que no se afeitan a sí mismo, se afeita a sí mismo, lo hace, rompe la regla, si no lo hace, también.
+[04:16.280 --> 04:24.880]  La IA es un sistema cerrado de reglas, el ser humano en cambio parece tener la capacidad de salir del sistema y reconocer la paradoja.
+[04:25.040 --> 04:30.160]  Esa capacidad de ver más allá, es la regla que Godel y Turing debatían intensamente.
+[04:30.160 --> 04:40.520]  Pero me parece interesante la verdad, o sea, es que sí, de hecho hasta la fecha hemos salido un poquito del tema,
+[04:40.520 --> 04:46.040]  a nosotros se nos enseñan ciertas reglas y que debemos de seguir y seguir y seguir así por el resto de nuestra vida.
+[04:46.040 --> 04:52.000]  Pero aún así, en nosotros, en momentos de nuestra vida, y todas las personas, nos salimos un poco del sistema
+[04:52.000 --> 05:01.280]  y empezamos a pensar y reflexionar por nosotros mismos y a cometer nuestros propios errores para vivir nuestras propias experiencias y de allá aprender.
+[05:01.280 --> 05:04.640]  Justo eso lo vamos a hablar más adelante, la verdad.
+[05:04.640 --> 05:06.240]  Exacto, spoiler.
+[05:06.240 --> 05:14.720]  Bueno, entonces si no se quieren adelantar, ¿por qué a lo que cuentan, mucho tiempo anduvimos atorados en eso de la inteligencia
+[05:14.720 --> 05:21.520]  entre lo que es la lógica y lo que son paradojas, como lo que dices del Barbero o de la autorreferencia?
+[05:21.520 --> 05:33.920]  ¿Cómo pasamos de una teoría, una paradoja, como tal, a tener lo que hoy en día es un ChatGPT, un Gemini, un Dipsyck, una IA de bolsillo tal cual?
+[05:33.920 --> 05:40.040]  Bueno, es una pregunta fácil de responder y se trata de dinero, ¿o no?
+[05:40.040 --> 05:44.640]  Lo que pasa es que ha habido periodos llamados los inviernos de la IA,
+[05:44.640 --> 05:50.640]  han sido periodos donde el reinancimiento para la investigación se ha retirado porque no ha resultado prometedor,
+[05:50.640 --> 05:55.120]  además el hardware de la época no era tan potente como el que tenemos hoy en día.
+[05:55.120 --> 06:02.840]  Entre los años 70 y 80 los gobiernos dejaron invertir porque prometían máquinas conscientes y sólo obteníamos sistemas
+[06:02.840 --> 06:08.600]  que no podían reconocer la foto de un gato si el gato no estaba perfectamente iluminado, por ejemplo, es un decir.
+[06:08.600 --> 06:14.200]  De hecho, aquí es donde entra un personaje algo salvado llamado Marbel Minsky.
+[06:14.200 --> 06:22.320]  ¿Se acuerdan que junto a en la conferencia de Dartmouth ha sido un personaje muy importante sobre la IA y pues tenía bastante prestigio este señor, ¿no?
+[06:22.320 --> 06:31.160]  Y lo que pasa es que a pesar de que ya se tenía la numeroma matemática, él dijo que no, o sea, había un límite pues,
+[06:31.160 --> 06:38.320]  había un límite de lo que podía reconocer y no reconocer y pues lo publicó, dijo, no vale la pena mucho invertir en esto,
+[06:38.320 --> 06:50.600]  y como pues era una autoridad de renombre, pues le creyeron, le creyeron, pues gente influyente, pues dice, da opiniones y son expertos y pues le terminan haciendo caso.
+[06:50.600 --> 06:52.880]  Y pues también había limitaciones por la época.
+[06:52.880 --> 06:59.040]  Y por ejemplo, la IA clásica intentaba programar el mundo con reglas muy lógicas, muy lógicas,
+[06:59.040 --> 07:05.480]  o sea trataban como si nuestro mundo fuera siempre lo mismo, o sea, muy perfecto.
+[07:05.520 --> 07:13.640]  Lo trataron de programar así, o sea, por ejemplo, si tiene bigotes y maulla es un gato, ¿no?
+[07:13.640 --> 07:25.200]  Pero en el mundo real es un mundo en caos, entonces hay gatos que no tienen bigotes, que no tienen cola o que no se parecen a gatos a veces,
+[07:25.200 --> 07:32.720]  pero y entonces esto pues no, lógicamente no se puede, no lo pudieron hacer, pues hay muchas variantes.
+[07:32.720 --> 07:38.280]  Sí, suena complicado porque tendrían que considerar absolutamente cualquier diferencia que pueda haber, ¿no?
+[07:38.280 --> 07:39.280]  Exacto.
+[07:39.280 --> 07:50.520]  Por ejemplo, si fuéramos, por ejemplo, a un ejemplo de perros, tendrías que considerar cada raza, luego cada tamaño de perro, la edad,
+[07:50.520 --> 07:57.040]  las condiciones en las que ha vivido, la alimentación, todo eso cambiaría el resultado en todo caso, ¿no?
+[07:57.040 --> 08:04.800]  Exacto, incluso ahí mismo hay perritos mestizos, o sea, cruzas que no sabes qué te va a salir.
+[08:04.800 --> 08:06.800]  Como los poderosísimos perros amarillos.
+[08:06.800 --> 08:19.920]  Entonces eso, exacto, o sea, no se puede, incluso como hay muchas cosas que aún no se conocen, no se puede programarlo con reglas lógicas.
+[08:19.920 --> 08:26.360]  Exacto, el renacimiento llegó cuando dejamos intentar programar las reglas y decidimos que la máquina descubriera por sí misma,
+[08:26.400 --> 08:36.480]  en vez de darle, oye, esto es, toma esa regla y será esto, ahora estuvimos viendo la posibilidad de que aprendiera por sí misma, darle los datos y una potencia bruta.
+[08:36.480 --> 08:43.520]  Oh, eso es, ¿cómo se llamaba? La generación de neuronas, ¿no? Era lo del deep learning.
+[08:43.520 --> 08:47.080]  Hasta me esclavo, pero hay un truco filosófico enorme aquí.
+[08:47.080 --> 08:55.400]  Cuando una red neuronal aprende, lo que genera es una caja negra, nosotros le metemos millones de fotos de gatos y ella termina reconociendo gatos perfectamente,
+[08:55.400 --> 09:02.680]  pero no sabemos cómo lo hace, los pesos estadísticos que ajusta son tan colosales que son inteligibles para el cerebro humano.
+[09:02.680 --> 09:10.160]  O sea, el humano creó una máquina para entender la inteligencia y la máquina se vuelve más inteligente de lo que podemos comprender,
+[09:10.160 --> 09:18.120]  es como si viéramos invocado a un ser que entiende el mundo de una manera que nosotros no podemos procesar y eso nos lleva a la vuelta de Kant.
+[09:18.120 --> 09:26.520]  Exacto, porque aunque no entendamos cómo lo hace internamente, entendemos que hace matemáticas, muchas matemáticas.
+[09:26.520 --> 09:36.360]  Básicamente es la estadística llevada al extremo, se dice la siguiente palabra con una probabilidad abrumadora, pero no sabe qué es una palabra.
+[09:36.360 --> 09:50.520]  Bueno, entonces no es algo biológico, sino que es como una probabilidad trasoptera a partir del procesamiento muy rápido de muchos datos y aún más datos, ¿no?
+[09:50.520 --> 10:02.120]  Correcto, mira, es que hacen millones de estadísticas, por eso durante varios años la estuvieron alimentando con el internet, porque fíjate, el internet es un gran banco de datos.
+[10:02.200 --> 10:11.320]  Pasamos de una neurona que McCulloch pensó, a simular billones de esas neuronas en paralelo gracias a la capacidad electrónica moderna, como las GPUs.
+[10:11.320 --> 10:16.680]  Me imagino que si McCulloch pudiera ver esto, se quedaría muy impresionado de cuánto ha avanzado la tecnología.
+[10:16.680 --> 10:23.480]  Ok, entonces como tal nada más recibe datos, eso se podría decir que es prender, ¿no?
+[10:23.480 --> 10:32.040]  O sea, realmente no está prendiendo, sino que está como recordando lo que se hizo para poder dar una respuesta como tal.
+[10:32.680 --> 10:39.240]  Como por ejemplo entramos en la filosofía de Kant, que es el lío de las casas negras y las matemáticas, ¿no?
+[10:39.240 --> 10:45.800]  Esta filosofía es fundamental, ya que separó la aprehensión algorítmica de la verdadera comprensión.
+[10:45.800 --> 10:56.280]  Pero Kant, el conocimiento no solamente es acumular datos, o sea, como por ejemplo nosotros que podemos hacer de las dos, prender y aprender,
+[10:56.280 --> 11:05.960]  pero muchas veces cuando nuestra mamá o nuestro papá nos decía, tienes que aprenderte a las tres a multiplicar y te las preguntaba si no te daba un cueraso,
+[11:05.960 --> 11:13.080]  pues entramos como que en un modo en el que no las comprendías, pero pues te las memorizabas y pues ya.
+[11:13.080 --> 11:22.840]  Porque lo que pasa es que ya como las aprendiste, al preguntarte una fórmula más compleja que se puede resolver por las multiplicaciones,
+[11:22.840 --> 11:26.920]  pero como tú no la sabes, te quedas trabado, ¿no?
+[11:26.920 --> 11:32.520]  Entonces, no solamente es acumular datos, porque es lo que hace un LLM.
+[11:32.520 --> 11:39.080]  El conocimiento requiere inscripciones puras de espacio y tiempo y categorías, como la casualidad.
+[11:39.080 --> 11:43.640]  Parintesis eso, aunque suena tonto, es un buen ejemplo la verdad.
+[11:43.640 --> 11:51.000]  Es decir, la IA puede aprender billones de palabras sobre el concepto de dolor y general el texto perfecto para él,
+[11:51.080 --> 11:56.520]  pero no tiene la aprehensión del dolor, porque no tiene un cuerpo ni una experiencia en el tiempo,
+[11:56.520 --> 12:01.480]  como diría Kant, la IA procesa fenómenos, pero no acceda a las cosas en sí.
+[12:01.480 --> 12:07.240]  Exacto, exactamente. Y eso se conecta con la psicología cognitiva.
+[12:07.240 --> 12:12.760]  Mientras el conductismo de Skinner veía la mente como una caja negra de estímulos,
+[12:12.760 --> 12:17.080]  bueno, de estímulo a respuesta, muy parecido a cómo funciona el problem de la IA,
+[12:17.080 --> 12:25.160]  de que le pones, hazme una página web, y pues ya responde con probabilidad y estímulo, ¿no?
+[12:25.160 --> 12:29.880]  El cognitivismo dice que hay procesos internos de construcción, o sea,
+[12:29.880 --> 12:36.920]  pasas las cosas y generas nuevo aprendizaje de las cosas, no solamente las cosas que ya se sabían.
+[12:36.920 --> 12:41.960]  Oye, es algo muy interesante si lo piensas como tal,
+[12:42.040 --> 12:50.040]  porque realmente se puede decir que la IA es como una biblioteca gigante con todo el conocimiento de la humanidad,
+[12:50.040 --> 12:53.480]  aunque están limitadas algunas hasta, creo que era 2021, ¿no?
+[12:53.480 --> 12:56.280]  Chat GPT estaba hasta 2021, si no mal recuerdo,
+[12:56.280 --> 13:04.040]  pero, o sea, realmente es como el cúmulo de todo el conocimiento que iba hasta ese momento,
+[13:04.040 --> 13:07.640]  más todo lo que se le vaya adicionando hoy en día, ¿no?
+[13:07.720 --> 13:12.040]  Eh, bueno, pero como tal, todo ese conocimiento acumulado nada más lo usa,
+[13:12.040 --> 13:15.000]  no está generando como tal un nuevo conocimiento,
+[13:16.360 --> 13:21.400]  no es simplemente, es más, si esto ya pasó, no un esto podría pasar,
+[13:22.440 --> 13:27.240]  o esto pasará, no es algo nuevo como tal, simplemente es lo que ya existía.
+[13:27.880 --> 13:32.520]  Entonces, a lo que hemos estado platicando, la IA no aprende como nosotros,
+[13:32.520 --> 13:34.520]  no hace ese proceso cognitivo,
+[13:34.600 --> 13:41.640]  sino que la IA simplemente hace el uso de la aprehensión mediante ajustes de pesos estadísticos
+[13:41.640 --> 13:45.960]  en una matriz gigantesca, es una aprehensión algorítmica masiva, la verdad.
+[13:46.600 --> 13:47.800]  Exacto, exacto.
+[13:48.360 --> 13:55.560]  De la teoría de Katherine Hall-Carroll, que pues es, la IA es inteligencia cristalizada, ¿no?
+[13:55.560 --> 13:59.880]  El conocimiento acumulado de todo lo que, los datos que le metieron en bruto, ¿no?
+[14:00.360 --> 14:06.840]  Pero pues la inteligencia fluida es la que tenemos nosotros, y animales también, ¿no?
+[14:06.840 --> 14:10.200]  La capacidad de resolver problemas nuevos sin un entrenamiento previo,
+[14:10.200 --> 14:16.360]  o sea, a base de prueba y error, donde todavía flaquea porque no tiene ese proceso de construcción
+[14:16.360 --> 14:21.240]  del yo, la inteligencia artificial, que desde acá no tiene un cuerpo que le diga,
+[14:21.240 --> 14:25.080]  ah, esto quema o esto no duele, sino solamente son datos y los predicen,
+[14:25.080 --> 14:29.080]  la mayor probabilidad no crea conocimiento.
+[14:29.160 --> 14:34.280]  Y ojo, no lo digo con desprecio de que, ay, este es el IA y no sé qué, ¿no?
+[14:34.280 --> 14:38.840]  Porque me quedo con lo que dijimos al principio, no seamos soberbios, pero pues,
+[14:38.840 --> 14:46.280]  quizás el Moe es inteligente a su manera biológica, y la IA es inteligente a su manera matemática,
+[14:46.280 --> 14:53.640]  pero el ser humano es el único que de momento puede sentarse a platicar sobre estas paradojas
+[14:53.640 --> 15:00.520]  y sentir la curiosidad de por qué ocurren de tener una computadora y de realizar los descubrimientos
+[15:00.520 --> 15:04.120]  y conocimientos y avances tecnológicos que se tienen hasta la fecha.
+[15:04.120 --> 15:10.760]  Es un poquito curioso si lo piensan, o sea, la IA como tal no está viva, no tiene un cuerpo,
+[15:10.760 --> 15:16.040]  y no tiene vivencias como tal, o sea, simplemente ya dijimos, son datos tras datos tras datos,
+[15:16.040 --> 15:23.280]  pero sin embargo, ¿han pensado que es raro que pueda simular tal cual una conversación?
+[15:23.280 --> 15:30.880]  Es como si estuviéramos hablando con un espejo, pues a veces como que la tomamos como un chatbot
+[15:30.880 --> 15:37.440]  muy avanzado y hablamos de lo que nos pasa, no hablamos con una conciencia tal cual,
+[15:37.440 --> 15:43.880]  sino simplemente es como lanzar preguntas al aire y responder con preguntas al aire, ¿no?
+[15:43.880 --> 15:50.040]  Realmente, y eso es un problema de la IA, porque mucha gente ya le habla de lo que sea,
+[15:50.040 --> 15:56.400]  de su vida, una gente la va a llegar a utilizar de psicólogo, y eso es un peligro ya de querer
+[15:56.400 --> 16:00.120]  hacerlo humana, pensar que entiende cuando en realidad solamente está procesando,
+[16:00.120 --> 16:03.320]  digo, pues no tiene una conciencia, pues no tiene un yo que diga,
+[16:03.320 --> 16:08.520]  ah no, estoy haciendo esto, es una maravilla la verdad que al construir un espejo,
+[16:08.520 --> 16:12.200]  porque la IA final de nosotros está en base a lo que somos nosotros,
+[16:12.200 --> 16:16.720]  la inteligencia artificial está relevelando una gran parte de nuestra inteligencia,
+[16:17.360 --> 16:22.000]  es el reconocimiento de patrones, hemos evolucionado nosotros millones de años
+[16:22.000 --> 16:27.760]  para detectar patrones como peligro, huida, o qué cosas nos podrían hacer daño,
+[16:27.760 --> 16:34.120]  la diferencia de la IA y nosotros es que nosotros tenemos un yo, observa esos patrones.
+[16:34.120 --> 16:39.400]  Exacto, la IA no tiene ni un yo, no le importa si gana una partida de gedrez o no,
+[16:39.400 --> 16:44.380]  o sea nosotros somos los que proyectamos la emoción de la victoria sobre ella,
+[16:44.380 --> 16:50.140]  no es de que yo ganeo, yo perdí y se va a enojar, no, ya cuando tengo un cuerpo y me voy a acordar
+[16:50.140 --> 16:56.140]  de ti y te voy a dar cuello, pues no, es el mito de Pygmalion al revés, estamos creando una estatua
+[16:56.140 --> 17:02.420]  tan perfecta que nos enamoramos de nuestra propia creación, olvidando que nosotros somos los que le
+[17:02.420 --> 17:10.460]  dimos el significado. Tal cual un reflejo de la humanidad. Bueno, ha estado un poquito denso,
+[17:10.460 --> 17:20.300]  hemos pasado por neuronas, mo, paradojas, inviernos de la IA, cajas negras y un montón de cosas más
+[17:20.300 --> 17:27.500]  de teorías, la conclusión como tal es que la inteligencia no es una meta, no, es más bien un
+[17:27.500 --> 17:34.180]  proceso de adaptación. Realmente es fascinante esto, la IA no es un cerebro de repuesto,
+[17:34.180 --> 17:40.780]  es una herramienta lógica, nos recuerda un poco el hecho de que es ser una gente en el mundo real,
+[17:40.780 --> 17:46.900]  creo que la próxima frontera quizás no es hacer IAs con más datos, sino quizás a lo mejor podría
+[17:46.900 --> 17:53.380]  ser darles un cuerpo y ver si de esa experiencia como nosotros mismos va a surgir algo parecido a
+[17:53.380 --> 17:59.140]  lo que llamamos comprensión. O quizás la próxima frontera seamos nosotros aprendiendo a ser humanos
+[17:59.140 --> 18:06.420]  en un mundo donde ya no somos los únicos que parecen inteligentes. Bueno, muchas gracias por
+[18:06.420 --> 18:13.340]  acompañarnos en esta transmisión, espero que les haya sido de ayuda, que hayan aprendido aunque
+[18:13.340 --> 18:20.540]  sea un poquito, aunque sea de filosofía, de matemática o de teoría de la inteligencia
+[18:20.540 --> 18:24.060]  artificial y nos vemos la próxima.
+
+Fuentes
+Aguilar, G. H. (2022, febrero 4). Teoría de los Conjuntos I: Paradoja de Russell. El blog de Leo; Leonardo Ignacio Martínez Sandoval. https://blog.nekomath.com/teoria-de-los-conjuntos-paradoja-de-russell/
+El moho ayudará a mejorar la ingeniería. (s/f). BBC. Recuperado el 22 de febrero de 2026, de http://www.bbc.co.uk/mundo/lg/ciencia_tecnologia/2010/01/100125_lama_inalambrico_men.shtml
+Machine learning @ UChicago. (s/f). Uchicago.edu. Recuperado el 22 de febrero de 2026, de https://machinelearning.uchicago.edu/history/
+Academia EITCA. (2023, agosto 2). ¿Cuáles son los componentes de una máquina de Turing y por qué son importantes para comprender su funcionalidad? EITCA Academy. https://es.eitca.org/cybersecurity/eitc-is-cctf-computational-complexity-theory-fundamentals/turing-machines/turing-machine-examples/examination-review-turing-machine-examples/what-are-the-components-of-a-turing-machine-and-why-are-they-important-in-understanding-its-functionality/
+Da Silva, R. (2014). Los teoremas de incompletitud de Gödel, teoría de conjuntos y el programa de David Hilbert. Episteme NS, 34(1), 19–40. https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-43242014000100002
+Thorwirth, Z. (2021, septiembre 1). AI winter: The highs and lows of artificial intelligence. History of Data Science. https://www.historyofdatascience.com/ai-winter-the-highs-and-lows-of-artificial-intelligence/
+Una moraleja con raíz matemática: la Tesis de Church-Turing sobre la equivalencia de modelos. (2020, abril 30). Academia Malagueña de Ciencias. https://academiamalaguenaciencias.wordpress.com/2020/04/30/una-moraleja-con-raiz-matematica-la-tesis-de-church-turing-sobre-la-equivalencia-de-modelos/
+Bolander, T. (2024). Self-Reference and Paradox. En E. N. Zalta & U. Nodelman (Eds.), The Stanford Encyclopedia of Philosophy (Fall 2024). Metaphysics Research Lab, Stanford University.
+Schneider, M. (2024, enero 2). IA Generativa vs IA - Diferencias clave y casos de uso. Helm & Nagel GmbH. https://helm-nagel.com/es/ai-generativa-frente-a-ai-diferencias-clave-y-casos-de-uso/
+Kit, S. (2024, agosto 28). History of the AI winter. SlimSaaS. https://slimsaas.com/blog/the-ai-winter/
+Vega, E. (s/f). Conferencia de Darthmouth 1956. Conferencia de Darthmouth 1956. Recuperado el 22 de febrero de 2026, de https://darthmouthconference.wordpress.com/
+Qué es el deep learning y aplicaciones. (2024, July 2). Universidad Europea; Universidad Europea | Universidad presencial (Madrid, Valencia, Alicante, Canarias, Málaga) y Online. https://universidadeuropea.com/blog/deep-learning/
+Lee, F. (2026, January 9). ¿Qué son las redes neuronales? Ibm.com. https://www.ibm.com/mx-es/think/topics/neural-networks
+Weight (Artificial Neural Network). (2019, May 17). DeepAI. https://deepai.org/machine-learning-glossary-and-terms/weight-artificial-neural-network?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+La naturaleza del conocimiento según Kant. (n.d.). Filosofia.net. Retrieved February 22, 2026, from https://www.filosofia.net/materiales/sofiafilia/hf/soff_9_1b.html
+Drakouli, M. (2025, May 20). Cognitivista Significado: Definición, Importancia y Aplicaciones. Ediciones Upbility. https://upbility.es/blogs/news/cognitivista-significado-definicion-importancia-y-aplicaciones
+Consultores, A. (2019, June 3). El Modelo de Inteligencia de Cattell-Horn-Carrol (CHC). Aiteco.com; Aiteco Consultores. https://www.aiteco.com/modelo-de-inteligencia-cattell-horn-carrol-chc/
+Los límites y desafíos de la inteligencia artificial. (2023, October 6). DIBAG; DIBAG Supply Chain Management. https://dibagscm.com/los-limites-y-desafios-de-la-inteligencia-artificial/
+Stryker, C. (2025, November 26). Modelos de lenguaje de gran tamaño. Ibm.com. https://www.ibm.com/mx-es/think/topics/large-language-models
+Nosta, J. (2024, September 8). AI as a mirror into the self. https://www.psychologytoday.com/us/blog/the-digital-self/202409/ai-as-a-mirror-into-the-self
+(N.d.). Itsitio.com. Retrieved February 22, 2026, from https://www.itsitio.com/inteligencia-artificial/comprension-potemkin-el-limite-invisible-de-la-inteligencia-artificial/
