@@ -1,5 +1,3 @@
-(venv) 󰣇  maulinux  ~/Downloads/prueba  whisper audio_final.mp3 --model medium --language Spanish 
-100%|█████████████████████████████████████| 1.42G/1.42G [02:53<00:00, 8.83MiB/s]
 [00:00.000 --> 00:06.400]  Hola a todos, bienvenidos a este podcast donde vamos a cuestionar un poquito sobre lo que sabemos.
 [00:06.400 --> 00:11.200]  Se habla mucho últimamente de lo que es inteligencia artificial generativa
 [00:11.200 --> 00:19.880]  y se ha demostrado por medio de modelos de lenguaje o LLMs que realmente es muy útil para tareas de la vida cotidiana.
