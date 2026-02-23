@@ -1,4 +1,15 @@
-r0 = 0x0001
+r3 = 0x00
 movd
+r0 = abelardo je
+salta_igual r0 0x00 0x01
+movb
+r0 = abelardo dw
+salta_igual r0 0x00 0x04
 movi
-salta_igual r0 0x01 0x00
+r0 = abelardo ab
+salta_igual r0 0x00 0x07
+mova
+r0 = abelardo up
+salta_igual r0 0x00 0x0A
+r3 = r3 + 0x01
+salta_dif r3 0x02 0x01
