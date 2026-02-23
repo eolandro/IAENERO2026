@@ -14,20 +14,26 @@ parse.add_argument(
     help="Ejemplo:\n BoomeInterprete.py codigo.boome"
 )
 
-args=parse.parse_args()
+args = parse.parse_args()
 
 if args.archivo_codigo:
-    lineas=args.archivo_codigo.readlines()
-    lineas=[l.strip() for l in lineas if l.strip() and not '#' in l]
+    lineas = args.archivo_codigo.readlines()
 
-    ovm=BoomeVM()
+   
+    lineas = [
+        l.strip().replace("\t", " ").strip()
+        for l in lineas
+        if l.strip() and '#' not in l
+    ]
+
+    ovm = BoomeVM()
     print(ovm)
 
-    pc=0  # ← program counter
+    pc = 0  # ← program counter
 
     while pc < len(lineas) and ovm.Vivo:
 
-        linea = lineas[pc]
+        linea = lineas[pc].strip() 
 
         R = anlex.procesar_linea(linea)
         if not R:

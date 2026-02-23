@@ -1,7 +1,8 @@
-je
 movb
-movb
-movb
-movb
-movb
-movb
+r1 = 0x0001
+movd
+abelardo up
+salta_igual r0 0x0001 0x0005
+mova
+negro_desactiva
+movd
