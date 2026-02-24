@@ -1,0 +1,53 @@
+#--- Ejemplo 1 Movimiento directo y desactivación ---#
+movb
+movb
+movd
+movd
+desactiva_mina
+
+#--- Ejemplo 2 Uso de sensor y salto condicional ---#
+movb
+movb
+movd
+sensor de
+salta_igual r0 0x0001 0x0006
+movd
+desactiva_mina
+
+#--- Ejemplo 3 Uso de registros y asignaciones ---#
+r1 = 0x0002
+r2 = 0x0001
+r3 = r1 + r2
+movb
+movb
+movd
+movd
+desactiva_mina
+
+#--- Ejemplo 4 Agente inteligente con decisión ---#
+sensor de
+salta_igual r0 0x0001 0x0005   
+movd                          
+movb                        
+desactiva_mina   
+
+#--- Ejemplo 5 Uso completo del lenguaje avanzado ---#
+r1 = 0x0000
+movb
+movb
+sensor de
+r1 = r0
+salta_igual r1 0x0001 0x0007   
+movd                          
+movd
+desactiva_mina                
+
+
+#--- Ejemplo 6 Agente que busca y desactiva mina ---#
+r1 = 0x0000
+movb
+movb
+sensor de
+salta_igual r0 0x0001 0x0005
+movd
+desactiva_mina
