@@ -1,0 +1,44 @@
+#Solo nos movemos a la izquierda, el objetivo es llegar a la columna 0, si llegamos a la fila 0 o a la columna 0, el agente muere
+#movd
+#movd
+#movd
+#movd
+
+
+# ============================================================
+
+# MOVIMIENTOS: llevar a Boome a (3,2) por ruta sin obstáculos
+movd
+movd
+movb
+movb
+movb
+
+# ASIGNACIÓN hex: r0=4, r1=2
+r0 = 0x04
+r1 = 0x02
+
+# ARITMÉTICA: r2 = r0+r1 = 6  |  r3 = r0-r1 = 2
+r2 = r0 + r1
+r3 = r0 - r1
+
+# ASIGNACIÓN registro a registro: r0 = r3 = 2
+r0 = r3
+
+# SENSOR abelardo: desde (3,2) hay X abajo en (4,2) → r1=1
+# Arriba en (2,2) hay 0 → r2=0
+r1 = abelardo ab
+r2 = abelardo je
+
+# SALTA_IGUAL: r1=1, r2=0 → distintos → NO salta, continúa en linea 13
+# Línea 13 es otro movd (prueba que NO saltar también funciona)
+salta_igual r1 r2 0x0e
+movd
+
+# SALTA_DIF: r1=1, r2=0 → distintos → TRUE → salta a linea 16 (desactivar)
+# El movi de linea 15 NO debe ejecutarse
+salta_dif r1 r2 0x10
+movi
+
+# DESACTIVAR: Boome se apaga correctamente
+negro_desactiva
