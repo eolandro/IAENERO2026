@@ -1,0 +1,127 @@
+DataCamp. (2025). Invierno de la IA: Comprender los ciclos del desarrollo de la IA. DataCamp. 
+https://www.datacamp.com/es/blog/ai-winter
+​
+
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2014). Generative adversarial nets. In Advances in neural information processing systems (pp. 2672–2680). [Resume a partir de síntesis en Restack/Dev.to].
+
+Ho, J., Jain, A., & Abbeel, P. (2020). Denoising diffusion probabilistic models. In Advances in neural information processing systems. [Basado en síntesis de historia de generative AI].
+
+IBM. (2024). The history of artificial intelligence. IBM Think. 
+https://www.ibm.com/think/topics/history-of-artificial-intelligence
+​
+
+McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5(4), 115–133.
+
+Miramontes, P. (2019). El invierno de la Inteligencia Artificial [Conferencia]. Hablando de Matemáticas, Facultad de Ciencias, UNAM. https://hablandodematematicas.matem.unam.mx
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. In Advances in neural information processing systems (Vol. 30). 
+https://arxiv.org/abs/1706.03762
+
+Wikipedia. (s. f.). AI winter. En Wikipedia, The Free Encyclopedia. Recuperado en 2026, de 
+https://en.wikipedia.org/wiki/AI_winter
+​
+
+Swiss Cyber Institute. (2026). The history of artificial intelligence. Swiss Cyber Institute Blog. 
+https://swisscyberinstitute.com/blog/history-artificial-intelligence/
+​
+
+OpenIllumi. (2025). Lisp & Prolog to Python: Understanding AI’s great language shift. OpenIllumi. 
+https://openillumi.com/en/en-lisp-prolog-ai-history-why/
+​
+
+IAMAI. (2023). Los inviernos de la inteligencia artificial: Desde expectativas hasta la resiliencia. IAMAI Blog. 
+https://www.iamai.es/Blog/Los-inviernos-de-la-inteligencia-artificial/
+
+McCulloch, W. S., & Pitts, W. (1943, December). A logical calculus of the ideas immanent in nervous activity. Springer.
+
+Turing, A. M. (1950, October). Computing machinery and intelligence. Mind, 59(236), 433–460.
+
+McCarthy, J., Minsky, M., Rochester, N., & Shannon, C. (1955, August 31). A proposal for the Dartmouth summer research project on artificial intelligence. Stanford University.
+
+Lisp (programming language). (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+Selfridge, O. (n.d.). Pandemonium: A paradigm for learning. AI Topics.
+
+McCarthy, J. (1959). Programs with common sense. Stanford University.
+
+Samuel, A. L. (1965, December). Alchemy and artificial intelligence. RAND Corporation.
+
+Good, I. J. (1965). Speculations concerning the first ultraintelligent machine. Advances in Computers, 6, 31–88.
+
+ELIZA. (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+DENDRAL. (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+SRI International. (n.d.). Shakey the robot. Recuperado de https://sri.com
+
+Minsky, M., & Papert, S. (1969). Perceptrons: An introduction to computational geometry. MIT Press.
+
+Winograd, T. (1972). Understanding natural language. Academic Press. (Relacionado con SHRDLU)
+
+Shortliffe, E. H. (1976). MYCIN: A knowledge-based program for infectious disease diagnosis.
+
+Lighthill, J. (1973, July). Artificial intelligence: A general survey. Chilton Computing.
+
+AI winter. (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+Waseda University. (n.d.). WABOT. Recuperado de http://humanoid.waseda.ac.jp
+
+Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986, October 9). Learning representations by back-propagating errors. Nature, 323, 533–536.
+
+Apple Computer. (1987/2008). Knowledge Navigator [Video]. YouTube.
+
+Pearl, J. (1988). Probabilistic reasoning in intelligent systems: Networks of plausible inference. Morgan Kaufmann.
+
+Association for Computing Machinery. (n.d.). Judea Pearl – Turing Award. Recuperado de https://amturing.acm.org
+
+Jabberwacky. (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+Brown, P. F., et al. (1988, August 22). A statistical approach to language translation. Computational Linguistics.
+
+Brown, P. F., et al. (n.d.). Candide: A statistical machine translation system. ACL Anthology.
+
+Vinge, V. (1993). The coming technological singularity: How to survive in the post-human era. San Diego State University.
+
+A.L.I.C.E. (Artificial Linguistic Internet Computer Entity). (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+Deep Blue (chess computer). (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+Furby. (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998, November). Gradient-based learning applied to document recognition. Proceedings of the IEEE.
+
+MIT Media Lab. (n.d.). Kismet.
+
+Hinton, G. E., Osindero, S., & Teh, Y. W. (2006). Learning multiple layers of representation. University of Toronto.
+
+ImageNet. (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+Dean, J., et al. (2012). Large-scale deep unsupervised learning using graphics processors. Stanford University.
+
+Markoff, J. (2009, October 19). The robots are coming! Oh, they’re here. The New York Times.
+
+IBM. (2015, June 22). Watson IBM Invitational. Jeopardy!
+
+Google. (2012, June 26). Using large-scale brain simulations for machine learning and A.I. Google Blog.
+
+ImageNet. (2012). ImageNet Large Scale Visual Recognition Challenge 2012.
+
+AlphaGo. (n.d.). In Wikipedia. Recuperado de https://wikipedia.org
+
+Hanson Robotics. (2017, December 28). We talked to Sophia [Video]. YouTube.
+
+Vincent, J. (2017, July 31). Facebook’s artificial intelligence robots shut down after they start talking to each other in their own language. The Independent.
+
+G2. (2023, August 7). How will Google MUM affect your search ranking in 2024?
+
+Google. (2024, February 15). Our next-generation model: Gemini 1.5. Google Blog.
+
+OpenAI. (2024). Sora.
+
+Stability AI. (2024, February 22). Stable Diffusion 3.
+
+Google. (2024, May 8). AlphaFold 3 predicts the structure and interactions of all of life’s molecules. Google Blog.
+
+Apple. (2024, June 10). Apple Intelligence.
+
+Google. (2024, September 11). NotebookLM now lets you listen to a conversation about your sources. Google Blog.
