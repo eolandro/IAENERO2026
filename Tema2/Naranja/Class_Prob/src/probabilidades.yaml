@@ -1,0 +1,645 @@
+tokens:
+  ahí:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  carlos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  fotos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  mensaje:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  datos:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  ingresos:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  profesor:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  documentos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  artificial:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  servicio:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  forma:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  escribo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  comentario:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  proyecto:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 2
+  bancaria:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  felicidades:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  casa:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  directamente:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  tema:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  inmediatos:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  pequeña:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  mañana:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 2
+  menos:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  semestre:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  evitar:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  mismo:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  inversión:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  aprovecha:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  actualizado:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  bien:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  avísame:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  repositorio:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  siguiente:
+    prob_spam: 1.0
+    spam_freq: 2
+    no_spam_freq: 0
+  ser:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  inmediata:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  carpeta:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  detectamos:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  seleccionado:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  oferta:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  hoy:
+    prob_spam: 1.0
+    spam_freq: 3
+    no_spam_freq: 0
+  exclusivo:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  participar:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  vamos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  programa:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  frecuente:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  algún:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  revisamos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  tarea:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  hola:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 3
+  respuesta:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  pudiste:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  miércoles:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  examen:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  reclamar:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  días:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  conferencia:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  creo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  completa:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  inusual:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  házmelo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  envío:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  día:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  revisarlo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  calendario:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  explicó:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  ahora:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  revisión:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  sido:
+    prob_spam: 1.0
+    spam_freq: 2
+    no_spam_freq: 0
+  verifiques:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  permanente:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  bastante:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  usuario:
+    prob_spam: 1.0
+    spam_freq: 2
+    no_spam_freq: 0
+  historial:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  ganancias:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  próximo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  ponente:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  necesario:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  cuenta:
+    prob_spam: 1.0
+    spam_freq: 2
+    no_spam_freq: 0
+  deposita:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  trabajando:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  actividad:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  línea:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  presentaciones:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  hacer:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  tardes:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  subimos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  ingresando:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  entregar:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  recibir:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  revisen:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  crediticio:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  obtener:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  avances:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  préstamo:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  cliente:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  revisar:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  buena:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  estimado:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  tres:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  saber:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  necesitas:
+    prob_spam: 0.5
+    spam_freq: 1
+    no_spam_freq: 1
+  mando:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  seguimiento:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  correctamente:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  oportunidad:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  corrección:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  informe:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  horas:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  experiencia:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  ayer:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  dinero:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  lunes:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  especial:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  confirmar:
+    prob_spam: 0.5
+    spam_freq: 1
+    no_spam_freq: 1
+  suspensión:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  comparto:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  plataforma:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  sesión:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  recuerdo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  identidad:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  regístrate:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  rendimientos:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  única:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  final:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 2
+  garantizadas:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  descargar:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  favor:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 2
+  juan:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  recibe:
+    prob_spam: 1.0
+    spam_freq: 2
+    no_spam_freq: 0
+  inteligencia:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  reunión:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 2
+  discutirlos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  recompensa:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  debe:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  premio:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  vienen:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  comienza:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  poder:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 2
+  evento:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  cantidad:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  rápido:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  equipo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  obtén:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  previa:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  exclusiva:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  clase:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  enviarte:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  riesgo:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  confirmando:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  buenas:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  enlace:
+    prob_spam: 0.6667
+    spam_freq: 2
+    no_spam_freq: 1
+  enviarlo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  ganar:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  módulo:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  clic:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  información:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  formulario:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  minutos:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  ejercicios:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1
+  seleccionada:
+    prob_spam: 1.0
+    spam_freq: 1
+    no_spam_freq: 0
+  buenos:
+    prob_spam: 0.0
+    spam_freq: 0
+    no_spam_freq: 1

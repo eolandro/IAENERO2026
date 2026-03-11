@@ -1,0 +1,10 @@
+confusion_matrix:
+  TP: 5
+  TN: 2
+  FP: 3
+  FN: 0
+metrics:
+  accuracy: 0.7
+  precision: 0.625
+  recall: 1.0
+  prevalence: 0.5

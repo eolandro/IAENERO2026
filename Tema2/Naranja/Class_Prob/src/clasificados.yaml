@@ -1,0 +1,42 @@
+msj_clasificados:
+- texto: Hola Ana, te envío el resumen de la reunión de hoy junto con el 
+    documento actualizado del proyecto. Revísalo cuando tengas tiempo y dime si 
+    falta agregar algún punto antes de compartirlo con el resto del equipo.
+  spam: true
+- texto: ¡Felicidades! Tu cuenta ha sido seleccionada para recibir una 
+    recompensa especial por tu actividad reciente. Ingresa al siguiente enlace 
+    para confirmar tus datos y reclamar tu premio antes de que expire la 
+    promoción.
+  spam: true
+- texto: Buenas noches profesor, le escribo para preguntarle si el laboratorio 
+    que dejamos pendiente la semana pasada se debe entregar en formato PDF o si 
+    lo revisaremos directamente durante la próxima clase.
+  spam: false
+- texto: Obtén ingresos adicionales trabajando desde casa con nuestro programa 
+    exclusivo. No necesitas experiencia previa y puedes comenzar hoy mismo 
+    registrándote en nuestra plataforma.
+  spam: true
+- texto: Hola Luis, solo quería confirmar si mañana seguimos con la reunión del 
+    proyecto a las diez de la mañana o si se cambió el horario como mencionaron 
+    en el chat del equipo.
+  spam: true
+- texto: Tu cuenta presenta un intento de acceso no autorizado. Para evitar el 
+    bloqueo permanente del servicio es necesario verificar tu identidad 
+    inmediatamente en el siguiente enlace seguro.
+  spam: true
+- texto: Te comparto las notas de la conferencia de ayer sobre análisis de 
+    datos. Creo que algunos ejemplos pueden servirnos para mejorar la parte 
+    metodológica de nuestro proyecto.
+  spam: true
+- texto: Aprovecha esta oportunidad limitada para solicitar un préstamo rápido 
+    con aprobación inmediata. Completa el formulario en línea y recibe una 
+    respuesta en menos de diez minutos.
+  spam: true
+- texto: Hola equipo, recuerden subir sus avances al repositorio antes de la 
+    reunión del viernes para que podamos revisar el progreso general del 
+    proyecto durante la sesión.
+  spam: false
+- texto: Has sido elegido para participar en un programa exclusivo de inversión 
+    con ganancias garantizadas. Realiza tu registro hoy y comienza a generar 
+    ingresos sin riesgo.
+  spam: true

@@ -1,0 +1,43 @@
+msj:
+- texto: Hola Juan, buenos días. Te escribo para enviarte el informe final del 
+    proyecto que revisamos en la reunión del lunes. Si tienes algún comentario o
+    corrección por favor házmelo saber antes de las 5 pm para poder enviarlo al 
+    cliente.
+  spam: false
+- texto: ¡Felicidades! Has sido seleccionado para recibir una recompensa 
+    exclusiva por ser usuario frecuente. Solo tienes que hacer clic en el 
+    siguiente enlace y confirmar tus datos para reclamar tu premio hoy mismo.
+  spam: true
+- texto: Buenas tardes, te comparto el enlace a la carpeta con todos los 
+    documentos del semestre. Ahí vienen las presentaciones, ejercicios y el 
+    calendario actualizado por si necesitas revisarlo antes del examen final.
+  spam: false
+- texto: Estimado usuario, detectamos actividad inusual en tu cuenta bancaria. 
+    Para evitar la suspensión permanente del servicio es necesario que 
+    verifiques tu identidad ingresando al siguiente enlace y confirmando tu 
+    información.
+  spam: true
+- texto: Hola Carlos, te mando las fotos del evento de ayer. Estuvo muy buena la
+    conferencia y creo que el ponente explicó bastante bien el tema de 
+    inteligencia artificial. Avísame si las pudiste descargar correctamente.
+  spam: false
+- texto: ¡Oferta especial solo por hoy! Obtén ingresos desde casa trabajando 
+    solo unas horas al día. No necesitas experiencia previa. Regístrate ahora y 
+    comienza a ganar dinero de forma inmediata.
+  spam: true
+- texto: Profesor, le envío este mensaje para confirmar si la tarea del módulo 
+    tres se debe entregar por la plataforma o si la vamos a revisar directamente
+    en clase el próximo miércoles.
+  spam: false
+- texto: Tu cuenta ha sido seleccionada para participar en un programa exclusivo
+    de inversión con ganancias garantizadas. Deposita una pequeña cantidad hoy y
+    recibe rendimientos inmediatos sin riesgo.
+  spam: true
+- texto: Hola equipo, les recuerdo que mañana tenemos la reunión de seguimiento 
+    del proyecto a las 10 de la mañana. Por favor revisen los avances que 
+    subimos al repositorio para poder discutirlos durante la sesión.
+  spam: false
+- texto: Aprovecha esta oportunidad única para obtener un préstamo rápido y sin 
+    revisión de historial crediticio. Completa el formulario en línea y recibe 
+    una respuesta en menos de 10 minutos.
+  spam: true

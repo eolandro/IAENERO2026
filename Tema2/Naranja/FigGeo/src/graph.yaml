@@ -1,0 +1,73 @@
+start: P0
+
+questions:
+  P0: "¿Cuántos lados tiene? (0/3/4/5/6/7)"
+
+  P00: "¿Todos los puntos están a la misma distancia del centro?"
+
+  P3: "¿Todos los lados son iguales?"
+  P3B: "¿Tiene un ángulo recto?"
+
+  P4: "¿Todos los lados son iguales?"
+  P4A: "¿Es un cuadrado?"
+  P4B: "¿Tiene todos los ángulos rectos?"
+  P4C: "¿Tiene exactamente un par de lados paralelos?"
+  P4D: "¿Tiene un ángulo recto?"
+
+objects:
+  CI: "Circulo"
+  EL: "Elipse"
+
+  TE: "Triangulo Equilatero"
+  TI: "Triangulo Isoceles"
+  TR: "Triangulo Rectangulo"
+  TS: "Triangulo Escaleno"
+
+  CU: "Cuadrado"
+  RO: "Rombo"
+  RE: "Rectangulo"
+  RB: "Romboide"
+
+  TPR: "Trapecio Regular"
+  TPRR: "Trapecio Rectangulo"
+
+  PE: "Pentagono"
+  HX: "Hexagono"
+  HP: "Heptagono"
+
+graph:
+  - [P0, 0, P00]
+  - [P0, 3, P3]
+  - [P0, 4, P4]
+  - [P0, 5, PE]
+  - [P0, 6, HX]
+  - [P0, 7, HP]
+
+  # figuras sin lados
+  - [P00, S, CI]
+  - [P00, N, EL]
+
+  # triangulos
+  - [P3, S, TE]
+  - [P3, N, P3B]
+
+  - [P3B, S, TR]
+  - [P3B, N, P3C]
+  - [P3C, S, TI]
+  - [P3C, N, TS]
+
+  # Cuadrilateros
+  - [P4, S, P4A]
+  - [P4, N, P4B]
+
+  - [P4A, S, CU]
+  - [P4A, N, RO]
+
+  - [P4B, S, RE]
+  - [P4B, N, P4C]
+
+  - [P4C, S, P4D]
+  - [P4C, N, RB]
+
+  - [P4D, S, TPRR]
+  - [P4D, N, TPR]
