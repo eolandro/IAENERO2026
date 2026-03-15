@@ -1,0 +1,212 @@
+# ============================================================
+# RSTeoriaInfo - CONFIGURACIÓN PRINCIPAL
+# Valores exactos de la tabla del profe
+# Puntajes verificados: todos correctos
+# ============================================================
+
+caracteristicas:
+  Colorido:
+    peso: 2048
+    pregunta: "Tiene colores llamativos o vistosos?"
+  Cuadrupedo:
+    peso: 1024
+    pregunta: "Tiene cuatro patas?"
+  Bigotes:
+    peso: 512
+    pregunta: "Tiene bigotes o vibrisas largas?"
+  Pequeno:
+    peso: 256
+    pregunta: "Es pequeno (cabe en tus manos)?"
+  Carrera:
+    peso: 128
+    pregunta: "Es conocido por ser rapido o correr bien?"
+  Construye:
+    peso: 64
+    pregunta: "Construye algo como nido, madriguera o represa?"
+  Largo:
+    peso: 32
+    pregunta: "Su cuerpo es largo o alargado?"
+  Gordito:
+    peso: 16
+    pregunta: "Tiene cuerpo robusto o gordito?"
+  Manchas:
+    peso: 8
+    pregunta: "Tiene manchas o patrones en su piel o pelaje?"
+  Aullido:
+    peso: 4
+    pregunta: "Emite aullidos, ladridos o mugidos fuertes?"
+  Huevo:
+    peso: 2
+    pregunta: "Nace de un huevo?"
+  Salta:
+    peso: 1
+    pregunta: "Salta como forma de desplazamiento?"
+
+animales:
+  Perro:
+    Colorido:   1
+    Cuadrupedo: 1
+    Bigotes:    1
+    Pequeno:    1
+    Carrera:    1
+    Construye:  0
+    Largo:      0
+    Gordito:    1
+    Manchas:    1
+    Aullido:    1
+    Huevo:      0
+    Salta:      1
+
+  Gato:
+    Colorido:   1
+    Cuadrupedo: 1
+    Bigotes:    1
+    Pequeno:    1
+    Carrera:    1
+    Construye:  0
+    Largo:      0
+    Gordito:    1
+    Manchas:    1
+    Aullido:    0
+    Huevo:      0
+    Salta:      1
+
+  Hamster:
+    Colorido:   1
+    Cuadrupedo: 1
+    Bigotes:    1
+    Pequeno:    1
+    Carrera:    1
+    Construye:  0
+    Largo:      0
+    Gordito:    1
+    Manchas:    0
+    Aullido:    0
+    Huevo:      0
+    Salta:      1
+
+  Sapo:
+    Colorido:   1
+    Cuadrupedo: 1
+    Bigotes:    0
+    Pequeno:    1
+    Carrera:    0
+    Construye:  0
+    Largo:      0
+    Gordito:    0
+    Manchas:    1
+    Aullido:    0
+    Huevo:      1
+    Salta:      1
+
+  Caballo:
+    Colorido:   1
+    Cuadrupedo: 1
+    Bigotes:    0
+    Pequeno:    0
+    Carrera:    1
+    Construye:  0
+    Largo:      0
+    Gordito:    0
+    Manchas:    1
+    Aullido:    0
+    Huevo:      0
+    Salta:      1
+
+  Gallina:
+    Colorido:   1
+    Cuadrupedo: 0
+    Bigotes:    0
+    Pequeno:    1
+    Carrera:    1
+    Construye:  1
+    Largo:      0
+    Gordito:    1
+    Manchas:    1
+    Aullido:    0
+    Huevo:      1
+    Salta:      1
+
+  Quetzal:
+    Colorido:   1
+    Cuadrupedo: 0
+    Bigotes:    0
+    Pequeno:    1
+    Carrera:    0
+    Construye:  1
+    Largo:      1
+    Gordito:    0
+    Manchas:    0
+    Aullido:    0
+    Huevo:      1
+    Salta:      1
+
+  Huron:
+    Colorido:   0
+    Cuadrupedo: 1
+    Bigotes:    1
+    Pequeno:    1
+    Carrera:    1
+    Construye:  0
+    Largo:      1
+    Gordito:    0
+    Manchas:    1
+    Aullido:    0
+    Huevo:      0
+    Salta:      1
+
+  Castor:
+    Colorido:   0
+    Cuadrupedo: 1
+    Bigotes:    1
+    Pequeno:    1
+    Carrera:    0
+    Construye:  1
+    Largo:      0
+    Gordito:    1
+    Manchas:    0
+    Aullido:    0
+    Huevo:      0
+    Salta:      1
+
+  Lobo:
+    Colorido:   0
+    Cuadrupedo: 1
+    Bigotes:    1
+    Pequeno:    0
+    Carrera:    1
+    Construye:  0
+    Largo:      0
+    Gordito:    0
+    Manchas:    0
+    Aullido:    1
+    Huevo:      0
+    Salta:      1
+
+  Vaca:
+    Colorido:   0
+    Cuadrupedo: 1
+    Bigotes:    0
+    Pequeno:    0
+    Carrera:    0
+    Construye:  0
+    Largo:      0
+    Gordito:    1
+    Manchas:    1
+    Aullido:    0
+    Huevo:      0
+    Salta:      1
+
+  Foca:
+    Colorido:   0
+    Cuadrupedo: 0
+    Bigotes:    1
+    Pequeno:    0
+    Carrera:    0
+    Construye:  0
+    Largo:      0
+    Gordito:    1
+    Manchas:    1
+    Aullido:    1
+    Huevo:      0
+    Salta:      1

@@ -1,0 +1,157 @@
+nodos:
+  P0:
+    pregunta: "Tiene lados rectos?"
+    "si": P1
+    "no": P_curvas
+
+  # --- Rama: figuras con lados rectos ---
+  P1:
+    pregunta: "Todos sus lados son iguales?"
+    "si": P2
+    "no": P3
+
+  P2:
+    pregunta: "Cuantos lados tiene? (3/4/5/6/7/8)"
+    tipo: multiple
+    opciones:
+      "3": triangulo_equilatero
+      "4": cuadrado
+      "5": pentagono_regular
+      "6": hexagono_regular
+      "7": heptagono_regular
+      "8": octogono_regular
+
+  P3:
+    pregunta: "Tiene exactamente 4 lados?"
+    "si": P4
+    "no": P5
+
+  P4:
+    pregunta: "Tiene al menos un par de lados paralelos?"
+    "si": P6
+    "no": cuadrilatero_irregular
+
+  P5:
+    pregunta: "Tiene exactamente 3 lados?"
+    "si": P7
+    "no": poligono_irregular
+
+  P6:
+    pregunta: "Tiene DOS pares de lados paralelos?"
+    "si": P8
+    "no": trapecio
+
+  P7:
+    pregunta: "Tiene un angulo de 90 grados?"
+    "si": triangulo_rectangulo
+    "no": P9
+
+  P8:
+    pregunta: "Tiene angulos de 90 grados?"
+    "si": P10
+    "no": P11
+
+  P9:
+    pregunta: "Tiene dos lados iguales?"
+    "si": triangulo_isosceles
+    "no": triangulo_escaleno
+
+  P10:
+    pregunta: "Todos sus lados son iguales?"
+    "si": cuadrado
+    "no": rectangulo
+
+  P11:
+    pregunta: "Todos sus lados son iguales?"
+    "si": rombo
+    "no": paralelogramo
+
+  # --- Rama: figuras curvas ---
+  P_curvas:
+    pregunta: "Es perfectamente redonda (todos los puntos equidistantes al centro)?"
+    "si": circulo
+    "no": P_elipse
+
+  P_elipse:
+    pregunta: "Tiene forma ovalada o alargada?"
+    "si": elipse
+    "no": figura_desconocida
+
+# ============================================================
+# Resultados / hojas del arbol
+# ============================================================
+resultados:
+  triangulo_equilatero:
+    nombre: "Triangulo Equilatero"
+    descripcion: "3 lados iguales, 3 angulos de 60 grados"
+
+  triangulo_rectangulo:
+    nombre: "Triangulo Rectangulo"
+    descripcion: "3 lados, uno de sus angulos mide 90 grados"
+
+  triangulo_isosceles:
+    nombre: "Triangulo Isosceles"
+    descripcion: "3 lados, dos de ellos iguales"
+
+  triangulo_escaleno:
+    nombre: "Triangulo Escaleno"
+    descripcion: "3 lados, todos diferentes"
+
+  cuadrado:
+    nombre: "Cuadrado"
+    descripcion: "4 lados iguales y 4 angulos de 90 grados"
+
+  rectangulo:
+    nombre: "Rectangulo"
+    descripcion: "4 lados, lados opuestos iguales, 4 angulos de 90 grados"
+
+  rombo:
+    nombre: "Rombo"
+    descripcion: "4 lados iguales, angulos oblicuos"
+
+  paralelogramo:
+    nombre: "Paralelogramo"
+    descripcion: "4 lados, lados opuestos paralelos e iguales"
+
+  trapecio:
+    nombre: "Trapecio"
+    descripcion: "4 lados, solo un par de lados paralelos"
+
+  cuadrilatero_irregular:
+    nombre: "Cuadrilatero Irregular"
+    descripcion: "4 lados sin paralelismo ni igualdad especial"
+
+  pentagono_regular:
+    nombre: "Pentagono Regular"
+    descripcion: "5 lados iguales"
+
+  hexagono_regular:
+    nombre: "Hexagono Regular"
+    descripcion: "6 lados iguales"
+
+  heptagono_regular:
+    nombre: "Heptagono Regular"
+    descripcion: "7 lados iguales"
+
+  octogono_regular:
+    nombre: "Octogono Regular"
+    descripcion: "8 lados iguales"
+
+  poligono_irregular:
+    nombre: "Poligono Irregular"
+    descripcion: "Mas de 4 lados sin medidas regulares"
+
+  circulo:
+    nombre: "Circulo"
+    descripcion: "Figura curva cerrada, todos los puntos equidistantes al centro"
+
+  elipse:
+    nombre: "Elipse"
+    descripcion: "Figura ovalada, dos focos"
+
+  figura_desconocida:
+    nombre: "Figura Desconocida"
+    descripcion: "No se pudo clasificar con las preguntas disponibles"
+
+# Nodo inicial
+inicio: P0

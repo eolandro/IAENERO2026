@@ -1,0 +1,262 @@
+{
+  "caracteristicas": [
+    "Colorido",
+    "Cuadrupedo",
+    "Bigotes",
+    "Pequeno",
+    "Carrera",
+    "Construye",
+    "Largo",
+    "Gordito",
+    "Manchas",
+    "Aullido",
+    "Huevo",
+    "Salta"
+  ],
+  "pesos": {
+    "Colorido": 2048,
+    "Cuadrupedo": 1024,
+    "Bigotes": 512,
+    "Pequeno": 256,
+    "Carrera": 128,
+    "Construye": 64,
+    "Largo": 32,
+    "Gordito": 16,
+    "Manchas": 8,
+    "Aullido": 4,
+    "Huevo": 2,
+    "Salta": 1
+  },
+  "preguntas": {
+    "Colorido": "Tiene colores llamativos o vistosos?",
+    "Cuadrupedo": "Tiene cuatro patas?",
+    "Bigotes": "Tiene bigotes o vibrisas largas?",
+    "Pequeno": "Es pequeno (cabe en tus manos)?",
+    "Carrera": "Es conocido por ser rapido o correr bien?",
+    "Construye": "Construye algo como nido, madriguera o represa?",
+    "Largo": "Su cuerpo es largo o alargado?",
+    "Gordito": "Tiene cuerpo robusto o gordito?",
+    "Manchas": "Tiene manchas o patrones en su piel o pelaje?",
+    "Aullido": "Emite aullidos, ladridos o mugidos fuertes?",
+    "Huevo": "Nace de un huevo?",
+    "Salta": "Salta como forma de desplazamiento?"
+  },
+  "animales": [
+    {
+      "nombre": "Perro",
+      "caracteristicas": {
+        "Colorido": 1,
+        "Cuadrupedo": 1,
+        "Bigotes": 1,
+        "Pequeno": 1,
+        "Carrera": 1,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 1,
+        "Manchas": 1,
+        "Aullido": 1,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 3997
+    },
+    {
+      "nombre": "Gato",
+      "caracteristicas": {
+        "Colorido": 1,
+        "Cuadrupedo": 1,
+        "Bigotes": 1,
+        "Pequeno": 1,
+        "Carrera": 1,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 1,
+        "Manchas": 1,
+        "Aullido": 0,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 3993
+    },
+    {
+      "nombre": "Hamster",
+      "caracteristicas": {
+        "Colorido": 1,
+        "Cuadrupedo": 1,
+        "Bigotes": 1,
+        "Pequeno": 1,
+        "Carrera": 1,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 1,
+        "Manchas": 0,
+        "Aullido": 0,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 3985
+    },
+    {
+      "nombre": "Sapo",
+      "caracteristicas": {
+        "Colorido": 1,
+        "Cuadrupedo": 1,
+        "Bigotes": 0,
+        "Pequeno": 1,
+        "Carrera": 0,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 0,
+        "Manchas": 1,
+        "Aullido": 0,
+        "Huevo": 1,
+        "Salta": 1
+      },
+      "puntaje": 3339
+    },
+    {
+      "nombre": "Caballo",
+      "caracteristicas": {
+        "Colorido": 1,
+        "Cuadrupedo": 1,
+        "Bigotes": 0,
+        "Pequeno": 0,
+        "Carrera": 1,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 0,
+        "Manchas": 1,
+        "Aullido": 0,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 3209
+    },
+    {
+      "nombre": "Gallina",
+      "caracteristicas": {
+        "Colorido": 1,
+        "Cuadrupedo": 0,
+        "Bigotes": 0,
+        "Pequeno": 1,
+        "Carrera": 1,
+        "Construye": 1,
+        "Largo": 0,
+        "Gordito": 1,
+        "Manchas": 1,
+        "Aullido": 0,
+        "Huevo": 1,
+        "Salta": 1
+      },
+      "puntaje": 2523
+    },
+    {
+      "nombre": "Quetzal",
+      "caracteristicas": {
+        "Colorido": 1,
+        "Cuadrupedo": 0,
+        "Bigotes": 0,
+        "Pequeno": 1,
+        "Carrera": 0,
+        "Construye": 1,
+        "Largo": 1,
+        "Gordito": 0,
+        "Manchas": 0,
+        "Aullido": 0,
+        "Huevo": 1,
+        "Salta": 1
+      },
+      "puntaje": 2403
+    },
+    {
+      "nombre": "Huron",
+      "caracteristicas": {
+        "Colorido": 0,
+        "Cuadrupedo": 1,
+        "Bigotes": 1,
+        "Pequeno": 1,
+        "Carrera": 1,
+        "Construye": 0,
+        "Largo": 1,
+        "Gordito": 0,
+        "Manchas": 1,
+        "Aullido": 0,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 1961
+    },
+    {
+      "nombre": "Castor",
+      "caracteristicas": {
+        "Colorido": 0,
+        "Cuadrupedo": 1,
+        "Bigotes": 1,
+        "Pequeno": 1,
+        "Carrera": 0,
+        "Construye": 1,
+        "Largo": 0,
+        "Gordito": 1,
+        "Manchas": 0,
+        "Aullido": 0,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 1873
+    },
+    {
+      "nombre": "Lobo",
+      "caracteristicas": {
+        "Colorido": 0,
+        "Cuadrupedo": 1,
+        "Bigotes": 1,
+        "Pequeno": 0,
+        "Carrera": 1,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 0,
+        "Manchas": 0,
+        "Aullido": 1,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 1669
+    },
+    {
+      "nombre": "Vaca",
+      "caracteristicas": {
+        "Colorido": 0,
+        "Cuadrupedo": 1,
+        "Bigotes": 0,
+        "Pequeno": 0,
+        "Carrera": 0,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 1,
+        "Manchas": 1,
+        "Aullido": 0,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 1049
+    },
+    {
+      "nombre": "Foca",
+      "caracteristicas": {
+        "Colorido": 0,
+        "Cuadrupedo": 0,
+        "Bigotes": 1,
+        "Pequeno": 0,
+        "Carrera": 0,
+        "Construye": 0,
+        "Largo": 0,
+        "Gordito": 1,
+        "Manchas": 1,
+        "Aullido": 1,
+        "Huevo": 0,
+        "Salta": 1
+      },
+      "puntaje": 541
+    }
+  ]
+}

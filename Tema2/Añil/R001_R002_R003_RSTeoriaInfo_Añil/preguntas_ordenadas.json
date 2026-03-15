@@ -1,0 +1,128 @@
+{
+  "orden_preguntas": [
+    "Colorido",
+    "Bigotes",
+    "Carrera",
+    "Gordito",
+    "Pequeno",
+    "Manchas",
+    "Cuadrupedo",
+    "Construye",
+    "Aullido",
+    "Huevo",
+    "Largo",
+    "Salta"
+  ],
+  "detalle": [
+    {
+      "caracteristica": "Colorido",
+      "pregunta": "Tiene colores llamativos o vistosos?",
+      "si": 7,
+      "no": 5,
+      "p": 0.5833,
+      "entropia": 0.979869
+    },
+    {
+      "caracteristica": "Bigotes",
+      "pregunta": "Tiene bigotes o vibrisas largas?",
+      "si": 7,
+      "no": 5,
+      "p": 0.5833,
+      "entropia": 0.979869
+    },
+    {
+      "caracteristica": "Carrera",
+      "pregunta": "Es conocido por ser rapido o correr bien?",
+      "si": 7,
+      "no": 5,
+      "p": 0.5833,
+      "entropia": 0.979869
+    },
+    {
+      "caracteristica": "Gordito",
+      "pregunta": "Tiene cuerpo robusto o gordito?",
+      "si": 7,
+      "no": 5,
+      "p": 0.5833,
+      "entropia": 0.979869
+    },
+    {
+      "caracteristica": "Pequeno",
+      "pregunta": "Es pequeno (cabe en tus manos)?",
+      "si": 8,
+      "no": 4,
+      "p": 0.6667,
+      "entropia": 0.918296
+    },
+    {
+      "caracteristica": "Manchas",
+      "pregunta": "Tiene manchas o patrones en su piel o pelaje?",
+      "si": 8,
+      "no": 4,
+      "p": 0.6667,
+      "entropia": 0.918296
+    },
+    {
+      "caracteristica": "Cuadrupedo",
+      "pregunta": "Tiene cuatro patas?",
+      "si": 9,
+      "no": 3,
+      "p": 0.75,
+      "entropia": 0.811278
+    },
+    {
+      "caracteristica": "Construye",
+      "pregunta": "Construye algo como nido, madriguera o represa?",
+      "si": 3,
+      "no": 9,
+      "p": 0.25,
+      "entropia": 0.811278
+    },
+    {
+      "caracteristica": "Aullido",
+      "pregunta": "Emite aullidos, ladridos o mugidos fuertes?",
+      "si": 3,
+      "no": 9,
+      "p": 0.25,
+      "entropia": 0.811278
+    },
+    {
+      "caracteristica": "Huevo",
+      "pregunta": "Nace de un huevo?",
+      "si": 3,
+      "no": 9,
+      "p": 0.25,
+      "entropia": 0.811278
+    },
+    {
+      "caracteristica": "Largo",
+      "pregunta": "Su cuerpo es largo o alargado?",
+      "si": 2,
+      "no": 10,
+      "p": 0.1667,
+      "entropia": 0.650022
+    },
+    {
+      "caracteristica": "Salta",
+      "pregunta": "Salta como forma de desplazamiento?",
+      "si": 12,
+      "no": 0,
+      "p": 1.0,
+      "entropia": 0.0
+    }
+  ],
+  "pesos": {
+    "Colorido": 2048,
+    "Cuadrupedo": 1024,
+    "Bigotes": 512,
+    "Pequeno": 256,
+    "Carrera": 128,
+    "Construye": 64,
+    "Largo": 32,
+    "Gordito": 16,
+    "Manchas": 8,
+    "Aullido": 4,
+    "Huevo": 2,
+    "Salta": 1
+  }
+}
