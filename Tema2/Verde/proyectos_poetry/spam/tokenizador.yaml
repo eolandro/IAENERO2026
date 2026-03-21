@@ -1,0 +1,45 @@
+cuenta:
+  frecuencia: 6
+  probabilidad: 0.8
+sido:
+  frecuencia: 3
+  probabilidad: 0.6
+seguridad:
+  frecuencia: 3
+  probabilidad: 0.6
+estimado:
+  frecuencia: 2
+  probabilidad: 0.4
+debido:
+  frecuencia: 2
+  probabilidad: 0.4
+debe:
+  frecuencia: 2
+  probabilidad: 0.4
+tarjeta:
+  frecuencia: 2
+  probabilidad: 0.4
+evitar:
+  frecuencia: 2
+  probabilidad: 0.4
+https:
+  frecuencia: 2
+  probabilidad: 0.4
+restablecer:
+  frecuencia: 2
+  probabilidad: 0.4
+segura:
+  frecuencia: 2
+  probabilidad: 0.4
+nuestro:
+  frecuencia: 2
+  probabilidad: 0.4
+usd:
+  frecuencia: 3
+  probabilidad: 0.4
+tarifa:
+  frecuencia: 2
+  probabilidad: 0.4
+horas:
+  frecuencia: 2
+  probabilidad: 0.4
