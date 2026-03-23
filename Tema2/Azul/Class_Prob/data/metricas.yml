@@ -1,0 +1,10 @@
+matriz_confusion:
+  verdadero_positivo_TP: 4
+  verdadero_negativo_TN: 4
+  falso_positivo_FP: 2
+  falso_negativo_FN: 0
+metricas:
+  accuracy: 0.8
+  precision: 0.6667
+  recall: 1.0
+  prevalence: 0.4

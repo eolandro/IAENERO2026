@@ -1,0 +1,23 @@
+# Mensajes nuevos para clasificación
+# El clasificador determinará si son spam o no_spam
+mensajes:
+  - id: 1
+    texto: "Gana un viaje gratis a Cancún. Haz clic en el enlace para participar."
+  - id: 2
+    texto: "Hola, ¿quedamos mañana para revisar el avance del proyecto?"
+  - id: 3
+    texto: "Oferta increíble: Préstamos sin intereses. Solicita ahora mismo."
+  - id: 4
+    texto: "Te envío los apuntes de la clase de hoy, avísame si los recibes."
+  - id: 5
+    texto: "¡Felicidades! Ganaste una tarjeta regalo de 500 dólares. Reclama aquí."
+  - id: 6
+    texto: "Nos vemos en la junta de las tres de la tarde para discutir el presupuesto."
+  - id: 7
+    texto: "Descuento exclusivo del 90 por ciento solo para ti. Compra ahora."
+  - id: 8
+    texto: "Muchas gracias por tu ayuda con el informe, quedó muy bien."
+  - id: 9
+    texto: "Tu cuenta será suspendida si no verificas tus datos inmediatamente."
+  - id: 10
+    texto: "¿Puedes recoger a los niños hoy de la escuela? Salgo tarde del trabajo."

@@ -1,0 +1,16 @@
+[project]
+name = "class-prob"
+version = "0.1.0"
+description = "Clasificador basado en Probabilidad Condicional"
+authors = ["team azul"]
+requires-python = ">=3.10"
+dependencies = [
+    "ruamel.yaml>=0.18.0"
+]
+
+[tool.poetry]
+packages = [{include = "class_prob"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

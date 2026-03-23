@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "boom-bay"
+version = "0.1.0"
+description = "Toma de decisiones con Bayes - Simulador de búsqueda bayesiana de bombas"
+authors = ["team azul"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"ruamel.yaml" = "^0.18"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,32 @@
+mensajes_etiquetados:
+- id: 1
+  texto: "¡Felicidades! Has ganado un iPhone 15. Haz clic aquí para reclamarlo ahora."
+  etiqueta: spam
+- id: 2
+  texto: "Hola, te confirmo la reunión de mañana a las 10 en la oficina."
+  etiqueta: no_spam
+- id: 3
+  texto: "OFERTA EXCLUSIVA: Gana dinero fácil desde casa, regístrate gratis hoy."
+  etiqueta: spam
+- id: 4
+  texto: "¿Puedes enviarme el reporte de ventas del mes pasado por favor?"
+  etiqueta: no_spam
+- id: 5
+  texto: "Urgente: Tu cuenta bancaria ha sido bloqueada. Verifica tus datos aquí."
+  etiqueta: no_spam
+- id: 6
+  texto: "Recuerda que el viernes es la fecha límite para entregar el proyecto."
+  etiqueta: no_spam
+- id: 7
+  texto: "Promoción especial: Compra uno y llévate otro gratis. Solo por hoy."
+  etiqueta: spam
+- id: 8
+  texto: "Buenos días, adjunto el archivo con la presentación actualizada."
+  etiqueta: no_spam
+- id: 9
+  texto: "Has sido seleccionado para recibir un premio de 10000 dólares. Responde
+    ahora."
+  etiqueta: spam
+- id: 10
+  texto: "Te mando la dirección del restaurante para la cena del sábado."
+  etiqueta: no_spam

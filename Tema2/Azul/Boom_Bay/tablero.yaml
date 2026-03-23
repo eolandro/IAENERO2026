@@ -1,0 +1,10 @@
+# Tablero de Boom_Bay (5 filas x 10 columnas)
+# Filas: A-E, Columnas: 1-10
+# 0 = vacío, 1 = bomba
+# Solo hay UNA bomba en todo el tablero
+
+A: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+B: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+C: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+D: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+E: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]

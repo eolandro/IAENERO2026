@@ -1,0 +1,91 @@
+mensajes_clasificados:
+- id: 1
+  texto: "Gana un viaje gratis a Cancún. Haz clic en el enlace para participar."
+  etiqueta: spam
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    umbral: spam
+    ratio: spam
+- id: 2
+  texto: "Hola, ¿quedamos mañana para revisar el avance del proyecto?"
+  etiqueta: no_spam
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: no_spam
+    umbral: no_spam
+    ratio: no_spam
+- id: 3
+  texto: "Oferta increíble: Préstamos sin intereses. Solicita ahora mismo."
+  etiqueta: spam
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    umbral: spam
+    ratio: spam
+- id: 4
+  texto: "Te envío los apuntes de la clase de hoy, avísame si los recibes."
+  etiqueta: spam
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    umbral: spam
+    ratio: spam
+- id: 5
+  texto: "¡Felicidades! Ganaste una tarjeta regalo de 500 dólares. Reclama aquí."
+  etiqueta: spam
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    umbral: spam
+    ratio: spam
+- id: 6
+  texto: "Nos vemos en la junta de las tres de la tarde para discutir el presupuesto."
+  etiqueta: no_spam
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: no_spam
+    umbral: no_spam
+    ratio: no_spam
+- id: 7
+  texto: "Descuento exclusivo del 90 por ciento solo para ti. Compra ahora."
+  etiqueta: spam
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    umbral: spam
+    ratio: spam
+- id: 8
+  texto: "Muchas gracias por tu ayuda con el informe, quedó muy bien."
+  etiqueta: no_spam
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: no_spam
+    umbral: no_spam
+    ratio: no_spam
+- id: 9
+  texto: "Tu cuenta será suspendida si no verificas tus datos inmediatamente."
+  etiqueta: no_spam
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: no_spam
+    umbral: no_spam
+    ratio: no_spam
+- id: 10
+  texto: "¿Puedes recoger a los niños hoy de la escuela? Salgo tarde del trabajo."
+  etiqueta: spam
+  votos:
+    media: spam
+    mediana: spam
+    moda: no_spam
+    umbral: spam
+    ratio: spam
