@@ -1,0 +1,40 @@
+SPAM
+
+"Estimado usuario, su cuenta de PayPal ha sido bloqueada permanentemente debido a actividad sospechosa en el extranjero. 
+Debe verificar inmediatamente su identidad y su información de tarjeta de crédito para evitar la pérdida total de los fondos. 
+Haga clic en el siguiente enlace de seguridad para desbloquear su acceso: https://paypal-verificacion-urgente.net/restablecer-cuenta-segura."
+
+"¡Felicitaciones! Ha sido seleccionado en nuestro sorteo aleatorio de la Fundación Bill y Melinda Gates como ganador de un premio de $50,000 USD. 
+Para procesar la transferencia, necesitamos que envíe una tarifa de procesamiento legal de $250 USD a nuestra cuenta fiduciaria antes de 72 horas. 
+Responda a este correo para recibir los detalles de la transferencia bancaria."
+
+"ALERTA DE SEGURIDAD CRÍTICA. Hemos detectado múltiples intentos de inicio de sesión no autorizados en su cuenta de Microsoft 365 desde una IP en Rusia. 
+Su cuenta está comprometida. Llame de inmediato a nuestro equipo de soporte técnico certificado de Microsoft al número de emergencia: +1-800-456-7890. 
+No use su PC o teléfono hasta que un técnico revise el problema."
+
+"Su paquete con número de rastreo #DHL98765432 no ha podido ser entregado porque se requiere un pago aduanal de $4.99 USD. 
+Si no realiza el pago en las próximas 6 horas, el paquete será devuelto al remitente. 
+Pague la tarifa de envío aquí: http://servicios-aduanales-envio.com/pago-pendiente."
+
+"Estimado cliente, su cuenta bancaria ha sido suspendida temporalmente debido a la falta de actualización de nuestros nuevos términos y condiciones (GDPR). 
+Para restablecer el servicio completo y evitar la anulación de su tarjeta, debe completar el formulario de autenticación segura. 
+Acceda al formulario ahora: https://www.bancodelvalle-seguridad.com/actualizar-datos-cliente."
+
+NO SPAM
+
+"Confirmación de su pedido #4592 de Amazon. Su artículo 'Libro Python para Data Science' se ha enviado y se espera que llegue el viernes 10 de octubre. 
+Puede rastrear su pedido y ver los detalles de la compra en su portal principal de Amazon."
+
+"Notificación de LinkedIn: ¡Felicidades! Se ha postulado para el puesto de 'Analista de Datos Jr.' en TechSolutions.
+ Su solicitud ha sido recibida y está siendo revisada por el equipo de contratación. 
+Recibirá una actualización sobre el estado de su candidatura en un plazo de 7 a 10 días hábiles."
+
+"Adjunto a este correo se encuentra su recibo fiscal del mes de septiembre de 2025 (archivo: Factura_SEP_2025.pdf). 
+El monto total es de $1,250.00 MXN. Gracias por su pago oportuno. Si tiene alguna pregunta, responda a esta dirección de correo electrónico 
+o llame a la línea de soporte."
+
+"Google Calendar: Recordatorio para su reunión de equipo sobre 'Revisión del Presupuesto Q4'. La reunión comienza en 15 minutos (3:30 PM CST)
+ y se llevará a cabo a través de Google Meet. Enlace: https://meet.google.com/abc-defg-hij."
+
+"Su contraseña para la plataforma educativa Coursera ha sido cambiada exitosamente a las 10:15 AM. Si usted no realizó este cambio, por favor, 
+contacte inmediatamente a nuestro soporte técnico para asegurar su cuenta. Su seguridad es importante para nosotros."

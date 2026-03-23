@@ -1,0 +1,65 @@
+SPAM
+
+"Su cuenta de Netflix será suspendida en 24 horas por falta de confirmación de los datos de pago.
+Para evitar la cancelación de su suscripción y pérdida de historial, ingrese aquí: https://netflix-verificaahora.com/confirmacion
+.
+Actualice su método de pago de inmediato para seguir disfrutando del servicio."
+
+SPAM
+
+"Hemos detectado una transacción no autorizada por $1,289.00 USD en su cuenta de Apple ID.
+Si usted no realizó esta compra, ingrese de inmediato al centro de resolución de cargos:
+https://appleid-alerta-pagos.com/fraude-deteccion
+. Evite bloqueos automáticos."
+
+SPAM
+
+"Hola, soy el abogado personal del Sr. Samuel Osei, un millonario recientemente fallecido sin herederos.
+Su nombre ha sido seleccionado para recibir una herencia de $2.5 millones de dólares.
+Por favor, envíe su información personal para iniciar el proceso legal de transferencia."
+
+SPAM
+
+"¡Oferta exclusiva! Gane un iPhone 15 Pro completando una breve encuesta sobre su experiencia de compra.
+Solo quedan 3 dispositivos disponibles. Complete la encuesta y reclámelo ahora:
+http://encuesta-cliente-premio.com/iphonegratis
+."
+
+SPAM
+
+"Recibimos una solicitud para cerrar permanentemente su cuenta de correo electrónico.
+Si no fue usted quien inició este proceso, cancele la solicitud de inmediato haciendo clic aquí:
+https://soporte-correoseguro.com/cancelacion-de-cuenta
+."
+
+NO SPAM
+
+"Gracias por registrarse en nuestro boletín mensual de la Secretaría de Salud.
+Recibirá actualizaciones sobre campañas de vacunación, prevención y salud pública cada primer lunes del mes.
+Si desea cancelar su suscripción, puede hacerlo desde el enlace al pie del boletín."
+
+NO SPAM
+
+"Le informamos que su recibo de luz correspondiente al periodo SEP-OCT 2025 está disponible.
+Monto a pagar: $856.70 MXN. Fecha límite de pago: 12 de octubre.
+Puede descargar su recibo y realizar el pago desde su portal en www.cfe.mx
+."
+
+NO SPAM
+
+"Confirmamos su inscripción al curso virtual 'Fundamentos de Excel para Negocios', que comienza el 15 de octubre.
+Acceda al contenido desde su panel de usuario. Las clases quedarán grabadas para consulta posterior.
+Gracias por confiar en nuestra plataforma de aprendizaje."
+
+NO SPAM
+
+"Actualización del sistema: Su dispositivo ha sido programado para recibir la última versión del sistema operativo
+mañana a las 2:00 AM. Asegúrese de tener al menos 50% de batería y conexión Wi-Fi.
+No es necesario realizar ninguna acción adicional."
+
+NO SPAM
+
+"Su solicitud para modificar los datos fiscales en el portal SAT ha sido recibida correctamente.
+En un plazo de 48 horas recibirá la resolución oficial en su buzón tributario.
+Para más información, visite: https://www.sat.gob.mx/tramites/facturacion-electronica
+."
