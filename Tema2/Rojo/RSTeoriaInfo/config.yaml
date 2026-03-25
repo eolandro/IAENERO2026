@@ -1,0 +1,211 @@
+# ============================================================
+# RSTeoriaInfo - CONFIGURACION PRINCIPAL
+# Version mejorada para practica de sistema experto
+# ============================================================
+
+caracteristicas:
+  Domestico:
+    peso: 2048
+    pregunta: "Vive normalmente con personas (casa o granja)?"
+  Pelaje:
+    peso: 1024
+    pregunta: "Tiene pelo o pelaje?"
+  Pico:
+    peso: 512
+    pregunta: "Tiene pico?"
+  Acuatico:
+    peso: 256
+    pregunta: "Pasa mucho tiempo en el agua?"
+  ComePasto:
+    peso: 128
+    pregunta: "Es de granja y come pasto casi todo el dia?"
+  Nocturno:
+    peso: 64
+    pregunta: "Es mas activo de noche?"
+  Madriguera:
+    peso: 32
+    pregunta: "Vive o se esconde en madrigueras?"
+  ColaLarga:
+    peso: 16
+    pregunta: "Tiene cola larga?"
+  Garras:
+    peso: 8
+    pregunta: "Tiene garras marcadas?"
+  SonidoFuerte:
+    peso: 4
+    pregunta: "Hace sonidos fuertes?"
+  Oviparo:
+    peso: 2
+    pregunta: "Nace de huevo?"
+  Trepa:
+    peso: 1
+    pregunta: "Trepa con facilidad?"
+
+animales:
+  Perro:
+    Domestico:   1
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    0
+    Madriguera:  0
+    ColaLarga:   0
+    Garras:      1
+    SonidoFuerte: 1
+    Oviparo:     0
+    Trepa:       0
+
+  Gato:
+    Domestico:   1
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    1
+    Madriguera:  0
+    ColaLarga:   1
+    Garras:      1
+    SonidoFuerte: 0
+    Oviparo:     0
+    Trepa:       1
+
+  Hamster:
+    Domestico:   1
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    1
+    Madriguera:  1
+    ColaLarga:   0
+    Garras:      0
+    SonidoFuerte: 0
+    Oviparo:     0
+    Trepa:       1
+
+  Sapo:
+    Domestico:   0
+    Pelaje:      0
+    Pico:        0
+    Acuatico:    1
+    ComePasto:   0
+    Nocturno:    1
+    Madriguera:  1
+    ColaLarga:   0
+    Garras:      0
+    SonidoFuerte: 0
+    Oviparo:     1
+    Trepa:       0
+
+  Caballo:
+    Domestico:   1
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    0
+    Madriguera:  0
+    ColaLarga:   1
+    Garras:      0
+    SonidoFuerte: 0
+    Oviparo:     0
+    Trepa:       0
+
+  Gallina:
+    Domestico:   1
+    Pelaje:      0
+    Pico:        1
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    0
+    Madriguera:  0
+    ColaLarga:   0
+    Garras:      0
+    SonidoFuerte: 1
+    Oviparo:     1
+    Trepa:       0
+
+  Quetzal:
+    Domestico:   0
+    Pelaje:      0
+    Pico:        1
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    0
+    Madriguera:  0
+    ColaLarga:   1
+    Garras:      0
+    SonidoFuerte: 1
+    Oviparo:     1
+    Trepa:       1
+
+  Huron:
+    Domestico:   0
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    1
+    Madriguera:  1
+    ColaLarga:   1
+    Garras:      1
+    SonidoFuerte: 0
+    Oviparo:     0
+    Trepa:       1
+
+  Castor:
+    Domestico:   0
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    1
+    ComePasto:   0
+    Nocturno:    0
+    Madriguera:  1
+    ColaLarga:   1
+    Garras:      1
+    SonidoFuerte: 0
+    Oviparo:     0
+    Trepa:       0
+
+  Lobo:
+    Domestico:   0
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    0
+    ComePasto:   0
+    Nocturno:    1
+    Madriguera:  0
+    ColaLarga:   1
+    Garras:      1
+    SonidoFuerte: 1
+    Oviparo:     0
+    Trepa:       0
+
+  Vaca:
+    Domestico:   1
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    0
+    ComePasto:   1
+    Nocturno:    0
+    Madriguera:  0
+    ColaLarga:   1
+    Garras:      0
+    SonidoFuerte: 1
+    Oviparo:     0
+    Trepa:       0
+
+  Foca:
+    Domestico:   0
+    Pelaje:      1
+    Pico:        0
+    Acuatico:    1
+    ComePasto:   0
+    Nocturno:    0
+    Madriguera:  0
+    ColaLarga:   0
+    Garras:      0
+    SonidoFuerte: 1
+    Oviparo:     0
+    Trepa:       0

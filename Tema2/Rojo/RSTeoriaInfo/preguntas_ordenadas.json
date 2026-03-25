@@ -1,0 +1,92 @@
+{
+  "orden_preguntas": [
+    "Domestico",
+    "Pelaje",
+    "Pico",
+    "Acuatico",
+    "ComePasto",
+    "Nocturno",
+    "Madriguera",
+    "ColaLarga",
+    "Garras",
+    "SonidoFuerte",
+    "Oviparo",
+    "Trepa"
+  ],
+  "detalle": [
+    {
+      "caracteristica": "Domestico",
+      "pregunta": "Vive normalmente con personas (casa o granja)?",
+      "peso": 2048
+    },
+    {
+      "caracteristica": "Pelaje",
+      "pregunta": "Tiene pelo o pelaje?",
+      "peso": 1024
+    },
+    {
+      "caracteristica": "Pico",
+      "pregunta": "Tiene pico?",
+      "peso": 512
+    },
+    {
+      "caracteristica": "Acuatico",
+      "pregunta": "Pasa mucho tiempo en el agua?",
+      "peso": 256
+    },
+    {
+      "caracteristica": "ComePasto",
+      "pregunta": "Es de granja y come pasto casi todo el dia?",
+      "peso": 128
+    },
+    {
+      "caracteristica": "Nocturno",
+      "pregunta": "Es mas activo de noche?",
+      "peso": 64
+    },
+    {
+      "caracteristica": "Madriguera",
+      "pregunta": "Vive o se esconde en madrigueras?",
+      "peso": 32
+    },
+    {
+      "caracteristica": "ColaLarga",
+      "pregunta": "Tiene cola larga?",
+      "peso": 16
+    },
+    {
+      "caracteristica": "Garras",
+      "pregunta": "Tiene garras marcadas?",
+      "peso": 8
+    },
+    {
+      "caracteristica": "SonidoFuerte",
+      "pregunta": "Hace sonidos fuertes?",
+      "peso": 4
+    },
+    {
+      "caracteristica": "Oviparo",
+      "pregunta": "Nace de huevo?",
+      "peso": 2
+    },
+    {
+      "caracteristica": "Trepa",
+      "pregunta": "Trepa con facilidad?",
+      "peso": 1
+    }
+  ],
+  "pesos": {
+    "Domestico": 2048,
+    "Pelaje": 1024,
+    "Pico": 512,
+    "Acuatico": 256,
+    "ComePasto": 128,
+    "Nocturno": 64,
+    "Madriguera": 32,
+    "ColaLarga": 16,
+    "Garras": 8,
+    "SonidoFuerte": 4,
+    "Oviparo": 2,
+    "Trepa": 1
+  }
+}

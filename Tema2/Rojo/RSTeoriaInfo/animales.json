@@ -1,0 +1,262 @@
+{
+  "caracteristicas": [
+    "Domestico",
+    "Pelaje",
+    "Pico",
+    "Acuatico",
+    "ComePasto",
+    "Nocturno",
+    "Madriguera",
+    "ColaLarga",
+    "Garras",
+    "SonidoFuerte",
+    "Oviparo",
+    "Trepa"
+  ],
+  "pesos": {
+    "Domestico": 2048,
+    "Pelaje": 1024,
+    "Pico": 512,
+    "Acuatico": 256,
+    "ComePasto": 128,
+    "Nocturno": 64,
+    "Madriguera": 32,
+    "ColaLarga": 16,
+    "Garras": 8,
+    "SonidoFuerte": 4,
+    "Oviparo": 2,
+    "Trepa": 1
+  },
+  "preguntas": {
+    "Domestico": "Vive normalmente con personas (casa o granja)?",
+    "Pelaje": "Tiene pelo o pelaje?",
+    "Pico": "Tiene pico?",
+    "Acuatico": "Pasa mucho tiempo en el agua?",
+    "ComePasto": "Es de granja y come pasto casi todo el dia?",
+    "Nocturno": "Es mas activo de noche?",
+    "Madriguera": "Vive o se esconde en madrigueras?",
+    "ColaLarga": "Tiene cola larga?",
+    "Garras": "Tiene garras marcadas?",
+    "SonidoFuerte": "Hace sonidos fuertes?",
+    "Oviparo": "Nace de huevo?",
+    "Trepa": "Trepa con facilidad?"
+  },
+  "animales": [
+    {
+      "nombre": "Perro",
+      "caracteristicas": {
+        "Domestico": 1,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 0,
+        "Madriguera": 0,
+        "ColaLarga": 0,
+        "Garras": 1,
+        "SonidoFuerte": 1,
+        "Oviparo": 0,
+        "Trepa": 0
+      },
+      "puntaje": 3084
+    },
+    {
+      "nombre": "Gato",
+      "caracteristicas": {
+        "Domestico": 1,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 1,
+        "Madriguera": 0,
+        "ColaLarga": 1,
+        "Garras": 1,
+        "SonidoFuerte": 0,
+        "Oviparo": 0,
+        "Trepa": 1
+      },
+      "puntaje": 3161
+    },
+    {
+      "nombre": "Hamster",
+      "caracteristicas": {
+        "Domestico": 1,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 1,
+        "Madriguera": 1,
+        "ColaLarga": 0,
+        "Garras": 0,
+        "SonidoFuerte": 0,
+        "Oviparo": 0,
+        "Trepa": 1
+      },
+      "puntaje": 3169
+    },
+    {
+      "nombre": "Sapo",
+      "caracteristicas": {
+        "Domestico": 0,
+        "Pelaje": 0,
+        "Pico": 0,
+        "Acuatico": 1,
+        "ComePasto": 0,
+        "Nocturno": 1,
+        "Madriguera": 1,
+        "ColaLarga": 0,
+        "Garras": 0,
+        "SonidoFuerte": 0,
+        "Oviparo": 1,
+        "Trepa": 0
+      },
+      "puntaje": 354
+    },
+    {
+      "nombre": "Caballo",
+      "caracteristicas": {
+        "Domestico": 1,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 0,
+        "Madriguera": 0,
+        "ColaLarga": 1,
+        "Garras": 0,
+        "SonidoFuerte": 0,
+        "Oviparo": 0,
+        "Trepa": 0
+      },
+      "puntaje": 3088
+    },
+    {
+      "nombre": "Gallina",
+      "caracteristicas": {
+        "Domestico": 1,
+        "Pelaje": 0,
+        "Pico": 1,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 0,
+        "Madriguera": 0,
+        "ColaLarga": 0,
+        "Garras": 0,
+        "SonidoFuerte": 1,
+        "Oviparo": 1,
+        "Trepa": 0
+      },
+      "puntaje": 2566
+    },
+    {
+      "nombre": "Quetzal",
+      "caracteristicas": {
+        "Domestico": 0,
+        "Pelaje": 0,
+        "Pico": 1,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 0,
+        "Madriguera": 0,
+        "ColaLarga": 1,
+        "Garras": 0,
+        "SonidoFuerte": 1,
+        "Oviparo": 1,
+        "Trepa": 1
+      },
+      "puntaje": 535
+    },
+    {
+      "nombre": "Huron",
+      "caracteristicas": {
+        "Domestico": 0,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 1,
+        "Madriguera": 1,
+        "ColaLarga": 1,
+        "Garras": 1,
+        "SonidoFuerte": 0,
+        "Oviparo": 0,
+        "Trepa": 1
+      },
+      "puntaje": 1145
+    },
+    {
+      "nombre": "Castor",
+      "caracteristicas": {
+        "Domestico": 0,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 1,
+        "ComePasto": 0,
+        "Nocturno": 0,
+        "Madriguera": 1,
+        "ColaLarga": 1,
+        "Garras": 1,
+        "SonidoFuerte": 0,
+        "Oviparo": 0,
+        "Trepa": 0
+      },
+      "puntaje": 1336
+    },
+    {
+      "nombre": "Lobo",
+      "caracteristicas": {
+        "Domestico": 0,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 0,
+        "ComePasto": 0,
+        "Nocturno": 1,
+        "Madriguera": 0,
+        "ColaLarga": 1,
+        "Garras": 1,
+        "SonidoFuerte": 1,
+        "Oviparo": 0,
+        "Trepa": 0
+      },
+      "puntaje": 1116
+    },
+    {
+      "nombre": "Vaca",
+      "caracteristicas": {
+        "Domestico": 1,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 0,
+        "ComePasto": 1,
+        "Nocturno": 0,
+        "Madriguera": 0,
+        "ColaLarga": 1,
+        "Garras": 0,
+        "SonidoFuerte": 1,
+        "Oviparo": 0,
+        "Trepa": 0
+      },
+      "puntaje": 3220
+    },
+    {
+      "nombre": "Foca",
+      "caracteristicas": {
+        "Domestico": 0,
+        "Pelaje": 1,
+        "Pico": 0,
+        "Acuatico": 1,
+        "ComePasto": 0,
+        "Nocturno": 0,
+        "Madriguera": 0,
+        "ColaLarga": 0,
+        "Garras": 0,
+        "SonidoFuerte": 1,
+        "Oviparo": 0,
+        "Trepa": 0
+      },
+      "puntaje": 1284
+    }
+  ]
+}

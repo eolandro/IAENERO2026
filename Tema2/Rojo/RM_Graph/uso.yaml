@@ -1,0 +1,100 @@
+# Grafo de las formas de clasificación de la materia en la IA, en la que se tienen formas de
+# 0, 3,4,5,6 y 7 formas de clasificación, cada una con sus respectivas ramas y subramas.
+#
+# PO Cuántos lados tiene?
+# P02 Radio constante?- para circulo y elipse
+#
+# Tenemos estado inicial el cual es igual a PO, de ahí busco en la
+# tabla de preguntas, chaco en la lista y donde aparezca el simbolo del medio es la posible respuesta
+#
+# Que el programa solo tenga 5 ifs
+#
+# piensa en tu figura (mostrar posibles figuras)
+# a partir de las respuestas adivinar la figura
+#
+# Es monótono, no puede adivinar nada que no tenga dentro del grafo
+#
+# Figuras:
+# 0
+# - Círculo
+# - Elipse
+# 3
+# - Triángulo rectángulo
+# - Triángulo isósceles
+# - Triángulo escaleno
+# - Triangulo equilátero
+# 4
+# - Cuadrado
+# - Rectángulo
+# - Rombo
+# - Trapecio
+# - Romboide
+# - Trapecio rectángulo
+# 5
+# - Pentágono
+# 6
+# - Hexágono
+# 7
+# - Heptágono
+
+grafo:
+  inicio: P0
+  nodos:
+    P0:
+      pregunta: "Cuántos lados tiene?"
+      transiciones:
+        "0": P01
+        "3": P02
+        "4": P03
+        "5": PENTAGONO
+        "6": HEXAGONO
+        "7": HEPTAGONO
+
+    P01:
+      pregunta: "Radio constante?"
+      transiciones:
+        s: Circulo
+        n: Elipse
+
+    P02:
+      pregunta: "Ángulo recto?"
+      transiciones:
+        s: Triangulo rectangulo
+        n: P02N1
+
+    P02N1:
+      pregunta: "Número de lados iguales?"
+      transiciones:
+        "1": Triangulo escaleno
+        "2": Triangulo isosceles
+        "3": Triangulo equilatero
+
+    P03:
+      pregunta: "Tiene dos pares de lados paralelos?"
+      transiciones:
+        s: P03S1
+        n: P03N1
+
+    P03S1:
+      pregunta: "Tiene 4 ángulos rectos?"
+      transiciones:
+        s: P03S2
+        n: P03N2
+
+    P03S2:
+      pregunta: "Tiene 4 lados iguales?"
+      transiciones:
+        s: CUADRADO
+        n: RECTANGULO
+
+    P03N2:
+      pregunta: "Tiene 4 lados iguales?"
+      transiciones:
+        s: ROMBO
+        n: ROMBOIDE
+
+    P03N1:
+      pregunta: "Tiene un ángulo recto?"
+      transiciones:
+        s: TRAPECIO RECTANGULO
+        n: TRAPECIO
