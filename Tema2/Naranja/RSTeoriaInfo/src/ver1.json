@@ -1,0 +1,50 @@
+[
+    {
+        "animal": "Quetzal",
+        "caracteristica": "Colorido"
+    },
+    {
+        "animal": "Perro",
+        "caracteristica": "Cuadrupedo"
+    },
+    {
+        "animal": "Gato",
+        "caracteristica": "Bigotes"
+    },
+    {
+        "animal": "Hamster",
+        "caracteristica": "Peque\u00f1o"
+    },
+    {
+        "animal": "Caballo",
+        "caracteristica": "Carrera"
+    },
+    {
+        "animal": "Castor",
+        "caracteristica": "Construye"
+    },
+    {
+        "animal": "Huron",
+        "caracteristica": "Largo"
+    },
+    {
+        "animal": "Foca",
+        "caracteristica": "Gordita"
+    },
+    {
+        "animal": "Vaca",
+        "caracteristica": "Manchada"
+    },
+    {
+        "animal": "Lobo",
+        "caracteristica": "Aullido"
+    },
+    {
+        "animal": "Gallina",
+        "caracteristica": "Huevo"
+    },
+    {
+        "animal": "Sapo",
+        "caracteristica": "Salta"
+    }
+]
