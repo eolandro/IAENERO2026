@@ -1,0 +1,92 @@
+{
+  "P0": {
+    "pregunta": "¿La figura tiene lados rectos (S/N)? ",
+    "respuestas": {
+      "N": "P1",
+      "S": "P2"
+    }
+  },
+
+  "P1": {
+    "pregunta": "¿La figura es completamente redonda (S/N)?",
+    "respuestas": {
+      "S": "Circulo",
+      "N": "Elipse"
+    }
+  },
+
+  "P2": {
+    "pregunta": "¿Cuántos lados tiene la figura, de 3 a 7?",
+    "respuestas": {
+      "3": "P3",
+      "4": "P4",
+      "5": "Pentagono",
+      "6": "Hexagono",
+      "7": "Heptagono"
+    }
+  },
+
+  "P3": {
+    "pregunta": "¿Todos sus lados son iguales (S/N)?",
+    "respuestas": {
+      "S": "Triangulo Equilatero",
+      "N": "P3_1"
+    }
+  },
+
+  "P3_1": {
+    "pregunta": "¿Tiene un ángulo recto (S/N)?",
+    "respuestas": {
+      "S": "Triangulo Rectangulo",
+      "N": "P3_2"
+    }
+  },
+
+  "P3_2": {
+    "pregunta": "¿Tiene dos lados iguales (S/N)?",
+    "respuestas": {
+      "S": "Triangulo Isoceles",
+      "N": "Triangulo Escaleno"
+    }
+  },
+
+  "P4": {
+    "pregunta": "¿Todos sus lados son iguales (S/N)?",
+    "respuestas": {
+      "S": "P4_1",
+      "N": "P4_2"
+    }
+  },
+
+  "P4_1": {
+    "pregunta": "¿Todos sus ángulos son rectos (S/N)?",
+    "respuestas": {
+      "S": "Cuadrado",
+      "N": "Rombo"
+    }
+  },
+
+  "P4_2": {
+    "pregunta": "¿Tiene todos los ángulos rectos (S/N)?",
+    "respuestas": {
+      "S": "Rectangulo",
+      "N": "P4_3"
+    }
+  },
+
+  "P4_3": {
+    "pregunta": "¿Tiene solo un par de lados paralelos (S/N)?",
+    "respuestas": {
+      "S": "P4_4",
+      "N": "Romboide"
+    }
+  },
+
+  "P4_4": {
+    "pregunta": "¿Tiene un ángulo recto (S/N)?",
+    "respuestas": {
+      "S": "Trapecio Rectangulo",
+      "N": "Trapecio Regular"
+    }
+  }
+}
