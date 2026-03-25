@@ -1,0 +1,186 @@
+metadata:
+  nombre: Base de conocimiento - Animales
+  version: '1.0'
+  num_animales: 12
+caracteristicas_generales:
+  - aulla
+  - carreras
+  - dentudo
+  - fiel
+  - largo
+  - leche
+  - maulla
+  - nadar
+  - ovipara
+  - regordete
+  - saltarin
+  - vuela
+animales:
+  - nombre: perro
+    caracteristicas:
+      aulla: false
+      carreras: true
+      dentudo: false
+      fiel: true
+      largo: true
+      leche: true
+      maulla: false
+      nadar: true
+      ovipara: false
+      regordete: true
+      saltarin: false
+      vuela: false
+  - nombre: gato
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: true
+      largo: true
+      leche: true
+      maulla: true
+      nadar: false
+      ovipara: false
+      regordete: true
+      saltarin: true
+      vuela: false
+  - nombre: caballo
+    caracteristicas:
+      aulla: false
+      carreras: true
+      dentudo: false
+      fiel: true
+      largo: false
+      leche: true
+      maulla: false
+      nadar: true
+      ovipara: false
+      regordete: false
+      saltarin: true
+      vuela: false
+  - nombre: sapo
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: false
+      leche: false
+      maulla: false
+      nadar: true
+      ovipara: true
+      regordete: true
+      saltarin: true
+      vuela: false
+  - nombre: lobo
+    caracteristicas:
+      aulla: true
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: false
+      leche: true
+      maulla: false
+      nadar: true
+      ovipara: false
+      regordete: false
+      saltarin: false
+      vuela: false
+  - nombre: quetzal
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: true
+      leche: false
+      maulla: false
+      nadar: false
+      ovipara: true
+      regordete: false
+      saltarin: false
+      vuela: true
+  - nombre: gallina
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: false
+      leche: false
+      maulla: false
+      nadar: true
+      ovipara: true
+      regordete: true
+      saltarin: false
+      vuela: false
+  - nombre: hamster
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: false
+      leche: true
+      maulla: false
+      nadar: false
+      ovipara: false
+      regordete: true
+      saltarin: false
+      vuela: false
+  - nombre: castor
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: true
+      fiel: false
+      largo: false
+      leche: true
+      maulla: false
+      nadar: true
+      ovipara: false
+      regordete: false
+      saltarin: false
+      vuela: false
+  - nombre: huron
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: true
+      leche: true
+      maulla: false
+      nadar: true
+      ovipara: false
+      regordete: false
+      saltarin: false
+      vuela: false
+  - nombre: vaca
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: false
+      leche: true
+      maulla: false
+      nadar: true
+      ovipara: false
+      regordete: true
+      saltarin: false
+      vuela: false
+  - nombre: foca
+    caracteristicas:
+      aulla: false
+      carreras: false
+      dentudo: false
+      fiel: false
+      largo: false
+      leche: true
+      maulla: false
+      nadar: true
+      ovipara: false
+      regordete: true
+      saltarin: true
+      vuela: false

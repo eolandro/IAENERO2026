@@ -1,0 +1,217 @@
+metadata:
+  nombre: Base de conocimiento ENTRENADA
+  version: '2.0'
+  num_animales: 12
+  num_caracteristicas: 12
+  metodo_pesos: potencias_de_2
+caracteristicas:
+- aulla
+- carreras
+- dentudo
+- fiel
+- largo
+- leche
+- maulla
+- nadar
+- ovipara
+- regordete
+- saltarin
+- vuela
+pesos:
+  aulla: 1
+  carreras: 2
+  dentudo: 4
+  fiel: 8
+  largo: 16
+  leche: 32
+  maulla: 64
+  nadar: 128
+  ovipara: 256
+  regordete: 512
+  saltarin: 1024
+  vuela: 2048
+animales:
+- nombre: quetzal
+  valor: 2320
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: true
+    leche: false
+    maulla: false
+    nadar: false
+    ovipara: true
+    regordete: false
+    saltarin: false
+    vuela: true
+- nombre: sapo
+  valor: 1920
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: false
+    leche: false
+    maulla: false
+    nadar: true
+    ovipara: true
+    regordete: true
+    saltarin: true
+    vuela: false
+- nombre: foca
+  valor: 1696
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: false
+    leche: true
+    maulla: false
+    nadar: true
+    ovipara: false
+    regordete: true
+    saltarin: true
+    vuela: false
+- nombre: gato
+  valor: 1656
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: true
+    largo: true
+    leche: true
+    maulla: true
+    nadar: false
+    ovipara: false
+    regordete: true
+    saltarin: true
+    vuela: false
+- nombre: caballo
+  valor: 1194
+  caracteristicas:
+    aulla: false
+    carreras: true
+    dentudo: false
+    fiel: true
+    largo: false
+    leche: true
+    maulla: false
+    nadar: true
+    ovipara: false
+    regordete: false
+    saltarin: true
+    vuela: false
+- nombre: gallina
+  valor: 896
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: false
+    leche: false
+    maulla: false
+    nadar: true
+    ovipara: true
+    regordete: true
+    saltarin: false
+    vuela: false
+- nombre: perro
+  valor: 698
+  caracteristicas:
+    aulla: false
+    carreras: true
+    dentudo: false
+    fiel: true
+    largo: true
+    leche: true
+    maulla: false
+    nadar: true
+    ovipara: false
+    regordete: true
+    saltarin: false
+    vuela: false
+- nombre: vaca
+  valor: 672
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: false
+    leche: true
+    maulla: false
+    nadar: true
+    ovipara: false
+    regordete: true
+    saltarin: false
+    vuela: false
+- nombre: hamster
+  valor: 544
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: false
+    leche: true
+    maulla: false
+    nadar: false
+    ovipara: false
+    regordete: true
+    saltarin: false
+    vuela: false
+- nombre: huron
+  valor: 176
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: true
+    leche: true
+    maulla: false
+    nadar: true
+    ovipara: false
+    regordete: false
+    saltarin: false
+    vuela: false
+- nombre: castor
+  valor: 164
+  caracteristicas:
+    aulla: false
+    carreras: false
+    dentudo: true
+    fiel: false
+    largo: false
+    leche: true
+    maulla: false
+    nadar: true
+    ovipara: false
+    regordete: false
+    saltarin: false
+    vuela: false
+- nombre: lobo
+  valor: 161
+  caracteristicas:
+    aulla: true
+    carreras: false
+    dentudo: false
+    fiel: false
+    largo: false
+    leche: true
+    maulla: false
+    nadar: true
+    ovipara: false
+    regordete: false
+    saltarin: false
+    vuela: false
+tabla_referencia:
+  max_valor: 4095
+  bits_necesarios: 12
+  valores_posibles: 4096

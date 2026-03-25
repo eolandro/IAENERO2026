@@ -1,0 +1,19 @@
+[project]
+name = "red-semantica-animales"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "DAYN131",email = "mtzhdaniel@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "ruamel-yaml (>=0.19.1,<0.20.0)"
+]
+
+[tool.poetry]
+packages = [{include = "red_semantica_animales", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

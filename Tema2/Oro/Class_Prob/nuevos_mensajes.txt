@@ -1,0 +1,10 @@
+" Último recordatorio: Su paquete de Correos tiene una multa pendiente. Pague aquí para evitar cargos: bit.ly/falsolink".
+"¡Felicidades! Has ganado un iPhone 15. Reclama tu premio introduciendo tus datos bancarios en: premio-seguro.com".
+"BBVA: Su cuenta ha sido bloqueada temporalmente por actividad inusual. Verifique su identidad en: bbva-seguridad.net".
+"Hola, soy María, ¿te acuerdas de mí? Te vi en la foto de Facebook, ¡qué gracioso! enlace-malicioso.com"
+"Hola [Nombre], te recuerdo que mañana a las 10:00 am tenemos la reunión de equipo".
+"¡Gracias por tu compra! Tu pedido N°12345 está en camino y llegará el viernes".
+"Código de verificación para tu cuenta de banco: 458921. No compartas este código".
+"Hola, soy Juan, ¿nos vemos a las 5 para el café?"
+"Confirmación de cita: Dr. García, lunes 15 a las 14:00 horas".
+"Hola, te envié el documento que me pediste por correo electrónico, saludos".

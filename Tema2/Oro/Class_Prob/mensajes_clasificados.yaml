@@ -1,0 +1,42 @@
+metadata:
+  nombre: Base de Mensajes Etiquetados por el Clasificador
+  version: '1.0'
+  num_mensajes: 10
+mensajes_etiquetados:
+- numero_mensaje: 1
+  mensaje: '" Último recordatorio: Su paquete de Correos tiene una multa pendiente.
+    Pague aquí para evitar cargos: bit.ly/falsolink".'
+  spam: 0
+- numero_mensaje: 2
+  mensaje: '"¡Felicidades! Has ganado un iPhone 15. Reclama tu premio introduciendo
+    tus datos bancarios en: premio-seguro.com".'
+  spam: 1
+- numero_mensaje: 3
+  mensaje: '"BBVA: Su cuenta ha sido bloqueada temporalmente por actividad inusual.
+    Verifique su identidad en: bbva-seguridad.net".'
+  spam: 1
+- numero_mensaje: 4
+  mensaje: '"Hola, soy María, ¿te acuerdas de mí? Te vi en la foto de Facebook, ¡qué
+    gracioso! enlace-malicioso.com"'
+  spam: 0
+- numero_mensaje: 5
+  mensaje: '"Hola [Nombre], te recuerdo que mañana a las 10:00 am tenemos la reunión
+    de equipo".'
+  spam: 0
+- numero_mensaje: 6
+  mensaje: '"¡Gracias por tu compra! Tu pedido N°12345 está en camino y llegará el
+    viernes".'
+  spam: 0
+- numero_mensaje: 7
+  mensaje: '"Código de verificación para tu cuenta de banco: 458921. No compartas
+    este código".'
+  spam: 0
+- numero_mensaje: 8
+  mensaje: '"Hola, soy Juan, ¿nos vemos a las 5 para el café?"'
+  spam: 0
+- numero_mensaje: 9
+  mensaje: '"Confirmación de cita: Dr. García, lunes 15 a las 14:00 horas".'
+  spam: 0
+- numero_mensaje: 10
+  mensaje: '"Hola, te envié el documento que me pediste por correo electrónico, saludos".'
+  spam: 0

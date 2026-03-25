@@ -1,0 +1,40 @@
+metadata:
+  nombre: Base de Mensajes Clasificados
+  version: '1.0'
+  num_mensajes: 10
+mensajes_etiquetados:
+  - numero_mensaje: 1
+    mensaje: '"BBVA: Su cuenta ha sido bloqueada. Verifique sus datos inmediatamente
+      aquí: http://bbva-seguro.com"'
+    spam: 1
+  - numero_mensaje: 2
+    mensaje: '"Correos: Su paquete 4567 no se pudo entregar. Actualice sus datos de
+      envío: http://correos.entrega-segura.xyz"'
+    spam: 1
+  - numero_mensaje: 3
+    mensaje: '"¡Felicidades! Has ganado un iPhone 15. Reclámalo en este enlace: http://premio-facil.net"'
+    spam: 1
+  - numero_mensaje: 4
+    mensaje: '"Alguien inició sesión en su cuenta. Cambie su contraseña ahora: http://seguridad-verif.com"'
+    spam: 1
+  - numero_mensaje: 5
+    mensaje: '"¡Dinero inmediato sin intereses! Solicita aquí sin verificar buró de
+      crédito"."'
+    spam: 1
+  - numero_mensaje: 6
+    mensaje: '"Hola, ¿te gustaría ganar $500 dólares al día? Haz clic aquí"'
+    spam: 1
+  - numero_mensaje: 7
+    mensaje: '"Tu código de inicio de sesión de Facebook es: 543210. No lo compartas
+      con nadie"'
+    spam: 0
+  - numero_mensaje: 8
+    mensaje: '"Gracias por tu compra en Amazon. Tu pedido #123-456 llegará el miércoles"'
+    spam: 0
+  - numero_mensaje: 9
+    mensaje: '"Recordatorio: Tienes cita en Clínica Salud el 15/03 a las 10:00 AM"'
+    spam: 0
+  - numero_mensaje: 10
+    mensaje: '"Netflix: Tu suscripción se renovará automáticamente el día 20 de este
+      mes"'
+    spam: 0
