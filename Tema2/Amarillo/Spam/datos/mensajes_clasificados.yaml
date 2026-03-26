@@ -1,0 +1,93 @@
+mensajes_clasificados:
+- etiqueta: spam
+  id: 1
+  texto: Premio especial para ti! Solo por hoy, reclama tu bono de 500 dolares gratis.
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    ratio: spam
+    umbral: spam
+- etiqueta: no_spam
+  id: 2
+  texto: Hola, queria avisarte que el servidor estara en mantenimiento el sabado de
+    2 a 4am.
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: no_spam
+    ratio: no_spam
+    umbral: no_spam
+- etiqueta: spam
+  id: 3
+  texto: Consigue seguidores reales en redes sociales. 1000 seguidores por solo 5
+    dolares.
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    ratio: spam
+    umbral: spam
+- etiqueta: no_spam
+  id: 4
+  texto: Adjunto encontraras el contrato revisado. Por favor firmalo antes del jueves.
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: no_spam
+    ratio: no_spam
+    umbral: no_spam
+- etiqueta: spam
+  id: 5
+  texto: Tu tarjeta de credito fue comprometida. Haz clic aqui para verificar tus
+    datos.
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    ratio: spam
+    umbral: spam
+- etiqueta: spam
+  id: 6
+  texto: La biblioteca estara cerrada el dia feriado. Recuerda devolver tus libros
+    antes.
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    ratio: spam
+    umbral: spam
+- etiqueta: spam
+  id: 7
+  texto: Invierte en criptomonedas y duplica tu dinero en solo 7 dias. Sin riesgo
+    garantizado.
+  votos:
+    media: spam
+    mediana: spam
+    moda: spam
+    ratio: spam
+    umbral: spam
+- etiqueta: no_spam
+  id: 8
+  texto: Como parte del comite, les recuerdo que la asamblea es el miercoles a las
+    6pm.
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: no_spam
+    ratio: no_spam
+    umbral: no_spam
+- etiqueta: no_spam
+  id: 9
+  texto: "Trabajo desde casa ganando hasta 5000 al mes. Env\xC3\xADa tu CV sin experiencia\
+    \ necesaria."
+  votos:
+    media: no_spam
+    mediana: no_spam
+    moda: spam
+    ratio: no_spam
+    umbral: no_spam
+- etiqueta: no_spam
+  id: 10
+  texto: Estimado usuario, tu solicitud de cambio de contrasena fue procesada exitosamente.
+  votos: {}

@@ -1,0 +1,43 @@
+# Cada animal tiene 1 (cumple la caracteristica) o 0 (no la cumple)
+
+caracteristicas:
+  - Colorido
+  - Cuadrupedo
+  - Bigotes
+  - Pequeno
+  - Carrera
+  - Construye
+  - Largo
+  - Gordito
+  - Manchas
+  - Aullido
+  - Huevo
+  - Salta
+
+preguntas:
+  Colorido:   "¿Tu animal tiene colores llamativos o vistosos?"
+  Cuadrupedo: "¿Tu animal camina en cuatro patas?"
+  Bigotes:    "¿Tu animal tiene bigotes o vibrisas largas?"
+  Pequeno:    "¿Tu animal es pequeño (cabe en tus manos)?"
+  Carrera:    "¿Tu animal es conocido por ser rapido o correr bien?"
+  Construye:  "¿Tu animal construye algo (nido, madriguera, represa...)?"
+  Largo:      "¿Tu animal tiene el cuerpo largo o alargado?"
+  Gordito:    "¿Tu animal tiene cuerpo robusto o gordito?"
+  Manchas:    "¿Tu animal tiene manchas o patrones en su piel o pelaje?"
+  Aullido:    "¿Tu animal emite aullidos, ladridos o mugidos fuertes?"
+  Huevo:      "¿Tu animal nace de un huevo?"
+  Salta:      "¿Tu animal salta como forma de desplazamiento?"
+
+animales:
+  Perro:   {Colorido: 1, Cuadrupedo: 1, Bigotes: 1, Pequeno: 1, Carrera: 1, Construye: 0, Largo: 0, Gordito: 1, Manchas: 1, Aullido: 1, Huevo: 0, Salta: 1}
+  Gato:    {Colorido: 1, Cuadrupedo: 1, Bigotes: 1, Pequeno: 1, Carrera: 1, Construye: 0, Largo: 0, Gordito: 1, Manchas: 1, Aullido: 0, Huevo: 0, Salta: 1}
+  Hamster: {Colorido: 1, Cuadrupedo: 1, Bigotes: 1, Pequeno: 1, Carrera: 1, Construye: 0, Largo: 0, Gordito: 1, Manchas: 0, Aullido: 0, Huevo: 0, Salta: 1}
+  Sapo:    {Colorido: 1, Cuadrupedo: 1, Bigotes: 0, Pequeno: 1, Carrera: 0, Construye: 0, Largo: 0, Gordito: 0, Manchas: 1, Aullido: 0, Huevo: 1, Salta: 1}
+  Caballo: {Colorido: 1, Cuadrupedo: 1, Bigotes: 0, Pequeno: 0, Carrera: 1, Construye: 0, Largo: 0, Gordito: 0, Manchas: 1, Aullido: 0, Huevo: 0, Salta: 1}
+  Gallina: {Colorido: 1, Cuadrupedo: 0, Bigotes: 0, Pequeno: 1, Carrera: 1, Construye: 1, Largo: 0, Gordito: 1, Manchas: 1, Aullido: 0, Huevo: 1, Salta: 1}
+  Quetzal: {Colorido: 1, Cuadrupedo: 0, Bigotes: 0, Pequeno: 1, Carrera: 0, Construye: 1, Largo: 1, Gordito: 0, Manchas: 0, Aullido: 0, Huevo: 1, Salta: 1}
+  Huron:   {Colorido: 0, Cuadrupedo: 1, Bigotes: 1, Pequeno: 1, Carrera: 1, Construye: 0, Largo: 1, Gordito: 0, Manchas: 1, Aullido: 0, Huevo: 0, Salta: 1}
+  Castor:  {Colorido: 0, Cuadrupedo: 1, Bigotes: 1, Pequeno: 1, Carrera: 0, Construye: 1, Largo: 0, Gordito: 1, Manchas: 0, Aullido: 0, Huevo: 0, Salta: 1}
+  Lobo:    {Colorido: 0, Cuadrupedo: 1, Bigotes: 1, Pequeno: 0, Carrera: 1, Construye: 0, Largo: 0, Gordito: 0, Manchas: 0, Aullido: 1, Huevo: 0, Salta: 1}
+  Vaca:    {Colorido: 0, Cuadrupedo: 1, Bigotes: 0, Pequeno: 0, Carrera: 0, Construye: 0, Largo: 0, Gordito: 1, Manchas: 1, Aullido: 0, Huevo: 0, Salta: 1}
+  Foca:    {Colorido: 0, Cuadrupedo: 0, Bigotes: 1, Pequeno: 0, Carrera: 0, Construye: 0, Largo: 0, Gordito: 1, Manchas: 1, Aullido: 1, Huevo: 0, Salta: 1}

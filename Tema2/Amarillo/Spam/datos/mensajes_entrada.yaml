@@ -1,0 +1,24 @@
+# mensajes_entrada.yaml
+# 10 mensajes de entrenamiento para que el supervisor los etiquete.
+
+mensajes:
+  - id: 1
+    texto: "Felicidades! Has ganado un viaje gratis a Las Vegas. Haz clic aqui para reclamar tu premio."
+  - id: 2
+    texto: "Recordatorio: la reunion de equipo es el lunes a las 10am en la sala B."
+  - id: 3
+    texto: "Oferta exclusiva solo hoy: medicamentos sin receta al 80 porciento de descuento. Compra ya."
+  - id: 4
+    texto: "Hola Carlos, adjunto el informe de ventas del mes de febrero. Saludos."
+  - id: 5
+    texto: "URGENTE: tu cuenta bancaria ha sido bloqueada. Ingresa tus datos para desbloquearla ahora."
+  - id: 6
+    texto: "Te invitamos a la conferencia de inteligencia artificial el proximo viernes a las 4pm."
+  - id: 7
+    texto: "Gana dinero desde casa sin esfuerzo. Miles de personas ya lo hacen. Registrate gratis."
+  - id: 8
+    texto: "El documento que solicitaste ya esta listo. Puedes descargarlo desde el portal."
+  - id: 9
+    texto: "Prestamos rapidos sin buró. Deposito en 24 horas. Llama ahora al número secreto."
+  - id: 10
+    texto: "Buenos dias, les recuerdo que el plazo para entregar el proyecto es este viernes."

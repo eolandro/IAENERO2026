@@ -1,0 +1,410 @@
+metadatos:
+  total_spam: 48
+  total_no_spam: 36
+  vocab: 81
+probabilidades:
+  adjunto:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  ahora:
+    p_spam: 0.023256
+    p_no_spam: 0.008547
+    frec_spam: 2
+    frec_no_spam: 0
+  am:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  aqui:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  artificial:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  bancaria:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  bloqueada:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  buenos:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  buró:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  carlos:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  casa:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  clic:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  compra:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  conferencia:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  cuenta:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  datos:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  deposito:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  desbloquearla:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  descargarlo:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  descuento:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  dias:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  dinero:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  documento:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  entregar:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  equipo:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  esfuerzo:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  esta:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  este:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  exclusiva:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  febrero:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  felicidades:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  gana:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  ganado:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  gratis:
+    p_spam: 0.023256
+    p_no_spam: 0.008547
+    frec_spam: 2
+    frec_no_spam: 0
+  hacen:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  has:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  haz:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  hola:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  horas:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  hoy:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  informe:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  ingresa:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  inteligencia:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  invitamos:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  listo:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  llama:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  lunes:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  medicamentos:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  mes:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  miles:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  número:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  oferta:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  personas:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  plazo:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  pm:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  porciento:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  portal:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  premio:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  prestamos:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  proximo:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  proyecto:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  puedes:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  rapidos:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  receta:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  reclamar:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  recordatorio:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  recuerdo:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  registrate:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  reunion:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  sala:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  saludos:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  secreto:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  sido:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  solicitaste:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  solo:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  tus:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  urgente:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  vegas:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  ventas:
+    p_spam: 0.007752
+    p_no_spam: 0.017094
+    frec_spam: 0
+    frec_no_spam: 1
+  viaje:
+    p_spam: 0.015504
+    p_no_spam: 0.008547
+    frec_spam: 1
+    frec_no_spam: 0
+  viernes:
+    p_spam: 0.007752
+    p_no_spam: 0.025641
+    frec_spam: 0
+    frec_no_spam: 2

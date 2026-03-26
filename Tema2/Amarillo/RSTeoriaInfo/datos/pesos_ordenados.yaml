@@ -1,0 +1,25 @@
+orden_optimo:
+- caracteristica: Colorido
+  entropia: 0.979869
+- caracteristica: Bigotes
+  entropia: 0.979869
+- caracteristica: Carrera
+  entropia: 0.979869
+- caracteristica: Gordito
+  entropia: 0.979869
+- caracteristica: Pequeno
+  entropia: 0.918296
+- caracteristica: Manchas
+  entropia: 0.918296
+- caracteristica: Cuadrupedo
+  entropia: 0.811278
+- caracteristica: Construye
+  entropia: 0.811278
+- caracteristica: Aullido
+  entropia: 0.811278
+- caracteristica: Huevo
+  entropia: 0.811278
+- caracteristica: Largo
+  entropia: 0.650022
+- caracteristica: Salta
+  entropia: 0.0

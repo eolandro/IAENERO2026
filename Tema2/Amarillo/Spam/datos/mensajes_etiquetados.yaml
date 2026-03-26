@@ -1,0 +1,37 @@
+mensajes_etiquetados:
+- id: 1
+  texto: Felicidades! Has ganado un viaje gratis a Las Vegas. Haz clic aqui para reclamar
+    tu premio.
+  etiqueta: spam
+- id: 2
+  texto: 'Recordatorio: la reunion de equipo es el lunes a las 10am en la sala B.'
+  etiqueta: no_spam
+- id: 3
+  texto: 'Oferta exclusiva solo hoy: medicamentos sin receta al 80 porciento de descuento.
+    Compra ya.'
+  etiqueta: spam
+- id: 4
+  texto: Hola Carlos, adjunto el informe de ventas del mes de febrero. Saludos.
+  etiqueta: no_spam
+- id: 5
+  texto: 'URGENTE: tu cuenta bancaria ha sido bloqueada. Ingresa tus datos para desbloquearla
+    ahora.'
+  etiqueta: spam
+- id: 6
+  texto: Te invitamos a la conferencia de inteligencia artificial el proximo viernes
+    a las 4pm.
+  etiqueta: no_spam
+- id: 7
+  texto: Gana dinero desde casa sin esfuerzo. Miles de personas ya lo hacen. Registrate
+    gratis.
+  etiqueta: spam
+- id: 8
+  texto: El documento que solicitaste ya esta listo. Puedes descargarlo desde el portal.
+  etiqueta: no_spam
+- id: 9
+  texto: Prestamos rapidos sin buró. Deposito en 24 horas. Llama ahora al número secreto.
+  etiqueta: spam
+- id: 10
+  texto: Buenos dias, les recuerdo que el plazo para entregar el proyecto es este
+    viernes.
+  etiqueta: no_spam

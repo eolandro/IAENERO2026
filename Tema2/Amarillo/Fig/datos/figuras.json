@@ -1,0 +1,99 @@
+{
+  "preguntas": {
+    "A":      "¿Cuantos lados tiene la figura? (0=curva / 3 / 4 / 5 / 6 / 8 / 10)",
+
+    "A0":     "¿Todos los puntos del borde estan a la misma distancia del centro?",
+    "A0S":    "Circulo",
+    "A0N":    "Elipse",
+
+    "A3":     "¿Todos sus lados son iguales?",
+    "A3S":    "Triangulo Equilatero",
+    "A3N":    "¿Tiene exactamente dos lados iguales?",
+    "A3NS":   "Triangulo Isosceles",
+    "A3NN":   "¿Tiene algun angulo de 90 grados?",
+    "A3NNS":  "Triangulo Rectangulo",
+    "A3NNN":  "Triangulo Escaleno",
+
+    "A4":     "¿Todos sus lados son iguales?",
+    "A4S":    "¿Todos sus angulos son de 90 grados?",
+    "A4SS":   "Cuadrado",
+    "A4SN":   "¿Sus angulos son todos iguales (pero no 90 grados)?",
+    "A4SNS":  "Rombo",
+    "A4SNN":  "Romboide",
+    "A4N":    "¿Sus lados opuestos son iguales y paralelos entre si?",
+    "A4NS":   "¿Todos sus angulos son de 90 grados?",
+    "A4NSS":  "Rectangulo",
+    "A4NSN":  "Paralelogramo",
+    "A4NN":   "¿Tiene exactamente un par de lados paralelos?",
+    "A4NNS":  "¿Alguno de sus angulos es de 90 grados?",
+    "A4NNSS": "Trapecio Rectangulo",
+    "A4NNSN": "Trapecio",
+    "A4NNN":  "Cuadrilatero Irregular",
+
+    "A5":     "¿Todos sus lados y angulos son iguales?",
+    "A5S":    "Pentagono Regular",
+    "A5N":    "Pentagono Irregular",
+
+    "A6":     "¿Todos sus lados y angulos son iguales?",
+    "A6S":    "Hexagono Regular",
+    "A6N":    "Hexagono Irregular",
+
+    "A8":     "¿Todos sus lados y angulos son iguales?",
+    "A8S":    "Octagono Regular",
+    "A8N":    "Octagono Irregular",
+
+    "A10":    "¿La figura parece una estrella con puntas?",
+    "A10S":   "Estrella de 5 Picos",
+    "A10N":   "¿Todos sus lados y angulos son iguales?",
+    "A10NS":  "Decagono Regular",
+    "A10NN":  "Decagono Irregular"
+  },
+  "transiciones": [
+    ["A",     "0",  "A0"],
+    ["A",     "3",  "A3"],
+    ["A",     "4",  "A4"],
+    ["A",     "5",  "A5"],
+    ["A",     "6",  "A6"],
+    ["A",     "8",  "A8"],
+    ["A",     "10", "A10"],
+
+    ["A0",    "S",  "A0S"],
+    ["A0",    "N",  "A0N"],
+
+    ["A3",    "S",  "A3S"],
+    ["A3",    "N",  "A3N"],
+    ["A3N",   "S",  "A3NS"],
+    ["A3N",   "N",  "A3NN"],
+    ["A3NN",  "S",  "A3NNS"],
+    ["A3NN",  "N",  "A3NNN"],
+
+    ["A4",    "S",  "A4S"],
+    ["A4",    "N",  "A4N"],
+    ["A4S",   "S",  "A4SS"],
+    ["A4S",   "N",  "A4SN"],
+    ["A4SN",  "S",  "A4SNS"],
+    ["A4SN",  "N",  "A4SNN"],
+    ["A4N",   "S",  "A4NS"],
+    ["A4N",   "N",  "A4NN"],
+    ["A4NS",  "S",  "A4NSS"],
+    ["A4NS",  "N",  "A4NSN"],
+    ["A4NN",  "S",  "A4NNS"],
+    ["A4NN",  "N",  "A4NNN"],
+    ["A4NNS", "S",  "A4NNSS"],
+    ["A4NNS", "N",  "A4NNSN"],
+
+    ["A5",    "S",  "A5S"],
+    ["A5",    "N",  "A5N"],
+
+    ["A6",    "S",  "A6S"],
+    ["A6",    "N",  "A6N"],
+
+    ["A8",    "S",  "A8S"],
+    ["A8",    "N",  "A8N"],
+
+    ["A10",   "S",  "A10S"],
+    ["A10",   "N",  "A10N"],
+    ["A10N",  "S",  "A10NS"],
+    ["A10N",  "N",  "A10NN"]
+  ]
+}

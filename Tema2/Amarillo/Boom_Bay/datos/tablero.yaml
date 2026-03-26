@@ -1,0 +1,8 @@
+# Mapa de Boome: cada fila es una lista de casillas.
+# 0 = casilla vacia, 1 = casilla con bomba.
+
+fila_A: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+fila_B: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+fila_C: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+fila_D: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+fila_E: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
