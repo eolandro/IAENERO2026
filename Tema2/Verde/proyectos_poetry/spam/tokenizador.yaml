@@ -1,0 +1,45 @@
+cuenta:
+  conteo: 6
+  prob: 0.6667
+sido:
+  conteo: 3
+  prob: 0.5
+seguridad:
+  conteo: 3
+  prob: 0.5
+estimado:
+  conteo: 2
+  prob: 0.3333
+debido:
+  conteo: 2
+  prob: 0.3333
+debe:
+  conteo: 2
+  prob: 0.3333
+tarjeta:
+  conteo: 2
+  prob: 0.3333
+evitar:
+  conteo: 2
+  prob: 0.3333
+total:
+  conteo: 2
+  prob: 0.3333
+https:
+  conteo: 2
+  prob: 0.3333
+restablecer:
+  conteo: 2
+  prob: 0.3333
+segura:
+  conteo: 2
+  prob: 0.3333
+nuestro:
+  conteo: 2
+  prob: 0.3333
+usd:
+  conteo: 3
+  prob: 0.3333
+tarifa:
+  conteo: 2
+  prob: 0.3333
