@@ -1,0 +1,49 @@
+[[mensajes]]
+id = 1
+texto = "¡Has sido seleccionado como ganador de nuestro sorteo especial! Reclama tu premio de $10,000 antes de que caduque."
+etiqueta_supervisor = "spam"
+
+[[mensajes]]
+id = 2
+texto = "Buen día, te envío el contrato actualizado para que lo revises y firmes antes del jueves. Saludos."
+etiqueta_supervisor = "no_spam"
+
+[[mensajes]]
+id = 3
+texto = "Invierte tu dinero y recibe el doble en solo 30 días. Oportunidad única y segura. No pierdas esta oferta exclusiva."
+etiqueta_supervisor = "spam"
+
+[[mensajes]]
+id = 4
+texto = "Hola, ¿ya revisaste el documento que te mandé ayer? Necesitamos tus cambios para poder avanzar con el proyecto."
+etiqueta_supervisor = "no_spam"
+
+[[mensajes]]
+id = 5
+texto = "Tu tarjeta de crédito será bloqueada. Verifica tus datos urgentemente entrando al siguiente enlace para evitar cargos."
+etiqueta_supervisor = "spam"
+
+[[mensajes]]
+id = 6
+texto = "El evento de capacitación será el próximo lunes a las 9am. Se requiere tu presencia. Confirma tu asistencia por favor."
+etiqueta_supervisor = "no_spam"
+
+[[mensajes]]
+id = 7
+texto = "Farmacia online: medicamentos sin receta a precios increíbles. Envío discreto a todo el país. Compra hoy con descuento."
+etiqueta_supervisor = "spam"
+
+[[mensajes]]
+id = 8
+texto = "Te recuerdo que el plazo para entregar el informe trimestral es el próximo viernes. Cualquier duda estoy a tus órdenes."
+etiqueta_supervisor = "no_spam"
+
+[[mensajes]]
+id = 9
+texto = "Conoce personas solteras en tu área. Regístrate gratis y encuentra el amor de tu vida. Miles de perfiles disponibles."
+etiqueta_supervisor = "spam"
+
+[[mensajes]]
+id = 10
+texto = "Adjunto las notas de la sesión de hoy junto con las tareas asignadas a cada miembro del equipo. Revisar con calma."
+etiqueta_supervisor = "no_spam"
