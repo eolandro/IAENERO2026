@@ -1,0 +1,48 @@
+preguntas:
+  P0: "¿Cuántos lados tiene la figura?"
+  P1: "¿Tiene radio constante (perfectamente redonda)?"
+  P3: "¿Tiene todos sus lados iguales?"
+  P3_1: "¿Tiene al menos dos lados iguales?"
+  P3_2: "¿Tiene un ángulo recto (90°)?"
+  P4: "¿Tiene todos sus lados iguales?"
+  P4_1: "¿Tiene todos sus ángulos iguales (90°)?"
+  P4_2: "¿Tiene al menos un par de lados paralelos?"
+  P4_3: "¿Tiene dos pares de lados paralelos?"
+  P4_4: "¿Tiene todos sus ángulos iguales (90°)?"
+
+grafo:
+  P0:
+    "0": "P1"
+    "3": "P3"
+    "4": "P4"
+    "5": "Pentágono"
+    "6": "Hexágono"
+    "7": "Heptágono"
+    "8": "Octágono"
+  P1:
+    "S": "Círculo"
+    "N": "Elipse"
+  P3:
+    "S": "Triángulo Equilátero"
+    "N": "P3_1"
+  P3_1:
+    "S": "Triángulo Isósceles"
+    "N": "P3_2"
+  P3_2:
+    "S": "Triángulo Rectángulo"
+    "N": "Triángulo Escaleno"
+  P4:
+    "S": "P4_1"
+    "N": "P4_2"
+  P4_1:
+    "S": "Cuadrado"
+    "N": "Rombo"
+  P4_2:
+    "S": "P4_3"
+    "N": "Trapezoide"
+  P4_3:
+    "S": "P4_4"
+    "N": "Trapecio"
+  P4_4:
+    "S": "Rectángulo"
+    "N": "Romboide"
