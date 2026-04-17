@@ -1,0 +1,21 @@
+mensajes:
+- etiqueta: spam
+  texto: Hola
+- etiqueta: ham
+  texto: Hola
+- etiqueta: spam
+  texto: hola
+- etiqueta: a
+  texto: hola
+- etiqueta: a
+  texto: a
+- etiqueta: a
+  texto: a
+- etiqueta: a
+  texto: a
+- etiqueta: a
+  texto: aa
+- etiqueta: a
+  texto: a
+- etiqueta: a
+  texto: a

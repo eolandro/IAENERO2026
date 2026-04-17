@@ -1,0 +1,30 @@
+mensajes:
+  - texto: "gana dinero rapido ahora"
+    etiqueta: spam
+
+  - texto: "oferta exclusiva solo hoy"
+    etiqueta: spam
+
+  - texto: "reunion mañana a las 10"
+    etiqueta: ham
+
+  - texto: "hola como estas"
+    etiqueta: ham
+
+  - texto: "compra medicamentos baratos"
+    etiqueta: spam
+
+  - texto: "te envio el documento"
+    etiqueta: ham
+
+  - texto: "feliz cumpleaños amigo"
+    etiqueta: ham
+
+  - texto: "credito aprobado inmediatamente"
+    etiqueta: spam
+
+  - texto: "vamos a comer mañana"
+    etiqueta: ham
+
+  - texto: "descuento especial solo hoy"
+    etiqueta: spam

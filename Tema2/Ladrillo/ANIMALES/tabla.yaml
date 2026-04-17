@@ -1,0 +1,43 @@
+caracteristicas:
+- Puede volar?
+- Es un animal acuatico?
+- Tiene orejas grandes?
+- Tiene bigotes?
+- Tiene plumas?
+- Es un insecto?
+- Tiene una melena?
+- Tiene pico?
+- Tiene escamas?
+- Tiene 4 patas?
+- Pesa mas de 1 tonelada?
+tabla_animales:
+  Aguila:
+    respuestas: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+    suma_binaria: 1096
+  Pajaro:
+    respuestas: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+    suma_binaria: 1096
+  Pinguino:
+    respuestas: [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+    suma_binaria: 584
+  Cocodrilo:
+    respuestas: [0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0]
+    suma_binaria: 518
+  Vaca:
+    respuestas: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+    suma_binaria: 258
+  Elefante:
+    respuestas: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]
+    suma_binaria: 259
+  Caballo:
+    respuestas: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0]
+    suma_binaria: 18
+  Gato:
+    respuestas: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
+    suma_binaria: 130
+  Perro:
+    respuestas: [0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]
+    suma_binaria: 386
+  Leon:
+    respuestas: [0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0]
+    suma_binaria: 146
