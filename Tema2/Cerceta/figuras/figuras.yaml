@@ -1,0 +1,63 @@
+arbol:
+  - [P0, CERO, P01]
+  - [P0, TRES, P02]
+  - [P0, CUATRO, P03]
+  - [P0, CINCO, P04]
+  - [P0, SEIS, P05]
+  - [P0, SIETE, P06]
+
+  - [P01, SI, P01S]
+  - [P01, NO, P01N]
+
+  - [P02, SI, P02S]
+  - [P02, NO, P02N]
+
+  - [P02N, SI, P02N1]
+  - [P02N, NO, P02N2]
+
+  - [P03, SI, P03S]
+  - [P03, NO, P03N]
+
+  - [P03N, SI, P03N1]
+  - [P03N, NO, P03N2]
+
+  - [P03N2, SI, P03N2S]
+  - [P03N2, NO, P03N2N]
+
+  - [P03N2N, SI, P03N2N1]
+  - [P03N2N, NO, P03N2N2]
+
+  - [P03N2N2, SI, P03N2N2S]
+  - [P03N2N2, NO, P03N2N2N]
+
+preguntas:
+  - [P0, "¿Numero de lados de tu figura? (escribelo en texto por favor)"]
+
+  - [P01, "¿La figura tiene volumen? (SI o NO)"]
+  - [P01S, "Cilindro"]
+  - [P01N, "Circulo"]
+
+  - [P02, "¿Sus lados miden lo mismo? (SI o NO)"]
+  - [P02S, "Triangulo equilatero"]
+
+  - [P02N, "¿Tiene dos lados iguales y uno desigual? (SI o NO)"]
+  - [P02N1, "Triangulo Isosceles"]
+  - [P02N2, "Triangulo Escaleno"]
+
+  - [P03, "¿Tu figura tiene forma de diamante? (SI o NO)"]
+  - [P03S, "Rombo"]
+  - [P03N, "¿Todos sus lados miden igual? (SI o NO)"]
+  - [P03N1, "Cuadrado"]
+  - [P03N2, "¿Su forma es como una puerta o una hoja de papel? (SI o NO)"]
+  - [P03N2S, "Rectangulo"]
+  - [P03N2N, "¿Tiene solo un par de lados paralelos? (SI o NO)"]
+  - [P03N2N1, "Trapecio"]
+  - [P03N2N2, "¿Tiene los lados inclinados como un rectángulo chueco? (SI o NO)"]
+  - [P03N2N2S, "Romboide"]
+  - [P03N2N2N, "Trapezoide"]
+
+  - [P04, "Pentagono"]
+
+  - [P05, "Hexagono"]
+
+  - [P06, "Heptagono"]
