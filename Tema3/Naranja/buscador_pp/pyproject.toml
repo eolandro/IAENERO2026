@@ -1,0 +1,19 @@
+[project]
+name = "buscador-pp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "VexyyCat",email = "j.tarlos.furtado345@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ruamel-yaml (>=0.19.1,<0.20.0)"
+]
+
+[tool.poetry]
+packages = [{include = "buscador_pp", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

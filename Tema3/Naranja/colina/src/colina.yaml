@@ -1,0 +1,103 @@
+grafo:
+  nodos:
+    - A
+    - B
+    - C
+    - D
+    - E
+    - F
+    - G
+    - H
+    - I
+    - J
+  lineas:
+    - origen: A
+      destino: C
+      peso: 1
+    - origen: C
+      destino: A
+      peso: 1
+
+    - origen: A
+      destino: B
+      peso: 1
+    - origen: B
+      destino: A
+      peso: 1
+
+    - origen: A
+      destino: J
+      peso: 10
+    - origen: J
+      destino: A
+      peso: 10
+
+    - origen: C
+      destino: E
+      peso: 1
+    - origen: E
+      destino: C
+      peso: 1
+
+    - origen: C
+      destino: I
+      peso: 3
+    - origen: I
+      destino: C
+      peso: 3
+
+    - origen: B
+      destino: E
+      peso: 1
+    - origen: E
+      destino: B
+      peso: 1
+
+    - origen: B
+      destino: D
+      peso: 2
+    - origen: D
+      destino: B
+      peso: 2
+
+    - origen: I
+      destino: H
+      peso: 2
+    - origen: H
+      destino: I
+      peso: 2
+
+    - origen: E
+      destino: D
+      peso: 1
+    - origen: D
+      destino: E
+      peso: 1
+
+    - origen: D
+      destino: F
+      peso: 6
+    - origen: F
+      destino: D
+      peso: 6
+
+    - origen: H
+      destino: G
+      peso: 2
+    - origen: G
+      destino: H
+      peso: 2
+
+    - origen: F
+      destino: G
+      peso: 3
+    - origen: G
+      destino: F
+      peso: 3
+
+    - origen: G
+      destino: J
+      peso: 1
+    - origen: J
+      destino: G
+      peso: 1

@@ -1,0 +1,17 @@
+A:
+  AA:
+    - AAA
+    - AAB
+    - AAC
+  AB:
+    ABA:
+      - ABAB
+      - ABAB
+  AC:
+    ACA:
+      - ACAA
+      - ACAB
+    ACB:
+      ACBA:
+        - ACBAA
+        - ACBAB
