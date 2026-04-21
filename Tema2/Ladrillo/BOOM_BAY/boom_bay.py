@@ -3,19 +3,22 @@ import yaml
 
 # ---------------------------------
 # SENSOR PROBABILISTICO
+# 90% de deteccion si hay bomba
+# 20% de falso positivo si NO hay bomba
 # ---------------------------------
 def sensor_ruidoso(real):
     if real == 1:
-        return 1 if random.random() < 0.85 else 0
+        return 1 if random.random() < 0.90 else 0   # 90% detecta correctamente
     else:
-        return 1 if random.random() < 0.15 else 0
+        return 1 if random.random() < 0.20 else 0   # 20% falso positivo
 
 # ---------------------------------
 # ACTUALIZACION BAYESIANA
+# Consistente con las probabilidades del sensor
 # ---------------------------------
 def actualizar_creencia(prior, evidencia):
-    p_det_si = 0.85
-    p_det_no = 0.15
+    p_det_si = 0.90   # P(sensor=1 | bomba presente)
+    p_det_no = 0.20   # P(sensor=1 | bomba ausente)
 
     if evidencia == 1:
         num = p_det_si * prior
@@ -25,6 +28,40 @@ def actualizar_creencia(prior, evidencia):
         den = ((1 - p_det_si) * prior) + ((1 - p_det_no) * (1 - prior))
 
     return num / den if den != 0 else 0
+
+# ---------------------------------
+# DESACTIVADOR DE BOMBA
+# Simula el proceso de desactivacion con resultado aleatorio
+# segun la habilidad del equipo (exito_base entre 0 y 1)
+# ---------------------------------
+def desactivar_bomba(coord, exito_base=0.90):
+    """
+    Intenta desactivar la bomba en la celda indicada.
+
+    Parametros
+    ----------
+    coord       : tupla (fila, columna) de la celda con la bomba
+    exito_base  : probabilidad base de desactivacion exitosa (default 0.90)
+
+    Retorna
+    -------
+    True  -> bomba desactivada con exito
+    False -> fallo en la desactivacion (bomba sigue activa)
+    """
+    x, y = coord
+    print(f"\n{'*' * 40}")
+    print(f"  INICIANDO DESACTIVACION en ({x},{y})")
+    print(f"  Probabilidad de exito: {exito_base * 100:.0f}%")
+
+    exito = random.random() < exito_base
+
+    if exito:
+        print(f"  [OK] Bomba DESACTIVADA correctamente en ({x},{y})")
+    else:
+        print(f"  [!!] FALLO en la desactivacion en ({x},{y}) - bomba sigue activa")
+
+    print(f"{'*' * 40}\n")
+    return exito
 
 # ---------------------------------
 # CARGAR YAML
@@ -58,8 +95,6 @@ def seleccionar_celda(creencias, visitadas):
 
 # ---------------------------------
 # ACTUALIZAR CELDAS VECINAS
-# FIX: propagar evidencia negativa a vecinos cuando
-#      una celda confirmada no tiene objetivo
 # ---------------------------------
 def actualizar_vecinos(creencias, visitadas, x, y, filas, columnas, factor):
     direcciones = [(-1, 0), (1, 0), (0, -1), (0, 1),
@@ -71,23 +106,53 @@ def actualizar_vecinos(creencias, visitadas, x, y, filas, columnas, factor):
 
 # ---------------------------------
 # MOSTRAR TABLERO
+# Leyenda:
+#   [R] -> posicion actual del agente (robot/boomber)
+#   [X] -> bomba confirmada y desactivada
+#   [B] -> bomba confirmada, desactivacion fallida
+#   [!] -> falsa alarma intervenida
+#   [.] -> celda explorada sin objetivo
+#   [-] -> celda sin explorar
 # ---------------------------------
-def mostrar_matriz(filas, columnas, actual, visitadas, confirmadas, falsas):
+def mostrar_matriz(filas, columnas, actual, visitadas, confirmadas, falsas,
+                   desactivadas=None, fallidas=None):
+    if desactivadas is None:
+        desactivadas = set()
+    if fallidas is None:
+        fallidas = set()
+
+    ancho_col = 4
+    separador = "+" + ("-" * ancho_col + "+") * columnas
+
     print()
+    print("  ", end="")
+    for j in range(columnas):
+        print(f"  {j:2}", end="")
+    print()
+    print("  " + separador)
+
     for i in range(filas):
-        fila_txt = ""
+        print(f"{i:2}|", end="")
         for j in range(columnas):
             if (i, j) == actual:
-                fila_txt += " R "
-            elif (i, j) in confirmadas:
-                fila_txt += " X "   # objetivo confirmado
+                simbolo = " R  "        # agente en esta posicion
+            elif (i, j) in desactivadas:
+                simbolo = "[X] "        # bomba desactivada con exito
+            elif (i, j) in fallidas:
+                simbolo = "[B] "        # bomba detectada, desactivacion fallida
             elif (i, j) in falsas:
-                fila_txt += " ! "   # falsa alarma
+                simbolo = " !  "        # falsa alarma
             elif (i, j) in visitadas:
-                fila_txt += " . "   # explorada, sin objetivo
+                simbolo = " .  "        # explorada sin objetivo
             else:
-                fila_txt += " - "
-        print(fila_txt)
+                simbolo = " -  "        # sin explorar
+            print(f"{simbolo}|", end="")
+        print()
+        print("  " + separador)
+
+    print()
+    print("  LEYENDA:  R=agente  [X]=bomba desactivada  [B]=bomba activa  "
+          "!=falsa alarma  .=explorada  -=sin explorar")
     print()
 
 # ---------------------------------
@@ -98,7 +163,7 @@ def evaluar_posicion(real, prior, umbral, iteraciones, coord):
     x, y = coord
 
     print(f"\nPosicion ({x},{y})")
-    print(f"Probabilidad inicial = {prob:.6f}")
+    print(f"  Probabilidad inicial = {prob:.6f}")
 
     for k in range(iteraciones):
         lectura = sensor_ruidoso(real)
@@ -120,105 +185,113 @@ def evaluar_posicion(real, prior, umbral, iteraciones, coord):
 def simulador():
 
     print("=" * 50)
-    print("SISTEMA DE DECISION BAYESIANO")
+    print("  SISTEMA DE DECISION BAYESIANO - BOOM BAY")
     print("=" * 50)
 
     tablero = cargar_mapa("tablero.yaml")
 
-    filas = len(tablero)
+    filas    = len(tablero)
     columnas = len(tablero[0])
 
-    total_celdas = filas * columnas
+    total_celdas    = filas * columnas
     total_objetivos = sum(sum(f) for f in tablero)
 
-    print(f"Dimensiones: {filas} x {columnas}")
-    print(f"Objetivos reales: {total_objetivos}")
+    print(f"\nDimensiones : {filas} x {columnas}")
+    print(f"Bombas reales: {total_objetivos}")
 
-    # Probabilidad inicial global
     prior_global = total_objetivos / total_celdas
+    creencias    = inicializar_creencias(filas, columnas, prior_global)
 
-    creencias = inicializar_creencias(filas, columnas, prior_global)
+    visitadas   = set()
+    confirmadas = set()   # celdas con bomba confirmada (intervenidas)
+    falsas      = set()   # falsas alarmas
+    desactivadas = set()  # bombas desactivadas con exito
+    fallidas     = set()  # bombas donde fallo la desactivacion
 
-    visitadas  = set()
-    confirmadas = set()   # FIX: rastrear celdas con objetivo confirmado
-    falsas      = set()   # FIX: rastrear falsas alarmas
-    aciertos   = 0
-    errores    = 0
+    aciertos       = 0
+    errores        = 0
     intervenciones = 0
 
-    # FIX: limite separado por tipo
-    # El agente puede explorar todo el tablero pero solo interviene
-    # cuando la probabilidad supera el umbral; no hay tope artificial.
-    umbral = 0.6
-    max_intervenciones = total_celdas  # tope de seguridad, no restrictivo
+    umbral = 0.60
 
     print("\nInicio del analisis...\n")
 
-    # FIX: condicion de parada correcta:
-    #   - seguir mientras queden celdas sin visitar
-    #   - y no se hayan encontrado todos los objetivos
     while len(visitadas) < total_celdas and aciertos < total_objetivos:
 
         x, y = seleccionar_celda(creencias, visitadas)
 
-        # Guardia: no deberia ocurrir, pero evita crash si el tablero se agota
         if x == -1:
             break
 
         visitadas.add((x, y))
 
-        mostrar_matriz(filas, columnas, (x, y), visitadas, confirmadas, falsas)
+        mostrar_matriz(filas, columnas, (x, y), visitadas, confirmadas, falsas,
+                       desactivadas, fallidas)
 
         prior = creencias[x][y]
         real  = tablero[x][y]
 
         posterior = evaluar_posicion(real, prior, umbral, 3, (x, y))
-
         creencias[x][y] = posterior
 
         if posterior >= umbral:
             intervenciones += 1
-            print(f"Decision: intervenir (P = {posterior:.6f})")
+            print(f"  Decision: INTERVENIR (P = {posterior:.6f})")
 
             if real == 1:
                 aciertos += 1
                 confirmadas.add((x, y))
-                print(f"Resultado: objetivo confirmado en ({x},{y})")
-                # FIX: propagar ligera reduccion a vecinos (objetivo encontrado,
-                #      reduce probabilidad de que los vecinos inmediatos
-                #      tambien sean objetivos si el mapa es disperso)
+                print(f"  Resultado: bomba detectada en ({x},{y})")
+
+                # Intentar desactivar la bomba
+                exito = desactivar_bomba((x, y))
+                if exito:
+                    desactivadas.add((x, y))
+                else:
+                    fallidas.add((x, y))
+
                 actualizar_vecinos(creencias, visitadas, x, y,
                                    filas, columnas, factor=0.8)
             else:
                 errores += 1
                 falsas.add((x, y))
-                print(f"Resultado: falsa alarma en ({x},{y})")
-                # FIX: falsa alarma -> reducir creencia en vecinos cercanos
+                print(f"  Resultado: falsa alarma en ({x},{y})")
                 actualizar_vecinos(creencias, visitadas, x, y,
                                    filas, columnas, factor=0.6)
         else:
-            print(f"Decision: no intervenir (P = {posterior:.6f})")
-            # FIX: evidencia negativa -> reducir creencia en vecinos
+            print(f"  Decision: no intervenir (P = {posterior:.6f})")
             actualizar_vecinos(creencias, visitadas, x, y,
                                filas, columnas, factor=0.85)
+
+    # ---------------------------------
+    # ESTADO FINAL DEL TABLERO
+    # ---------------------------------
+    mostrar_matriz(filas, columnas, (-1, -1), visitadas, confirmadas, falsas,
+                   desactivadas, fallidas)
 
     # ---------------------------------
     # RESUMEN FINAL
     # ---------------------------------
     print("\n" + "=" * 50)
-    print("RESULTADOS FINALES")
+    print("  RESULTADOS FINALES")
     print("=" * 50)
-
-    print(f"Objetivos totales    : {total_objetivos}")
-    print(f"Aciertos             : {aciertos}")
-    print(f"Falsas alarmas       : {errores}")
-    print(f"Celdas exploradas    : {len(visitadas)}/{total_celdas}")
-    print(f"Total intervenciones : {intervenciones}")
+    print(f"  Bombas totales       : {total_objetivos}")
+    print(f"  Bombas detectadas    : {aciertos}")
+    print(f"  Bombas desactivadas  : {len(desactivadas)}")
+    print(f"  Desactivaciones fail : {len(fallidas)}")
+    print(f"  Falsas alarmas       : {errores}")
+    print(f"  Celdas exploradas    : {len(visitadas)}/{total_celdas}")
+    print(f"  Total intervenciones : {intervenciones}")
 
     if aciertos == total_objetivos:
-        print("Resultado global: COMPLETO - todos los objetivos encontrados")
+        print("\n  Resultado: COMPLETO - todas las bombas encontradas")
     else:
-        print(f"Resultado global: INCOMPLETO - objetivos restantes: {total_objetivos - aciertos}")
+        print(f"\n  Resultado: INCOMPLETO - bombas sin encontrar: {total_objetivos - aciertos}")
+
+    if len(desactivadas) == total_objetivos:
+        print("  Estado final: ZONA SEGURA - todas las bombas desactivadas")
+    elif len(fallidas) > 0:
+        print(f"  Estado final: PELIGRO - {len(fallidas)} bomba(s) siguen activas")
 
 
 # ---------------------------------
