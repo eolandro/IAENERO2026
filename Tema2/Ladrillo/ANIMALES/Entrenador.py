@@ -2,69 +2,57 @@ from ruamel.yaml import YAML
 from pathlib import Path
 
 def entrenador():
-    # Verificar que el archivo animales.yaml existe
     yaml = YAML()
     archivo_animales = Path('animales.yaml')
+    
     if not archivo_animales.exists():
-        print("Error: No se encuentra el archivo 'animales.yaml'")
-        print("Ejecuta primero el programa inicializador.")
+        print("Error: Ejecuta primero el Inicializador.py")
         return
 
-    # Cargar datos del archivo YAML
-    with open(archivo_animales, 'r') as file:
+    with open(archivo_animales, 'r', encoding='utf-8') as file:
         datos = yaml.load(file)
     
     animales = datos['animales']
     caracteristicas = datos['caracteristicas']
     
-    print("=== ENTRENADOR ===")
-    print("Responde 'si' o 'no' para cada característica de cada animal:\n")
-    
-    # Crear tabla de respuestas
+    print("=== ETAPA 2: ENTRENADOR (TABLA DE PESOS) ===")
     tabla = {}
     
     for animal in animales:
-        print(f"\n--- {animal.upper()} ---")
+        print(f"\n--- Configurando: {animal.upper()} ---")
         respuestas = []
         
-        for i, caracteristica in enumerate(caracteristicas, 1):
+        for i, car in enumerate(caracteristicas, 1):
             while True:
-                respuesta = input(f"{i}. {caracteristica}: ").strip().lower()
-                if respuesta in ['si', 'sí', 's', '1']:
+                # Validación multiformato solicitada por el usuario
+                resp = input(f"{i}. {car} (si/no): ").strip().lower()
+                if resp in ['si', 'sí', 's', '1']:
                     respuestas.append(1)
                     break
-                elif respuesta in ['no', 'n', '0']:
+                elif resp in ['no', 'n', '0']:
                     respuestas.append(0)
                     break
-                else:
-                    print("Por favor, responde 'si' o 'no'")
-                    
-        
+                print("Respuesta inválida. Use: si, no, s, n, 1 o 0.")
 
-        # Calcular suma binaria 
+        # Cálculo de Suma Binaria (Optimización de Información)
         suma_binaria = 0
         for bit in respuestas:
-            suma_binaria = suma_binaria * 2 + bit   
-
+            suma_binaria = (suma_binaria << 1) | bit 
 
         tabla[animal] = {
             'respuestas': respuestas,
-            'suma_binaria': suma_binaria
+            'suma_binaria': int(suma_binaria)
         }
     
-    # Guardar tabla en archivo YAML
-    datos_tabla = {
+    datos_finales = {
         'caracteristicas': caracteristicas,
         'tabla_animales': tabla
     }
     
-    with open('tabla.yaml', 'w') as file:
-        yaml.dump(datos_tabla, file)
+    with open('tabla.yaml', 'w', encoding='utf-8') as file:
+        yaml.dump(datos_finales, file)
     
-    print(f"\nTabla guardada en 'tabla.yaml'")
-    print("Resumen de sumas binarias:")
-    for animal, datos in tabla.items():
-        print(f"{animal}: {datos['respuestas']} → {datos['suma_binaria']}")
+    print("\n¡Entrenamiento completado! 'tabla.yaml' guardado.")
 
-
-entrenador()
+if __name__ == "__main__":
+    entrenador()
