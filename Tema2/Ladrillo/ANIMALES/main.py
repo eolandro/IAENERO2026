@@ -6,60 +6,58 @@ def adivinador():
     archivo_tabla = Path('tabla.yaml')
     
     if not archivo_tabla.exists():
-        print("Error: No se encuentra 'tabla.yaml'.")
+        print("Error: No existe 'tabla.yaml'. Ejecuta el Entrenador primero.")
         return
 
-    with open(archivo_tabla, 'r') as file:
-        datos_tabla = yaml.load(file)
+    with open(archivo_tabla, 'r', encoding='utf-8') as file:
+        datos = yaml.load(file)
     
-    caracteristicas = datos_tabla['caracteristicas']
-    tabla_animales = datos_tabla['tabla_animales']
-    
-    print("=== ADIVINADOR: EDICIÓN PESO PESADO ===")
-    print("Piensa en uno de estos animales:")
-    for i, animal in enumerate(tabla_animales.keys(), 1):
-        print(f"{i}. {animal}")
-    
+    caracteristicas = datos['caracteristicas']
+    tabla_animales = datos['tabla_animales']
     candidatos = list(tabla_animales.keys())
     
-    def encontrar_mejor_pregunta(candidatos, caracteristicas, tabla_animales):
-        mejor_pregunta = None
-        mejor_division = len(candidatos)
-        for idx, caracteristica in enumerate(caracteristicas):
-            si = sum(1 for a in candidatos if tabla_animales[a]['respuestas'][idx] == 1)
-            no = len(candidatos) - si
-            division = abs(si - no)
-            if division < mejor_division and (si > 0 and no > 0):
-                mejor_division = division
-                mejor_pregunta = (idx, caracteristica)
-        return mejor_pregunta
+    print("=== ETAPA 3: SISTEMA EXPERTO (RSTeoriaInfo) ===")
+    print(f"Piensa en uno de estos {len(candidatos)} animales...")
 
     while len(candidatos) > 1:
-        mejor_pregunta = encontrar_mejor_pregunta(candidatos, caracteristicas, tabla_animales)
+        # OPTIMIZACIÓN: Buscar pregunta que divida a los candidatos al 50/50
+        mejor_pregunta_idx = -1
+        mejor_division = len(candidatos)
         
-        if mejor_pregunta is None:
-            print(f"\nEmpate técnico entre: {', '.join(candidatos)}")
-            break
+        for idx in range(len(caracteristicas)):
+            con_si = sum(1 for a in candidatos if tabla_animales[a]['respuestas'][idx] == 1)
+            con_no = len(candidatos) - con_si
             
-        idx, pregunta = mejor_pregunta
+            # Buscamos la diferencia mínima entre SI y NO para maximizar Ganancia de Información
+            division = abs(con_si - con_no)
+            
+            if con_si > 0 and con_no > 0: # Solo preguntas que filtren algo
+                if division < mejor_division:
+                    mejor_division = division
+                    mejor_pregunta_idx = idx
+
+        if mejor_pregunta_idx == -1:
+            print("\nNo puedo diferenciar más a estos animales:", candidatos)
+            break
+
+        # Interacción con el usuario
+        pregunta = caracteristicas[mejor_pregunta_idx]
         while True:
             resp = input(f"\n{pregunta} (si/no): ").strip().lower()
             if resp in ['si', 'sí', 's', '1']:
                 valor = 1; break
             elif resp in ['no', 'n', '0']:
                 valor = 0; break
-            print("Por favor, responde con si o no.")
-            
-        candidatos = [a for a in candidatos if tabla_animales[a]['respuestas'][idx] == valor]
-        
-        print(f"Animales restantes ({len(candidatos)}):")
-        for animal in candidatos:
-            print(f"  - {animal}")
+            print("Por favor responde si/no.")
+
+        # Filtrado de la Red Semántica
+        candidatos = [a for a in candidatos if tabla_animales[a]['respuestas'][mejor_pregunta_idx] == valor]
+        print(f"Animales posibles: {len(candidatos)}")
 
     if len(candidatos) == 1:
-        print(f"\n¡Adiviné! Tu animal es: {candidatos[0]}")
+        print(f"\n¡Adiviné! Tu animal es el: {candidatos[0].upper()}")
     else:
-        print("\nNo pude determinar el animal con exactitud.")
+        print("\nEl conocimiento actual es insuficiente para distinguir el animal.")
 
 if __name__ == "__main__":
     adivinador()
