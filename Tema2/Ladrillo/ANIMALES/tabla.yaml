@@ -1,43 +1,48 @@
 caracteristicas:
-- Puede volar?
-- Es un animal acuatico?
-- Tiene orejas grandes?
-- Tiene bigotes?
-- Tiene plumas?
-- Es un insecto?
-- Tiene una melena?
-- Tiene pico?
-- Tiene escamas?
-- Tiene 4 patas?
-- Pesa mas de 1 tonelada?
+- Es un animal homeotermo (sangre caliente)?
+- Posee glandulas mamarias?
+- Es un depredador activo?
+- Su habitat principal involucra medios acuaticos?
+- Tiene extremidades modificadas (pezuñas, alas o aletas)?
+- Es un animal domesticado?
+- Posee habitos nocturnos?
+- Su piel es desnuda o con escamas?
+- Tiene capacidad de vuelo?
+- Produce sonidos fuertes?
 tabla_animales:
-  Aguila:
-    respuestas: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
-    suma_binaria: 1096
-  Pajaro:
-    respuestas: [1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
-    suma_binaria: 1096
-  Pinguino:
-    respuestas: [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0]
-    suma_binaria: 584
-  Cocodrilo:
-    respuestas: [0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0]
-    suma_binaria: 518
-  Vaca:
-    respuestas: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
-    suma_binaria: 258
-  Elefante:
-    respuestas: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]
-    suma_binaria: 259
-  Caballo:
-    respuestas: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0]
-    suma_binaria: 18
-  Gato:
-    respuestas: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0]
-    suma_binaria: 130
-  Perro:
-    respuestas: [0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0]
-    suma_binaria: 386
-  Leon:
-    respuestas: [0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0]
-    suma_binaria: 146
+  perro:
+    respuestas: [1, 1, 1, 0, 0, 1, 0, 0, 0, 1]
+    suma_binaria: 937
+  gato:
+    respuestas: [1, 1, 1, 0, 0, 1, 1, 0, 0, 0]
+    suma_binaria: 936
+  caballo:
+    respuestas: [1, 1, 0, 0, 1, 1, 0, 0, 0, 1]
+    suma_binaria: 817
+  sapo:
+    respuestas: [0, 0, 1, 1, 0, 0, 1, 1, 0, 0]
+    suma_binaria: 212
+  lobo:
+    respuestas: [1, 1, 1, 0, 0, 0, 1, 0, 0, 1]
+    suma_binaria: 929
+  quetzal:
+    respuestas: [1, 0, 0, 0, 1, 0, 0, 0, 1, 0]
+    suma_binaria: 546
+  gallina:
+    respuestas: [1, 0, 0, 0, 1, 1, 0, 0, 0, 1]
+    suma_binaria: 545
+  hamster:
+    respuestas: [1, 1, 0, 0, 0, 1, 1, 0, 0, 0]
+    suma_binaria: 792
+  castor:
+    respuestas: [1, 1, 0, 1, 0, 0, 1, 0, 0, 0]
+    suma_binaria: 840
+  huron:
+    respuestas: [1, 1, 1, 0, 0, 0, 1, 0, 0, 0]
+    suma_binaria: 928
+  vaca:
+    respuestas: [1, 1, 0, 0, 1, 1, 0, 0, 0, 1]
+    suma_binaria: 817
+  foca:
+    respuestas: [1, 1, 1, 1, 1, 0, 0, 0, 0, 1]
+    suma_binaria: 993
