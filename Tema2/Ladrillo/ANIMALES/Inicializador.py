@@ -1,33 +1,37 @@
 from ruamel.yaml import YAML
 
-
 def inicializador():
-	
-    animales = []
-    caracteristicas = []
     yaml = YAML()
-
-    print("=== INICIALIZADOR ===")
-    print("Ingresa 10 animales:")
-    for i in range(10):
-        animal = input(f"{i+1}. Animal: ").strip()
-        animales.append(animal)
-
-    print("\nIngresa 10 características (preguntas de 'si o no':")
-    for i in range(10):
-        car = input(f"{i+1}. Característica: ").strip()
-        caracteristicas.append(car)
+    
+    # Definición de la Red Semántica: Nodos (animales) y Arcos (características)
+    animales = [
+        "perro", "gato", "caballo", "sapo", "lobo", "quetzal", 
+        "gallina", "hamster", "castor", "huron", "vaca", "foca"
+    ]
+    
+    caracteristicas = [
+        "Es un animal homeotermo (sangre caliente)?",
+        "Posee glandulas mamarias?",
+        "Es un depredador activo?",
+        "Su habitat principal involucra medios acuaticos?",
+        "Tiene extremidades modificadas (pezuñas, alas o aletas)?",
+        "Es un animal domesticado?",
+        "Posee habitos nocturnos?",
+        "Su piel es desnuda o con escamas?",
+        "Tiene capacidad de vuelo?",
+        "Produce sonidos fuertes (aullido, relincho, mugido)?"
+    ]
 
     data = {
         'animales': animales,
         'caracteristicas': caracteristicas
     }
 
-    with open('animales.yaml', 'w') as file:
-        yaml.dump(data, file) 
-        
-#El default_flow_stile es para que se guarde de manera mas legible y el unicode permite acentos y ñ	
-	
-    print("\nArchivo 'animales.yaml' generado exitosamente")
+    with open('animales.yaml', 'w', encoding='utf-8') as file:
+        yaml.dump(data, file)
+    
+    print("=== ETAPA 1: INICIALIZADOR COMPLETO ===")
+    print("Archivo 'animales.yaml' generado exitosamente.")
 
-inicializador()
+if __name__ == "__main__":
+    inicializador()
