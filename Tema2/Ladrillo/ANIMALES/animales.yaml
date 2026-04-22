@@ -1,22 +1,24 @@
 animales:
-- Leon
-- Mapache
-- Cocodrilo
-- Elefante
-- Alacran
-- Aguila
-- Foca
-- Rata
-- Catarina
-- Pinguino
+- perro
+- gato
+- caballo
+- sapo
+- lobo
+- quetzal
+- gallina
+- hamster
+- castor
+- huron
+- vaca
+- foca
 caracteristicas:
-- Puede volar?
-- Es un animal acuatico?
-- Tiene orejas grandes?
-- Tiene bigotes?
-- Tiene plumas?
-- Es un insecto?
-- Tiene una melena?
-- Tiene pico?
-- Tiene escamas?
-- Tiene 4 patas?
+- Es un animal homeotermo (sangre caliente)?
+- Posee glandulas mamarias?
+- Es un depredador activo?
+- Su habitat principal involucra medios acuaticos?
+- Tiene extremidades modificadas (pezuñas, alas o aletas)?
+- Es un animal domesticado?
+- Posee habitos nocturnos?
+- Su piel es desnuda o con escamas?
+- Tiene capacidad de vuelo?
+- Produce sonidos fuertes (aullido, relincho, mugido)?
