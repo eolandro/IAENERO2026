@@ -3,56 +3,38 @@ from pathlib import Path
 
 def entrenador():
     yaml = YAML()
-    archivo_animales = Path('animales.yaml')
-    
-    if not archivo_animales.exists():
-        print("Error: Ejecuta primero el Inicializador.py")
-        return
+    if not Path('animales.yaml').exists(): return print("Error: Ejecuta Inicializador.py")
 
-    with open(archivo_animales, 'r', encoding='utf-8') as file:
+    with open('animales.yaml', 'r', encoding='utf-8') as file:
         datos = yaml.load(file)
     
-    animales = datos['animales']
-    caracteristicas = datos['caracteristicas']
+    animales, caracteristicas = datos['animales'], datos['caracteristicas']
     
-    print("=== ETAPA 2: ENTRENADOR (TABLA DE PESOS) ===")
+    print("=== ETAPA 2: ENTRENADOR (RSTeoriaInfo) ===")
+    print("-" * 40)
+    print("LISTA DE ANIMALES A ENTRENAR:")
+    for i, ani in enumerate(animales, 1): print(f"{i}. {ani}")
+    print("-" * 40)
+
     tabla = {}
+    # Ajuste de pesos para 13 características (2^12 down to 2^0)
+    pesos = [2**i for i in range(len(caracteristicas)-1, -1, -1)]
     
     for animal in animales:
-        print(f"\n--- Configurando: {animal.upper()} ---")
+        print(f"\n>> Configurando: {animal.upper()}")
         respuestas = []
-        
-        for i, car in enumerate(caracteristicas, 1):
-            while True:
-                # Validación multiformato solicitada por el usuario
-                resp = input(f"{i}. {car} (si/no): ").strip().lower()
-                if resp in ['si', 'sí', 's', '1']:
-                    respuestas.append(1)
-                    break
-                elif resp in ['no', 'n', '0']:
-                    respuestas.append(0)
-                    break
-                print("Respuesta inválida. Use: si, no, s, n, 1 o 0.")
-
-        # Cálculo de Suma Binaria (Optimización de Información)
         suma_binaria = 0
-        for bit in respuestas:
-            suma_binaria = (suma_binaria << 1) | bit 
+        for i, car in enumerate(caracteristicas):
+            resp = input(f"   ¿{car}? (1:Si / 0:No): ").strip()
+            val = 1 if resp in ['1', 's', 'si'] else 0
+            respuestas.append(val)
+            if val == 1: suma_binaria += pesos[i]
 
-        tabla[animal] = {
-            'respuestas': respuestas,
-            'suma_binaria': int(suma_binaria)
-        }
-    
-    datos_finales = {
-        'caracteristicas': caracteristicas,
-        'tabla_animales': tabla
-    }
+        tabla[animal] = {'respuestas': respuestas, 'suma_binaria': suma_binaria}
     
     with open('tabla.yaml', 'w', encoding='utf-8') as file:
-        yaml.dump(datos_finales, file)
-    
-    print("\n¡Entrenamiento completado! 'tabla.yaml' guardado.")
+        yaml.dump({'caracteristicas': caracteristicas, 'tabla_animales': tabla}, file)
+    print("\n[OK] Tabla de pesos generada en 'tabla.yaml'.")
 
 if __name__ == "__main__":
     entrenador()
