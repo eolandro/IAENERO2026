@@ -1,48 +1,194 @@
 caracteristicas:
-- Es un animal homeotermo (sangre caliente)?
-- Posee glandulas mamarias?
-- Es un depredador activo?
-- Su habitat principal involucra medios acuaticos?
-- Tiene extremidades modificadas (pezuñas, alas o aletas)?
-- Es un animal domesticado?
-- Posee habitos nocturnos?
-- Su piel es desnuda o con escamas?
-- Tiene capacidad de vuelo?
-- Produce sonidos fuertes?
+- Colorido
+- Cuadrúpedo
+- Bigotes
+- Pequeño
+- Carrera
+- Construye
+- Largo
+- Gordita(o)
+- Machas
+- Aullido
+- Huevo
+- Salta
 tabla_animales:
-  perro:
-    respuestas: [1, 1, 1, 0, 0, 1, 0, 0, 0, 1]
-    suma_binaria: 937
-  gato:
-    respuestas: [1, 1, 1, 0, 0, 1, 1, 0, 0, 0]
-    suma_binaria: 936
-  caballo:
-    respuestas: [1, 1, 0, 0, 1, 1, 0, 0, 0, 1]
-    suma_binaria: 817
-  sapo:
-    respuestas: [0, 0, 1, 1, 0, 0, 1, 1, 0, 0]
-    suma_binaria: 212
-  lobo:
-    respuestas: [1, 1, 1, 0, 0, 0, 1, 0, 0, 1]
-    suma_binaria: 929
-  quetzal:
-    respuestas: [1, 0, 0, 0, 1, 0, 0, 0, 1, 0]
-    suma_binaria: 546
-  gallina:
-    respuestas: [1, 0, 0, 0, 1, 1, 0, 0, 0, 1]
-    suma_binaria: 545
-  hamster:
-    respuestas: [1, 1, 0, 0, 0, 1, 1, 0, 0, 0]
-    suma_binaria: 792
-  castor:
-    respuestas: [1, 1, 0, 1, 0, 0, 1, 0, 0, 0]
-    suma_binaria: 840
-  huron:
-    respuestas: [1, 1, 1, 0, 0, 0, 1, 0, 0, 0]
-    suma_binaria: 928
-  vaca:
-    respuestas: [1, 1, 0, 0, 1, 1, 0, 0, 0, 1]
-    suma_binaria: 817
-  foca:
-    respuestas: [1, 1, 1, 1, 1, 0, 0, 0, 0, 1]
-    suma_binaria: 993
+  Perro:
+    respuestas:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    suma_binaria: 3997
+  Gato:
+    respuestas:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    suma_binaria: 3993
+  Hamster:
+    respuestas:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    suma_binaria: 3985
+  Sapo:
+    respuestas:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    suma_binaria: 3339
+  Caballo:
+    respuestas:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    suma_binaria: 3209
+  Gallina:
+    respuestas:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    suma_binaria: 2523
+  Quetzal:
+    respuestas:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    suma_binaria: 2403
+  Huron:
+    respuestas:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    suma_binaria: 1961
+  Castor:
+    respuestas:
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    suma_binaria: 1873
+  Lobo:
+    respuestas:
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    suma_binaria: 1669
+  Vaca:
+    respuestas:
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    suma_binaria: 1049
+  Foca:
+    respuestas:
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    suma_binaria: 541
