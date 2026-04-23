@@ -1,63 +1,83 @@
 from ruamel.yaml import YAML
 from pathlib import Path
+import os
 
 def adivinador():
     yaml = YAML()
     archivo_tabla = Path('tabla.yaml')
     
     if not archivo_tabla.exists():
-        print("Error: No existe 'tabla.yaml'. Ejecuta el Entrenador primero.")
+        print("\nERROR: No se encuentra 'tabla.yaml'. Captura los 12 animales en el Entrenador.")
         return
 
     with open(archivo_tabla, 'r', encoding='utf-8') as file:
         datos = yaml.load(file)
     
     caracteristicas = datos['caracteristicas']
-    tabla_animales = datos['tabla_animales']
-    candidatos = list(tabla_animales.keys())
+    tabla = datos['tabla_animales']
     
-    print("=== ETAPA 3: SISTEMA EXPERTO (RSTeoriaInfo) ===")
-    print(f"Piensa en uno de estos {len(candidatos)} animales...")
+    # Esta lista depende de lo que hayas guardado en el Entrenador
+    lista_maestra = list(tabla.keys()) 
+    candidatos = list(lista_maestra)
+    
+    os.system('cls' if os.name == 'nt' else 'clear')
 
+    print("============================================================")
+    print("      RSTeoriaInfo: INSPECCION DE RED SEMANTICA             ")
+    print("============================================================")
+    # Aqui veras si realmente entrenaste a los 12 o solo a 6
+    print(f"ANIMALES EN BASE DE DATOS: {len(lista_maestra)}")
+    print(f"LISTA: {', '.join(lista_maestra)}")
+    print("-" * 60)
+
+    paso = 1
     while len(candidatos) > 1:
-        # OPTIMIZACIÓN: Buscar pregunta que divida a los candidatos al 50/50
-        mejor_pregunta_idx = -1
-        mejor_division = len(candidatos)
+        mejor_idx = -1
+        mejor_dif = len(candidatos)
         
-        for idx in range(len(caracteristicas)):
-            con_si = sum(1 for a in candidatos if tabla_animales[a]['respuestas'][idx] == 1)
-            con_no = len(candidatos) - con_si
-            
-            # Buscamos la diferencia mínima entre SI y NO para maximizar Ganancia de Información
-            division = abs(con_si - con_no)
-            
-            if con_si > 0 and con_no > 0: # Solo preguntas que filtren algo
-                if division < mejor_division:
-                    mejor_division = division
-                    mejor_pregunta_idx = idx
+        for i in range(len(caracteristicas)):
+            si = sum(1 for a in candidatos if tabla[a]['respuestas'][i] == 1)
+            no = len(candidatos) - si
+            if si > 0 and no > 0:
+                dif = abs(si - no)
+                if dif < mejor_dif:
+                    mejor_dif, mejor_idx = dif, i
 
-        if mejor_pregunta_idx == -1:
-            print("\nNo puedo diferenciar más a estos animales:", candidatos)
+        if mejor_idx == -1:
+            print("\nAVISO: No hay mas caracteristicas para diferenciar a los restantes.")
             break
 
-        # Interacción con el usuario
-        pregunta = caracteristicas[mejor_pregunta_idx]
+        pregunta = caracteristicas[mejor_idx]
+        print(f"\nPASO {paso}")
+        print(f"PREGUNTA: ¿El animal tiene o es '{pregunta}'?")
+        
         while True:
-            resp = input(f"\n{pregunta} (si/no): ").strip().lower()
-            if resp in ['si', 'sí', 's', '1']:
+            resp = input("RESPUESTA (s/n): ").strip().lower()
+            if resp in ['s', 'si', '1']:
                 valor = 1; break
-            elif resp in ['no', 'n', '0']:
+            elif resp in ['n', 'no', '0']:
                 valor = 0; break
-            print("Por favor responde si/no.")
+            print("Entrada invalida.")
 
-        # Filtrado de la Red Semántica
-        candidatos = [a for a in candidatos if tabla_animales[a]['respuestas'][mejor_pregunta_idx] == valor]
-        print(f"Animales posibles: {len(candidatos)}")
+        candidatos = [a for a in candidatos if tabla[a]['respuestas'][mejor_idx] == valor]
+        
+        print("\n" + "-"*45)
+        print(f"{'ESTADO':<15} | {'ANIMAL':<20}")
+        print("-"*45)
+        for animal in lista_maestra:
+            estado = "  ACTIVO" if animal in candidatos else "ELIMINADO"
+            print(f"{estado:<15} | {animal:<20}")
+        
+        print("-"*45)
+        print(f"Candidatos restantes: {len(candidatos)}")
+        paso += 1
 
     if len(candidatos) == 1:
-        print(f"\n¡Adiviné! Tu animal es el: {candidatos[0].upper()}")
+        print("\n========================================")
+        print(f" IDENTIFICACION FINAL: {candidatos[0].upper()} ")
+        print("========================================\n")
     else:
-        print("\nEl conocimiento actual es insuficiente para distinguir el animal.")
+        print("\nCONOCIMIENTO INSUFICIENTE PARA DIFERENCIAR.")
 
 if __name__ == "__main__":
     adivinador()
