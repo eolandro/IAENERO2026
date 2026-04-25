@@ -1,0 +1,730 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "modulo": "Detokenizador",
+    "generado": "2026-04-23T20:37:28.040008",
+    "vocab_total": 98,
+    "p_spam": 0.5,
+    "p_no_spam": 0.5,
+    "resumen_spam": {
+      "total_tokens": 59,
+      "vocab_unico": 51,
+      "top_tokens": {
+        "gratis": 3,
+        "ahora": 3,
+        "aquí": 2,
+        "cuenta": 2,
+        "dinero": 2,
+        "solo": 2,
+        "felicidades": 1,
+        "ganado": 1,
+        "iphone": 1,
+        "haz": 1
+      }
+    },
+    "resumen_no_spam": {
+      "total_tokens": 49,
+      "vocab_unico": 47,
+      "top_tokens": {
+        "favor": 2,
+        "viernes": 2,
+        "hola": 1,
+        "maría": 1,
+        "podemos": 1,
+        "reagendar": 1,
+        "junta": 1,
+        "martes": 1,
+        "miércoles": 1,
+        "avísame": 1
+      }
+    }
+  },
+  "tabla_probabilidades": {
+    "adjunto": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "ahora": {
+      "P_token_dado_spam": 0.025478,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.789262,
+      "frec_spam": 3,
+      "frec_no_spam": 0
+    },
+    "antes": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "aquí": {
+      "P_token_dado_spam": 0.019108,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.737458,
+      "frec_spam": 2,
+      "frec_no_spam": 0
+    },
+    "asistencia": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "avisas": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "avísame": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "ayer": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "bancaria": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "buenos": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "buró": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "cargos": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "casa": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "clase": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "clic": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "comentarios": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "comparto": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "compra": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "comprometida": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "conferencias": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "confirma": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "crédito": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "cualquier": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "cuenta": {
+      "P_token_dado_spam": 0.019108,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.737458,
+      "frec_spam": 2,
+      "frec_no_spam": 0
+    },
+    "datos": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "depósito": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "descuento": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "dinero": {
+      "P_token_dado_spam": 0.019108,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.737458,
+      "frec_spam": 2,
+      "frec_no_spam": 0
+    },
+    "duda": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "día": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "días": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "enlace": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "envío": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "equipo": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "evitar": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "exclusiva": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "expire": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "extra": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "favor": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.020408,
+      "P_spam_dado_token": 0.237864,
+      "frec_spam": 0,
+      "frec_no_spam": 2
+    },
+    "felicidades": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "funciona": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "gana": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "ganado": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "garantizado": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "gratis": {
+      "P_token_dado_spam": 0.025478,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.789262,
+      "frec_spam": 3,
+      "frec_no_spam": 0
+    },
+    "haz": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "hola": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "hora": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "horas": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "hoy": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "identidad": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "información": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "ingresa": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "ingreso": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "inmediatamente": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "inmediatos": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "iphone": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "junta": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "llama": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "martes": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "maría": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "materiales": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "mañana": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "mensual": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "mensuales": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "mismo": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "miércoles": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "nuestros": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "oferta": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "pago": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "pendientes": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "podemos": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "premio": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "productos": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "préstamos": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "quedamos": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "reagendar": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "realiza": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "recibe": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "reclamar": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "recuerda": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "recuerdo": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "regístrate": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "renta": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "reporte": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "reunión": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "revisión": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "sala": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "sido": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "solo": {
+      "P_token_dado_spam": 0.019108,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.737458,
+      "frec_spam": 2,
+      "frec_no_spam": 0
+    },
+    "tiempo": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "todos": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "trabajando": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "urgente": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "vence": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "ventas": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.013605,
+      "P_spam_dado_token": 0.318872,
+      "frec_spam": 0,
+      "frec_no_spam": 1
+    },
+    "verificar": {
+      "P_token_dado_spam": 0.012739,
+      "P_token_dado_no_spam": 0.006803,
+      "P_spam_dado_token": 0.651885,
+      "frec_spam": 1,
+      "frec_no_spam": 0
+    },
+    "viernes": {
+      "P_token_dado_spam": 0.006369,
+      "P_token_dado_no_spam": 0.020408,
+      "P_spam_dado_token": 0.237864,
+      "frec_spam": 0,
+      "frec_no_spam": 2
+    }
+  }
+}

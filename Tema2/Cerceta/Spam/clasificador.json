@@ -1,0 +1,322 @@
+{
+    "metadata": {
+        "metodo": "media",
+        "mensajes": 10,
+        "predichos_spam": 5,
+        "predichos_no_spam": 5
+    },
+    "clasificaciones": [
+        {
+            "id": 1,
+            "mensaje": "¡Has sido seleccionado como ganador de nuestro sorteo especial! Reclama tu premio de $10,000 antes de que caduque.",
+            "tokens": [
+                "sido",
+                "seleccionado",
+                "ganador",
+                "nuestro",
+                "sorteo",
+                "especial",
+                "reclama",
+                "premio",
+                "antes",
+                "caduque"
+            ],
+            "tokens_conocidos": [
+                "sido",
+                "premio",
+                "antes"
+            ],
+            "probabilidad_tokens": {
+                "sido": 0.6519,
+                "premio": 0.6519,
+                "antes": 0.6519
+            },
+            "prob_consenso": 0.6519,
+            "metodo": "media",
+            "etiqueta": "spam"
+        },
+        {
+            "id": 2,
+            "mensaje": "Buen día, te envío el contrato actualizado para que lo revises y firmes antes del jueves. Saludos.",
+            "tokens": [
+                "buen",
+                "día",
+                "envío",
+                "contrato",
+                "actualizado",
+                "revises",
+                "firmes",
+                "antes",
+                "jueves",
+                "saludos"
+            ],
+            "tokens_conocidos": [
+                "día",
+                "envío",
+                "antes"
+            ],
+            "probabilidad_tokens": {
+                "día": 0.6519,
+                "envío": 0.6519,
+                "antes": 0.6519
+            },
+            "prob_consenso": 0.6519,
+            "metodo": "media",
+            "etiqueta": "spam"
+        },
+        {
+            "id": 3,
+            "mensaje": "Invierte tu dinero y recibe el doble en solo 30 días. Oportunidad única y segura. No pierdas esta oferta exclusiva.",
+            "tokens": [
+                "invierte",
+                "dinero",
+                "recibe",
+                "doble",
+                "solo",
+                "días",
+                "oportunidad",
+                "única",
+                "segura",
+                "pierdas",
+                "oferta",
+                "exclusiva"
+            ],
+            "tokens_conocidos": [
+                "dinero",
+                "recibe",
+                "solo",
+                "días",
+                "oferta",
+                "exclusiva"
+            ],
+            "probabilidad_tokens": {
+                "dinero": 0.7375,
+                "recibe": 0.6519,
+                "solo": 0.7375,
+                "días": 0.3189,
+                "oferta": 0.6519,
+                "exclusiva": 0.6519
+            },
+            "prob_consenso": 0.6249,
+            "metodo": "media",
+            "etiqueta": "spam"
+        },
+        {
+            "id": 4,
+            "mensaje": "Hola, ¿ya revisaste el documento que te mandé ayer? Necesitamos tus cambios para poder avanzar con el proyecto.",
+            "tokens": [
+                "hola",
+                "revisaste",
+                "documento",
+                "mandé",
+                "ayer",
+                "necesitamos",
+                "cambios",
+                "poder",
+                "avanzar",
+                "proyecto"
+            ],
+            "tokens_conocidos": [
+                "hola",
+                "ayer"
+            ],
+            "probabilidad_tokens": {
+                "hola": 0.3189,
+                "ayer": 0.3189
+            },
+            "prob_consenso": 0.3189,
+            "metodo": "media",
+            "etiqueta": "no_spam"
+        },
+        {
+            "id": 5,
+            "mensaje": "Tu tarjeta de crédito será bloqueada. Verifica tus datos urgentemente entrando al siguiente enlace para evitar cargos.",
+            "tokens": [
+                "tarjeta",
+                "crédito",
+                "será",
+                "bloqueada",
+                "verifica",
+                "datos",
+                "urgentemente",
+                "entrando",
+                "siguiente",
+                "enlace",
+                "evitar",
+                "cargos"
+            ],
+            "tokens_conocidos": [
+                "crédito",
+                "datos",
+                "enlace",
+                "evitar",
+                "cargos"
+            ],
+            "probabilidad_tokens": {
+                "crédito": 0.6519,
+                "datos": 0.6519,
+                "enlace": 0.3189,
+                "evitar": 0.3189,
+                "cargos": 0.3189
+            },
+            "prob_consenso": 0.4521,
+            "metodo": "media",
+            "etiqueta": "no_spam"
+        },
+        {
+            "id": 6,
+            "mensaje": "El evento de capacitación será el próximo lunes a las 9am. Se requiere tu presencia. Confirma tu asistencia por favor.",
+            "tokens": [
+                "evento",
+                "capacitación",
+                "será",
+                "próximo",
+                "lunes",
+                "requiere",
+                "presencia",
+                "confirma",
+                "asistencia",
+                "favor"
+            ],
+            "tokens_conocidos": [
+                "confirma",
+                "asistencia",
+                "favor"
+            ],
+            "probabilidad_tokens": {
+                "confirma": 0.3189,
+                "asistencia": 0.3189,
+                "favor": 0.2379
+            },
+            "prob_consenso": 0.2919,
+            "metodo": "media",
+            "etiqueta": "no_spam"
+        },
+        {
+            "id": 7,
+            "mensaje": "Farmacia online: medicamentos sin receta a precios increíbles. Envío discreto a todo el país. Compra hoy con descuento.",
+            "tokens": [
+                "farmacia",
+                "online",
+                "medicamentos",
+                "receta",
+                "precios",
+                "increíbles",
+                "envío",
+                "discreto",
+                "todo",
+                "país",
+                "compra",
+                "hoy",
+                "descuento"
+            ],
+            "tokens_conocidos": [
+                "envío",
+                "compra",
+                "hoy",
+                "descuento"
+            ],
+            "probabilidad_tokens": {
+                "envío": 0.6519,
+                "compra": 0.6519,
+                "hoy": 0.6519,
+                "descuento": 0.6519
+            },
+            "prob_consenso": 0.6519,
+            "metodo": "media",
+            "etiqueta": "spam"
+        },
+        {
+            "id": 8,
+            "mensaje": "Te recuerdo que el plazo para entregar el informe trimestral es el próximo viernes. Cualquier duda estoy a tus órdenes.",
+            "tokens": [
+                "recuerdo",
+                "plazo",
+                "entregar",
+                "informe",
+                "trimestral",
+                "próximo",
+                "viernes",
+                "cualquier",
+                "duda",
+                "estoy",
+                "órdenes"
+            ],
+            "tokens_conocidos": [
+                "recuerdo",
+                "viernes",
+                "cualquier",
+                "duda"
+            ],
+            "probabilidad_tokens": {
+                "recuerdo": 0.3189,
+                "viernes": 0.2379,
+                "cualquier": 0.3189,
+                "duda": 0.3189
+            },
+            "prob_consenso": 0.2986,
+            "metodo": "media",
+            "etiqueta": "no_spam"
+        },
+        {
+            "id": 9,
+            "mensaje": "Conoce personas solteras en tu área. Regístrate gratis y encuentra el amor de tu vida. Miles de perfiles disponibles.",
+            "tokens": [
+                "conoce",
+                "personas",
+                "solteras",
+                "área",
+                "regístrate",
+                "gratis",
+                "encuentra",
+                "amor",
+                "vida",
+                "miles",
+                "perfiles",
+                "disponibles"
+            ],
+            "tokens_conocidos": [
+                "regístrate",
+                "gratis"
+            ],
+            "probabilidad_tokens": {
+                "regístrate": 0.6519,
+                "gratis": 0.7893
+            },
+            "prob_consenso": 0.7206,
+            "metodo": "media",
+            "etiqueta": "spam"
+        },
+        {
+            "id": 10,
+            "mensaje": "Adjunto las notas de la sesión de hoy junto con las tareas asignadas a cada miembro del equipo. Revisar con calma.",
+            "tokens": [
+                "adjunto",
+                "notas",
+                "sesión",
+                "hoy",
+                "junto",
+                "tareas",
+                "asignadas",
+                "cada",
+                "miembro",
+                "equipo",
+                "revisar",
+                "calma"
+            ],
+            "tokens_conocidos": [
+                "adjunto",
+                "hoy",
+                "equipo"
+            ],
+            "probabilidad_tokens": {
+                "adjunto": 0.3189,
+                "hoy": 0.6519,
+                "equipo": 0.3189
+            },
+            "prob_consenso": 0.4299,
+            "metodo": "media",
+            "etiqueta": "no_spam"
+        }
+    ]
+}

@@ -92,11 +92,11 @@ def main():
     print("R007 - DETOKENIZADOR")
     print("█" * 20)
 
-    # Cargar entrenador.json (tu R006)
+    # Cargar entrenador.json (R006)
     conocimiento = cargar_json(ENTRADA)
 
     # Metadatos y mensajes
-    meta = conocimiento.get("datos", {})
+    meta = conocimiento.get("resultados", {})
     mensajes = conocimiento["mensajes"]
 
     p_spam = meta["p_spam"]

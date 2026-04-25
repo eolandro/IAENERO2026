@@ -1,0 +1,61 @@
+{
+  "resultados": {
+    "total": 10,
+    "spam": 5,
+    "no_spam": 5,
+    "p_spam": 0.5,
+    "p_no_spam": 0.5
+  },
+  "mensajes": [
+    {
+      "id": 1,
+      "texto": "¡Felicidades! Has ganado un iPhone gratis. Haz clic aquí para reclamar tu premio ahora mismo antes de que expire.",
+      "etiqueta": "spam"
+    },
+    {
+      "id": 2,
+      "texto": "Hola María, ¿podemos reagendar la junta del martes para el miércoles a las 10am? Avísame si te funciona.",
+      "etiqueta": "no_spam"
+    },
+    {
+      "id": 3,
+      "texto": "URGENTE: Tu cuenta bancaria ha sido comprometida. Ingresa tus datos aquí para verificar tu identidad inmediatamente.",
+      "etiqueta": "spam"
+    },
+    {
+      "id": 4,
+      "texto": "Te recuerdo que mañana es la reunión del equipo a las 3pm en la sala de conferencias B. Por favor confirma tu asistencia.",
+      "etiqueta": "no_spam"
+    },
+    {
+      "id": 5,
+      "texto": "Gana dinero desde casa trabajando solo 2 horas al día. Ingreso garantizado de $5000 mensuales. Regístrate gratis ya.",
+      "etiqueta": "spam"
+    },
+    {
+      "id": 6,
+      "texto": "Adjunto el reporte mensual de ventas para tu revisión. Quedamos pendientes de tus comentarios para el viernes.",
+      "etiqueta": "no_spam"
+    },
+    {
+      "id": 7,
+      "texto": "Oferta exclusiva solo por hoy: 90% de descuento en todos nuestros productos. Compra ahora y recibe envío gratis.",
+      "etiqueta": "spam"
+    },
+    {
+      "id": 8,
+      "texto": "Buenos días, te comparto el enlace con los materiales de la clase de ayer. Cualquier duda me avisas.",
+      "etiqueta": "no_spam"
+    },
+    {
+      "id": 9,
+      "texto": "Préstamos inmediatos sin buró de crédito. Dinero en tu cuenta en menos de una hora. Llama ahora para más información.",
+      "etiqueta": "spam"
+    },
+    {
+      "id": 10,
+      "texto": "Recuerda que el pago de la renta vence este viernes. Por favor realiza tu depósito a tiempo para evitar cargos extra.",
+      "etiqueta": "no_spam"
+    }
+  ]
+}

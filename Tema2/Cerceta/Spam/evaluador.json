@@ -1,0 +1,107 @@
+{
+  "matriz": {
+    "datos": {
+      "TP": 4,
+      "TN": 4,
+      "FP": 1,
+      "FN": 1
+    },
+    "desc": {
+      "TP": "Verdadero Positivo: spam detectado correctamente",
+      "TN": "Verdadero Negativo: no_spam detectado correctamente",
+      "FP": "Falso Positivo: no_spam clasificado como spam",
+      "FN": "Falso Negativo: spam clasificado como no_spam"
+    }
+  },
+  "metricas": {
+    "exactitud": 0.8,
+    "precision": 0.8,
+    "exhaustiva": 0.8,
+    "prevalencia": 0.5,
+    "f1": 0.8,
+    "taza_error": 0.2,
+    "especificidad": 0.8
+  },
+  "detalles": [
+    {
+      "id": 1,
+      "etiqueta_real": "spam",
+      "etiqueta_predicha": "spam",
+      "prob_consenso": 0.6519,
+      "resultado": "TP",
+      "correcto": true
+    },
+    {
+      "id": 2,
+      "etiqueta_real": "no_spam",
+      "etiqueta_predicha": "spam",
+      "prob_consenso": 0.6519,
+      "resultado": "FP",
+      "correcto": false
+    },
+    {
+      "id": 3,
+      "etiqueta_real": "spam",
+      "etiqueta_predicha": "spam",
+      "prob_consenso": 0.6249,
+      "resultado": "TP",
+      "correcto": true
+    },
+    {
+      "id": 4,
+      "etiqueta_real": "no_spam",
+      "etiqueta_predicha": "no_spam",
+      "prob_consenso": 0.3189,
+      "resultado": "TN",
+      "correcto": true
+    },
+    {
+      "id": 5,
+      "etiqueta_real": "spam",
+      "etiqueta_predicha": "no_spam",
+      "prob_consenso": 0.4521,
+      "resultado": "FN",
+      "correcto": false
+    },
+    {
+      "id": 6,
+      "etiqueta_real": "no_spam",
+      "etiqueta_predicha": "no_spam",
+      "prob_consenso": 0.2919,
+      "resultado": "TN",
+      "correcto": true
+    },
+    {
+      "id": 7,
+      "etiqueta_real": "spam",
+      "etiqueta_predicha": "spam",
+      "prob_consenso": 0.6519,
+      "resultado": "TP",
+      "correcto": true
+    },
+    {
+      "id": 8,
+      "etiqueta_real": "no_spam",
+      "etiqueta_predicha": "no_spam",
+      "prob_consenso": 0.2986,
+      "resultado": "TN",
+      "correcto": true
+    },
+    {
+      "id": 9,
+      "etiqueta_real": "spam",
+      "etiqueta_predicha": "spam",
+      "prob_consenso": 0.7206,
+      "resultado": "TP",
+      "correcto": true
+    },
+    {
+      "id": 10,
+      "etiqueta_real": "no_spam",
+      "etiqueta_predicha": "no_spam",
+      "prob_consenso": 0.4299,
+      "resultado": "TN",
+      "correcto": true
+    }
+  ]
+}
