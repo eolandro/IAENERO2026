@@ -1,0 +1,49 @@
+{
+  "name": "A",
+  "children": [
+    {
+      "name": "AA",
+      "children": [
+        {"name": "AAA", "children": []},
+        {"name": "AAB", "children": []},
+        {"name": "AAC", "children": []}
+      ]
+    },
+    {
+      "name": "AB",
+      "children": [
+        {
+          "name": "ABA",
+          "children": [
+            {"name": "ABAA", "children": []},
+            {"name": "ABAB", "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AC",
+      "children": [
+        {
+          "name": "ACB",
+          "children": [
+            {
+              "name": "ACBA",
+              "children": [
+                {"name": "ACBAB", "children": []},
+                {"name": "ACBAA", "children": []}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ACA",
+          "children": [
+            {"name": "ACAB", "children": []},
+            {"name": "ACAA", "children": []}
+          ]
+        }
+      ]
+    }
+  ]
+}
