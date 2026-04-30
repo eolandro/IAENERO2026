@@ -47,6 +47,8 @@ class EvaluadorSpam:
             if r == 1 and p == 0: fn += 1
 
         total = len(reales)
+
+        # Cálculos con manejo de división por cero
         accuracy = (vp + vn) / total if total > 0 else 0
         precision = vp / (vp + fp) if (vp + fp) > 0 else 0
         recall = vp / (vp + fn) if (vp + fn) > 0 else 0
@@ -57,10 +59,10 @@ class EvaluadorSpam:
         print("="*30)
         print(f"Matriz de Confusión: VP={vp}, VN={vn}, FP={fp}, FN={fn}")
         print("-" * 30)
-        print(f"Accuracy (Exactitud):   {accuracy:.2%}")
+        print(f"Accuracy:   {accuracy:.2%}")
         print(f"Precision:              {precision:.2%}")
-        print(f"Recall (Sensibilidad):  {recall:.2%}")
-        print(f"Prevalence (Prevalencia): {prevalence:.2%}")
+        print(f"Recall:  {recall:.2%}")
+        print(f"Prevalence: {prevalence:.2%}")
         print("="*30)
 
 if __name__ == "__main__":

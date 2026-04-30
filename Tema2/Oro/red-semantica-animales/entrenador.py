@@ -49,9 +49,7 @@ class Entrenador:
                 'caracteristicas': animal['caracteristicas'].copy() # Copy para guardar los datos reales no la referencia
             })
 
-        animales_ordenados = sorted(animales_con_valor,
-                                   key=lambda x: x['valor'],
-                                   reverse=True)
+        animales_ordenados = sorted(animales_con_valor,key=lambda x: x['valor'],reverse=True)
 
 
         print("\n" + "=" * 60)

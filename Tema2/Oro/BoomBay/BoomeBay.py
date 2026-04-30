@@ -1,14 +1,16 @@
 import json
 import random
 from colorama import init, Fore, Back, Style
+import os 
 
-def crear_tablero_limpio():
-    tablero = {}
-    letras = ['A', 'B', 'C', 'D', 'E']
-    for fila in range(1, 11):
-        for col in letras:
-            tablero[f"{col}{fila}"] = 0
-    return tablero
+def cargar_tablero(ruta='tablero.json'):
+    
+    if not os.path.exists(ruta):
+        print(f" No se encontro el archivo")
+    else:
+        with open(ruta, 'r', encoding='utf-8') as archivo:
+            tablero = json.load(archivo)
+        return tablero
 
 def guardar_tablero(tablero):
     with open('tablero.json', 'w', encoding='utf-8') as archivo:
@@ -97,15 +99,14 @@ def verificar_casilla_bayesiana(tablero, casilla, desactivaciones, prob_inicial)
                 print(f"Boome pisa la bomba")
                 return False, probabilidad, desactivaciones
 
-        # Caso 2: Hay bomba pero la probabilidad es baja (el detector no fue convincente)
+        # Caso 2: Hay bomba pero la probabilidad es baja
         elif valor_real == 1 and probabilidad < 0.5:
             print(f"Bomba en {casilla} pero probabilidad {probabilidad:.1%} no supera el umbral")
             print(f"Boome pisa la bomba sin saberlo")
             return False, probabilidad, desactivaciones
 
-        # Caso 3: No hay bomba real (falso positivo del detector)
+        # Caso 3: No hay bomba real
         else:
-            print(f"No hay bomba real en {casilla} - fue un falso positivo")
             return True, probabilidad, desactivaciones
             
     else:
@@ -149,14 +150,14 @@ def imprimir_tablero(tablero, boome_pos=None):
             if boome_pos == casilla:
                 print(Fore.BLUE + "B" + Style.RESET_ALL, end = " ")
             elif tablero[casilla] == 1:
-                 print(Fore.RED + "1" + Style.RESET_ALL, end = " ")
+                print(Fore.RED + "1" + Style.RESET_ALL, end = " ")
             else:
                 print("0", end=" ")
         print()
     print()
 
 def mover_boome():
-    tablero = crear_tablero_limpio()
+    tablero = cargar_tablero()
     plantar_bomba(tablero)
     
     print("=== TABLERO INICIAL ===")
@@ -169,7 +170,7 @@ def mover_boome():
     desactivaciones = 3
     
     total_bombas = sum(1 for valor in tablero.values() if valor == 1)
-    total_casillas = len(tablero)  # 50 casillas
+    total_casillas = len(tablero)
     
     # Probabilidad inicia real  en la primera iteracion seria 1/50
     prob_actual = total_bombas / total_casillas

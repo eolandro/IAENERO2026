@@ -1,7 +1,6 @@
 # detokenizador.py
 from ruamel.yaml import YAML
 import spacy
-import sys
 import re
 
 class Detokenizador:
@@ -22,7 +21,7 @@ class Detokenizador:
         token_text = token.text.lower()
         if self.url_pattern.search(token_text):
             return True
-        # Verificar si tiene puntos y es alfanumérico (probable dominio)
+        # Verificar si tiene puntos y es alfanumerico 
         if '.' in token_text and len(token_text) > 3:
             # Si tiene formato de dominio
             parts = token_text.split('.')
@@ -48,7 +47,7 @@ class Detokenizador:
 
             # Mantener solo sustantivos, verbos, adjetivos y nombres propios
             if token.pos_ in ['NOUN', 'VERB', 'ADJ', 'PROPN']:
-                if len(token.lemma_) >= 3:  # Ignorar palabras muy cortas
+                if len(token.lemma_) >= 3:
                     tokens_relevantes.append(token.lemma_)
 
         return tokens_relevantes
@@ -101,10 +100,10 @@ class Detokenizador:
             conteo_spam = frecuencia_spam.get(palabra, 0)
             conteo_no_spam = frecuencia_no_spam.get(palabra, 0)
 
-            # Calcular P(Palabra | Spam)  ¿Qué tan probable es ver esta palabra en un mensaje spam?
+            # Calcular P(Palabra | Spam)  ¿Que tan probable es ver esta palabra en un mensaje spam?
             prob_palabra_dado_spam = (conteo_spam + SMOOTHING) / (total_spam + 2 * SMOOTHING)
 
-            # Calcular P(Palabra | No Spam) ¿Qué tan probable es ver esta palabra en un mensaje no spam?
+            # Calcular P(Palabra | No Spam) ¿Que tan probable es ver esta palabra en un mensaje no spam?
             prob_palabra_dado_no_spam = (conteo_no_spam + SMOOTHING) / (total_no_spam + 2 * SMOOTHING)
 
             # Teorema de Bayes
@@ -116,7 +115,7 @@ class Detokenizador:
             numerador = prob_palabra_dado_spam * probabilidad_spam
             denominador = numerador + (prob_palabra_dado_no_spam * probabilidad_no_spam)
 
-            # Evitar división por cero
+            # Evitar division por cero
             if denominador == 0:
                 prob_spam_si_palabra = 0.5
             else:
@@ -132,7 +131,7 @@ class Detokenizador:
 
     def ejecutar(self):
         mensajes = self.cargar_datos()
-        probabilidades = self.calcular_probabilidades_condicionales(mensajes)
+        self.calcular_probabilidades_condicionales(mensajes)
         print(f"\n Archivo 'tokens.yaml' generado correctamente")
 
 if __name__ == "__main__":

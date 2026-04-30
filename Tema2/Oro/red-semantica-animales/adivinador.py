@@ -7,11 +7,9 @@ class Adivinador:
         self.yaml = YAML()
         self.archivo = archivo_entrada
 
-
     def cargar_datos(self):
         with open(self.archivo, 'r', encoding='utf-8') as f:
             return self.yaml.load(f)
-
 
     def calcular_ganancia_informacion(self,animales_posibles,carac):
 
@@ -23,12 +21,10 @@ class Adivinador:
         for  animal in animales_posibles:
 
             #print(animal['nombre'], carac, animal['caracteristicas'][carac])
-
             if carac in animal['caracteristicas'] and animal['caracteristicas'][carac]:
                 animal_si += 1
             else:
                 animal_no += 1
-
 
         if animal_si == 0:
             entropia_si = 0
@@ -46,7 +42,6 @@ class Adivinador:
         #print(ganancia,"\n")
         return ganancia
 
-
     def obtener_mejor_caracteristica(self,Lista_carac,animales_posibles):
 
         mejor_caracteristica = ""
@@ -60,7 +55,6 @@ class Adivinador:
                 mejor_caracteristica = c
 
         return mejor_caracteristica
-
 
     def adivinar(self):
 
@@ -101,8 +95,6 @@ if __name__ == "__main__":
     adivino.adivinar()
 
 
-
-
 """
 Animales ovíparos (SÍ): quetzal, sapo, gallina → 3 animales
 Animales no ovíparos (NO): los otros 9 animales
@@ -112,20 +104,6 @@ Entropía del grupo NO = -9 × (1/9 × log₂(1/9)) = 3.17 bits
 
 Entropía promedio después = (3/12)×1.58 + (9/12)×3.17 = 2.77 bits
 
-GANANCIA = Entropía inicial - Entropía promedio
-         = 3.58 - 2.77 = 0.81 bits
+GANANCIA = Entropía inicial - Entropía promedio = 3.58 - 2.77 = 0.81 bits
 """
 
-
-"""
-Para CADA pregunta que harás:
-1. Toma el conjunto ACTUAL de animales posibles
-2. Para CADA característica no preguntada aún:
-   - Cuenta cuántos animales tienen SÍ esa característica
-   - Cuenta cuántos tienen NO
-   - Evalúa qué TAN BALANCEADA es la división
-3. Elige la característica con la división MÁS BALANCEADA
-4. Haz la pregunta sobre ESA característica
-5. Según respuesta, filtra el conjunto
-6. Repite hasta tener 1 animal
-"""

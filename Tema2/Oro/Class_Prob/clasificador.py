@@ -151,7 +151,6 @@ class ClasificadorSpam:
         self.generar_salida_yaml(mensajes_clasificados)
         self.mostrar_resultados(mensajes_clasificados)
 
-
 if __name__ == "__main__":
     clasificador = ClasificadorSpam()
     clasificador.ejecutar()

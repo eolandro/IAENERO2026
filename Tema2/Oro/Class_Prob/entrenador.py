@@ -11,8 +11,8 @@ class Entrenador:
 
     def cargar_datos(self):
         with open(self.archivo_entrada, 'r', encoding='utf-8') as archivo:
-           lineas = archivo.readlines()
-           return lineas
+            lineas = archivo.readlines()
+            return lineas
 
     def ejecutar(self):
         print("*** INICIANDO ENTRENADOR DE SPAM ***")
