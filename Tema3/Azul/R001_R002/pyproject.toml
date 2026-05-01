@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "busqueda-grafos"
+version = "0.1.0"
+description = "Búsqueda DFS y BFS en grafos jerárquicos YAML"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ruamel-yaml = "^0.18"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

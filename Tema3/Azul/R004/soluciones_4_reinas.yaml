@@ -1,0 +1,14 @@
+- solución: 1
+  posiciones: [2, 4, 1, 3]
+  tablero:
+  - 0 1 0 0
+  - 0 0 0 1
+  - 1 0 0 0
+  - 0 0 1 0
+- solución: 2
+  posiciones: [3, 1, 4, 2]
+  tablero:
+  - 0 0 1 0
+  - 1 0 0 0
+  - 0 0 0 1
+  - 0 1 0 0

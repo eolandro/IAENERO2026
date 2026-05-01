@@ -1,0 +1,85 @@
+# Grafo jerárquico con nomenclatura alfabética
+# Raíz: A — 4 ramas principales: AA, AB, AC, AD
+# Cada clave es un nodo, {} indica nodo hoja
+A:
+  AA:
+    AAA:
+      AAAA: {}
+      AAAB: {}
+      AAAC:
+        AAACA: {}
+        AAACB: {}
+    AAB:
+      AABA: {}
+      AABB:
+        AABBA: {}
+        AABBB: {}
+    AAC: {}
+  AB:
+    ABA:
+      ABAA:
+        ABAAA: {}
+        ABAAB: {}
+      ABAB: {}
+    ABB:
+      ABBA: {}
+      ABBB: {}
+      ABBC:
+        ABBCA: {}
+        ABBCB: {}
+        ABBCC: {}
+    ABC:
+      ABCA: {}
+      ABCB:
+        ABCBA: {}
+        ABCBB:
+          ABCBBA: {}
+          ABCBBB: {}
+  AC:
+    ACA:
+      ACAA: {}
+      ACAB:
+        ACABA: {}
+        ACABB: {}
+        ACABC: {}
+    ACB:
+      ACBA: {}
+      ACBB: {}
+    ACC:
+      ACCA:
+        ACCAA: {}
+        ACCAB: {}
+      ACCB: {}
+    ACD:
+      ACDA: {}
+      ACDB:
+        ACDBA: {}
+        ACDBB:
+          ACDBBA: {}
+          ACDBBAA: {}
+  AD:
+    ADA:
+      ADAA: {}
+      ADAB:
+        ADABA: {}
+        ADABB: {}
+    ADB:
+      ADBA:
+        ADBAA: {}
+        ADBAB:
+          ADBABA: {}
+          ADBABB: {}
+      ADBB: {}
+      ADBC: {}
+    ADC:
+      ADCA: {}
+      ADCB: {}
+      ADCC:
+        ADCCA: {}
+        ADCCB:
+          ADCCBA: {}
+          ADCCBB: {}
+          ADCCBC: {}
+    ADD:
+      ADDA: {}
+      ADDB: {}
