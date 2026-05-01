@@ -91,29 +91,23 @@ def mostrar_solucion_en_consola(tablero_inicial, solucion):
         imprimir_tablero(tablero_actual)
 
 
-def main():
-    print("------------ Juego del comesolo ------------\n")
-    try:
-        vacia = int(input("Ingresa el índice de la casilla vacía (0-14): "))
-        if not (0 <= vacia <= 14):
-            raise ValueError
-    except:
-        print("Índice no válido.")
-        return
-    tablero = [1] * 15
-    tablero[vacia] = 0
-    tablero_inicial = tablero.copy()
-    solucion = resolver(tablero, [])
-    if solucion:
-        print("¡Solución encontrada!\n")
-        mostrar_solucion_en_consola(tablero_inicial, solucion)
-        guardar_solucion_final(tablero_inicial, solucion)
-        print("La solución final se guardó en 'jugada.txt'.")
-    else:
-        print("No se encontró solución.")
-        guardar_en_txt("No se encontró solución.", "w")
-    print("\n----------------------------------------------")
-
-
-if __name__ == "__main__":
-    main()
+print("------------ Juego del comesolo ------------\n")
+try:
+    vacia = int(input("Ingresa el índice de la casilla vacía (0-14): "))
+    if not (0 <= vacia <= 14):
+        raise ValueError
+except:
+    print("Índice no válido.")
+tablero = [1] * 15
+tablero[vacia] = 0
+tablero_inicial = tablero.copy()
+solucion = resolver(tablero, [])
+if solucion:
+    print("¡Solución encontrada!\n")
+    mostrar_solucion_en_consola(tablero_inicial, solucion)
+    guardar_solucion_final(tablero_inicial, solucion)
+    print("La solución final se guardó en 'jugada.txt'.")
+else:
+    print("No se encontró solución.")
+    guardar_en_txt("No se encontró solución.", "w")
+print("\n----------------------------------------------")
