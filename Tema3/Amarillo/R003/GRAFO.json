@@ -1,0 +1,167 @@
+{
+    "A": {
+        "heuristica": 25,
+        "vecinos": [
+            "B",
+            "C"
+        ]
+    },
+    "B": {
+        "heuristica": 24,
+        "vecinos": [
+            "D",
+            "E"
+        ]
+    },
+    "C": {
+        "heuristica": 23,
+        "vecinos": [
+            "F",
+            "G"
+        ]
+    },
+    "D": {
+        "heuristica": 22,
+        "vecinos": [
+            "H",
+            "I"
+        ]
+    },
+    "E": {
+        "heuristica": 21,
+        "vecinos": [
+            "J",
+            "K"
+        ]
+    },
+    "F": {
+        "heuristica": 20,
+        "vecinos": [
+            "L",
+            "M"
+        ]
+    },
+    "G": {
+        "heuristica": 19,
+        "vecinos": [
+            "N",
+            "O"
+        ]
+    },
+    "H": {
+        "heuristica": 18,
+        "vecinos": [
+            "P",
+            "Q"
+        ]
+    },
+    "I": {
+        "heuristica": 17,
+        "vecinos": [
+            "R"
+        ]
+    },
+    "J": {
+        "heuristica": 16,
+        "vecinos": [
+            "S",
+            "T"
+        ]
+    },
+    "K": {
+        "heuristica": 15,
+        "vecinos": [
+            "U"
+        ]
+    },
+    "L": {
+        "heuristica": 14,
+        "vecinos": [
+            "V",
+            "W"
+        ]
+    },
+    "M": {
+        "heuristica": 13,
+        "vecinos": [
+            "X"
+        ]
+    },
+    "N": {
+        "heuristica": 12,
+        "vecinos": [
+            "Y",
+            "Z"
+        ]
+    },
+    "O": {
+        "heuristica": 11,
+        "vecinos": [
+            "P"
+        ]
+    },
+    "P": {
+        "heuristica": 10,
+        "vecinos": [
+            "Q"
+        ]
+    },
+    "Q": {
+        "heuristica": 9,
+        "vecinos": [
+            "R"
+        ]
+    },
+    "R": {
+        "heuristica": 8,
+        "vecinos": [
+            "S"
+        ]
+    },
+    "S": {
+        "heuristica": 7,
+        "vecinos": [
+            "T"
+        ]
+    },
+    "T": {
+        "heuristica": 6,
+        "vecinos": [
+            "U"
+        ]
+    },
+    "U": {
+        "heuristica": 5,
+        "vecinos": [
+            "V"
+        ]
+    },
+    "V": {
+        "heuristica": 4,
+        "vecinos": [
+            "W"
+        ]
+    },
+    "W": {
+        "heuristica": 3,
+        "vecinos": [
+            "X"
+        ]
+    },
+    "X": {
+        "heuristica": 2,
+        "vecinos": [
+            "Y"
+        ]
+    },
+    "Y": {
+        "heuristica": 1,
+        "vecinos": [
+            "Z"
+        ]
+    },
+    "Z": {
+        "heuristica": 0,
+        "vecinos": []
+    }
+}
