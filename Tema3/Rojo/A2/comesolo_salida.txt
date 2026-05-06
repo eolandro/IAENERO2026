@@ -1,0 +1,128 @@
+JUEGO COME SOLO
+
+Inicio:
+
+r1: o
+r2: o o
+r3: o _ o
+r4: o o o o
+r5: o o o o o
+
+Jugada 1
+mov: 11 -> 4 (salto 7)
+
+r1: o
+r2: o o
+r3: o o o
+r4: o _ o o
+r5: o _ o o o
+
+Jugada 2
+mov: 9 -> 7 (salto 8)
+
+r1: o
+r2: o o
+r3: o o o
+r4: o o _ _
+r5: o _ o o o
+
+Jugada 3
+mov: 1 -> 8 (salto 4)
+
+r1: o
+r2: _ o
+r3: o _ o
+r4: o o o _
+r5: o _ o o o
+
+Jugada 4
+mov: 2 -> 9 (salto 5)
+
+r1: o
+r2: _ _
+r3: o _ _
+r4: o o o o
+r5: o _ o o o
+
+Jugada 5
+mov: 6 -> 1 (salto 3)
+
+r1: o
+r2: o _
+r3: _ _ _
+r4: _ o o o
+r5: o _ o o o
+
+Jugada 6
+mov: 0 -> 3 (salto 1)
+
+r1: _
+r2: _ _
+r3: o _ _
+r4: _ o o o
+r5: o _ o o o
+
+Jugada 7
+mov: 13 -> 11 (salto 12)
+
+r1: _
+r2: _ _
+r3: o _ _
+r4: _ o o o
+r5: o o _ _ o
+
+Jugada 8
+mov: 3 -> 12 (salto 7)
+
+r1: _
+r2: _ _
+r3: _ _ _
+r4: _ _ o o
+r5: o o o _ o
+
+Jugada 9
+mov: 11 -> 13 (salto 12)
+
+r1: _
+r2: _ _
+r3: _ _ _
+r4: _ _ o o
+r5: o _ _ o o
+
+Jugada 10
+mov: 14 -> 5 (salto 9)
+
+r1: _
+r2: _ _
+r3: _ _ o
+r4: _ _ o _
+r5: o _ _ o _
+
+Jugada 11
+mov: 5 -> 12 (salto 8)
+
+r1: _
+r2: _ _
+r3: _ _ _
+r4: _ _ _ _
+r5: o _ o o _
+
+Jugada 12
+mov: 13 -> 11 (salto 12)
+
+r1: _
+r2: _ _
+r3: _ _ _
+r4: _ _ _ _
+r5: o o _ _ _
+
+Jugada 13
+mov: 10 -> 12 (salto 11)
+
+r1: _
+r2: _ _
+r3: _ _ _
+r4: _ _ _ _
+r5: _ _ o _ _
+
+Fin
