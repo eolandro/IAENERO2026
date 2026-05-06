@@ -1,0 +1,15 @@
+{
+  "A": ["AA", "AB", "AC"],
+  "AA": ["AAA", "AAB", "AAC"],
+  "AB": ["ABA", "ABB", "ABC"],
+  "AC": ["ACA", "ACB", "ACC"],
+  "AAA": [],
+  "AAB": [],
+  "AAC": [],
+  "ABA": [],
+  "ABB": [],
+  "ABC": [],
+  "ACA": [],
+  "ACB": [],
+  "ACC": []
+}
