@@ -26,13 +26,13 @@ def hill_climbing(inicio, meta):
             print("  [!] Callejón sin salida.")
             break
         
-        # Encontramos al vecino con el valor heurístico MÁS BAJO (más cerca a 0)
+        # Encontramos al vecino con el valor heurístico MÁS BAJO
         mejor_v = min(vecinos, key=lambda x: g.get(x, {}).get("heuristica", float('inf')))
         
         h_actual = g[nodo]["heuristica"]
         h_mejor = g[mejor_v]["heuristica"]
         
-        # Si el mejor vecino tiene una heurística mayor o igual, es un máximo local (atasco)
+        # Si el mejor vecino tiene una heurística mayor o igual, es un máximo local
         if h_mejor >= h_actual:
             print(f"  [!] Atascado (Nodo: {nodo}, h={h_actual}). Ningún vecino es mejor.")
             break

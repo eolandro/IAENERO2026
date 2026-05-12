@@ -1,4 +1,4 @@
-# R004: N Reinas (Imprimiendo TODAS las soluciones)
+# R004: N Reinas 
 def n_reinas(n=4):
     print(f"\n=== R004: {n} Reinas (Todas las soluciones) ===")
     

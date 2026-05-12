@@ -1,7 +1,7 @@
 import sys
 
 def recorrido_caballo_interactivo():
-    print("\n=== R006: Recorrido del Caballo (Heurística de Warnsdorff) ===")
+    print("\n=== R006: Recorrido del Caballo ===")
     
     print("\n   A  B  C  D  E  F  G  H")
     for i in range(8, 0, -1):

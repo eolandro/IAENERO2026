@@ -10,7 +10,7 @@ try:
     with open(ruta_json, encoding="utf-8") as f: 
         g = json.load(f)  # 'g' es el diccionario que representa el grafo
 except Exception:
-    # Si ocurre cualquier error (no existe, formato inválido, etc.), salimos del programa
+    # Si ocurre cualquier error, salimos del programa
     sys.exit("Error: no se encontró o no se pudo leer el archivo 'grafo.json'.")
 
 

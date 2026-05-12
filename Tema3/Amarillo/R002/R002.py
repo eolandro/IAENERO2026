@@ -15,7 +15,7 @@ for n, v in sorted(g.items()): print(f"  {n}  -->  {', '.join(v) if v else '(sin
 ini = sorted(g)[0]
 print(f"{'-'*36}\n Nodos disponibles: {', '.join(g)}\n Nodo de inicio: {ini}")
 
-# Función BFS compacta (almacena la ruta en la cola)
+# Función BFS compacta 
 def bfs(inicio, meta):
     cola = deque([[inicio]]) # La cola guarda listas de caminos, no solo nodos
     vis = {inicio}

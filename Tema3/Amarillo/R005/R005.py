@@ -1,4 +1,4 @@
-# R005: 4 Caballos (Intercambio 6x6 con Mensajes y Etiquetas)
+# R005: 4 Caballos 
 from collections import deque
 
 def intercambio_caballos():

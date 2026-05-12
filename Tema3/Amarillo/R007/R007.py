@@ -1,4 +1,4 @@
-# R007: Come Solo (Tablero Triangular)
+# R007: Come Solo 
 ETIQUETAS = "123456789ABCDEF"
 
 # Diccionario compacto de movimientos: origen: [(intermedia, destino), ...]
